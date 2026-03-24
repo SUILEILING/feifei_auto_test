@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Souren.ToolSet.Commander xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CmdSet Content="CALL:CELL1 ON" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="Sleep 15000" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CONFigure:CELL1:NR:SIGN:UE:STATe?" Type="Normal" RunStatus="Pass">
+    <ReadString>"Connected"
+</ReadString>
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="20" SleepMs="1000" LoopPassResult="&quot;Connected&quot;" />
+  </CmdSet>
+  <CmdSet Content="CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="*OPC?" Type="Normal" RunStatus="Pass">
+    <ReadString>1
+</ReadString>
+  </CmdSet>
+  <CmdSet Content="CONFigure:CELL1:NR:SIGN:SLOT:APPLy" Type="Normal" RunStatus="Pass">
+    <ReadString />
+    <Loop Enable="false" UnLoopPassResultStop="false" LoopTimes="2" SleepMs="0" LoopPassResult="" />
+  </CmdSet>
+  <CmdSet Content="INITiate:NR:BLER" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="INITiate:NR:MEValuation" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="FETCh:NR:MEValuation:STATe?" Type="Normal" RunStatus="Pass">
+    <ReadString>RUN
+</ReadString>
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="10" SleepMs="1000" LoopPassResult="RDY" />
+  </CmdSet>
+  <CmdSet Content="FETCh:NR:BLER:STATe?" Type="Normal" RunStatus="Pass">
+    <ReadString>RUN
+</ReadString>
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="10" SleepMs="1000" LoopPassResult="RDY" />
+  </CmdSet>
+  <CmdSet Content="Sleep 5000" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="FETCh:NR:BLER:DL:RESult?" Type="Normal" RunStatus="Pass">
+    <ReadString>7,80,80,0,0,69200,69200,0.000,0.000,346.000,346.000
+</ReadString>
+  </CmdSet>
+  <CmdSet Content="FETCh:NR:BLER:UL:RESult?" Type="Normal" RunStatus="Pass">
+    <ReadString>7,0,0,0,0,0,0,0.000,0.000,0.000,0.000
+</ReadString>
+  </CmdSet>
+  <CmdSet Content="FETCh:NR:MEValuation:TXP:AVG?" Type="Normal" RunStatus="Pass">
+    <ReadString>0,20.737
+</ReadString>
+  </CmdSet>
+  <CmdSet Content="ABORt:NR:BLER " Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="ABORt:NR:MEValuation" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CALL:CELL1 OFF" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="Sleep 10000" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CALL:CELL1?" Type="Normal" RunStatus="Pass">
+    <ReadString>OFF
+</ReadString>
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="20" SleepMs="1000" LoopPassResult="OFF" />
+  </CmdSet>
+  <CmdParaTable />
+</Souren.ToolSet.Commander>

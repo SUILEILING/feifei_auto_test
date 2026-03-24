@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Souren.ToolSet.Commander xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CmdSet Content="CALL:CELL1 ON" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="Sleep 10000" Type="Normal" RunStatus="Pass">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CONFigure:CELL1:NR:SIGN:UE:STATe?" Type="Normal" RunStatus="Fail">
+    <ReadString>"RRCIdle"
+</ReadString>
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="50" SleepMs="1000" LoopPassResult="&quot;Connected&quot;" />
+  </CmdSet>
+  <CmdSet Content="*OPC?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CONFigure:CELL1:LTE:SIGN:SUBFrame:APPLy" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CONFigure:CELL1:NR:SIGN:SLOT:APPLy" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="INITiate:LTE:TXP" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="INITiate:LTE:BLER" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="FETCh:LTE:BLER:STATe?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="50" SleepMs="1000" LoopPassResult="RUN" />
+  </CmdSet>
+  <CmdSet Content="FETCh:LTE:TXP:STATe?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="50" SleepMs="1000" LoopPassResult="RDY" />
+  </CmdSet>
+  <CmdSet Content="Sleep 5000" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="FETCh:LTE:BLER:DL:RESult?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="FETCh:LTE:BLER:UL:RESult?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="FETCh:LTE:TXP:AVG?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="ABORt:LTE:BLER " Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="ABORt:LTE:TXP" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CALL:CELL1 OFF" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="Sleep10000" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+  </CmdSet>
+  <CmdSet Content="CALL:CELL1?" Type="Normal" RunStatus="NotRun">
+    <ReadString />
+    <Loop Enable="true" UnLoopPassResultStop="false" LoopTimes="50" SleepMs="1000" LoopPassResult="OFF" />
+  </CmdSet>
+  <CmdParaTable />
+</Souren.ToolSet.Commander>

@@ -1,0 +1,218 @@
+2026-02-09 17:08:41,497 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-02-09 17:08:41,498 - SourenToolSet - INFO - 开始初始化系统
+2026-02-09 17:08:41,697 - SourenToolSet - INFO - 系统初始化完成
+2026-02-09 17:08:41,697 - SourenToolSet - INFO - 加载Python文件: sa_power.py
+2026-02-09 17:08:41,697 - SourenToolSet - INFO - 文件完整路径: D:\feifei\2026_02_02\auto_test\save_scv\sa_power.py
+2026-02-09 17:08:41,698 - SourenToolSet - INFO - 使用参数配置: {'lineLoss': 25.0, 'band': 78, 'bw': 100, 'scs': 30, 'range': 'LOW', 'current_power': '-85', 'power_decrement': 1}
+2026-02-09 17:08:41,698 - SourenToolSet - INFO - 获取仪器信息
+2026-02-09 17:08:41,699 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info
+2026-02-09 17:08:41,703 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info
+2026-02-09 17:08:41,714 - SourenToolSet - INFO - 解析Python脚本: D:\feifei\2026_02_02\auto_test\save_scv\sa_power.py
+2026-02-09 17:08:41,772 - SourenToolSet - INFO - 开始执行: 步骤 1 - 内容: CONFigure:BASE:FDCorrection:CTABle:CREate LineLossTable_1,100000000,25.0,6000000000,25.0
+2026-02-09 17:08:42,274 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:BASE:FDCorrection:CTABle:CREate LineLossTable_1,100000000,25.0,6000000000,25.0' - 结果: 命令执行成功
+2026-02-09 17:08:42,274 - SourenToolSet - INFO - 开始执行: 步骤 2 - 内容: CONFigure:BASE:FDCorrection:SAVE
+2026-02-09 17:08:42,776 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:BASE:FDCorrection:SAVE' - 结果: 命令执行成功
+2026-02-09 17:08:42,777 - SourenToolSet - INFO - 开始执行: 步骤 3 - 内容: CONFigure:FDCorrection:ACTivate LineLossTable_1,1,IO,RXTX
+2026-02-09 17:08:43,279 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:FDCorrection:ACTivate LineLossTable_1,1,IO,RXTX' - 结果: 命令执行成功
+2026-02-09 17:08:43,280 - SourenToolSet - INFO - 开始执行: 步骤 4 - 内容: CONFigure:FDCorrection:ACTivate LineLossTable_1,1,OUT,TX
+2026-02-09 17:08:43,782 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:FDCorrection:ACTivate LineLossTable_1,1,OUT,TX' - 结果: 命令执行成功
+2026-02-09 17:08:43,783 - SourenToolSet - INFO - 开始执行: 步骤 5 - 内容: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator 78
+2026-02-09 17:08:44,285 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator 78' - 结果: 命令执行成功
+2026-02-09 17:08:44,288 - SourenToolSet - INFO - 开始执行: 步骤 6 - 内容: CONFigure:CELL1:NR:SIGN:BWidth:DL BW100
+2026-02-09 17:08:44,790 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:BWidth:DL BW100' - 结果: 命令执行成功
+2026-02-09 17:08:44,791 - SourenToolSet - INFO - 开始执行: 步骤 7 - 内容: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:DL:SCSList:SCSPacing kHz30
+2026-02-09 17:08:45,293 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:COMMon:FBANd:DL:SCSList:SCSPacing kHz30' - 结果: 命令执行成功
+2026-02-09 17:08:45,295 - SourenToolSet - INFO - 开始执行: 步骤 8 - 内容: CONFigure:CELL1:NR:CONFig:RANGe LOW
+2026-02-09 17:08:45,797 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:CONFig:RANGe LOW' - 结果: 命令执行成功
+2026-02-09 17:08:45,798 - SourenToolSet - INFO - 开始执行: 步骤 9 - 内容: CALL:CELL1 ON
+2026-02-09 17:09:17,237 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 ON' - 结果: 命令执行成功
+2026-02-09 17:09:17,239 - SourenToolSet - INFO - 开始执行: 步骤 10 - 内容: Sleep 5000
+2026-02-09 17:09:22,240 - SourenToolSet - INFO - 开始执行: 步骤 11 - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:09:22,242 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:09:22,243 - SourenToolSet - INFO - 开始执行: 步骤 12 - 内容: CONFigure:CELL1:NR:SIGN:SLOT:CLEar
+2026-02-09 17:09:22,744 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:CLEar' - 结果: 命令执行成功
+2026-02-09 17:09:22,746 - SourenToolSet - INFO - 开始执行: 步骤 13 - 内容: CONFigure:CELL1:NR:SIGN:SLOT3:CTYPe PDSCh
+2026-02-09 17:09:23,250 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT3:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:23,252 - SourenToolSet - INFO - 开始执行: 步骤 14 - 内容: CONFigure:CELL1:NR:SIGN:SLOT3:DL:TIND 5
+2026-02-09 17:09:23,754 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT3:DL:TIND 5' - 结果: 命令执行成功
+2026-02-09 17:09:23,755 - SourenToolSet - INFO - 开始执行: 步骤 15 - 内容: CONFigure:CELL1:NR:SIGN:SLOT4:CTYPe PDSCh
+2026-02-09 17:09:24,257 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT4:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:24,259 - SourenToolSet - INFO - 开始执行: 步骤 16 - 内容: CONFigure:CELL1:NR:SIGN:SLOT4:DL:TIND 4
+2026-02-09 17:09:24,761 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT4:DL:TIND 4' - 结果: 命令执行成功
+2026-02-09 17:09:24,762 - SourenToolSet - INFO - 开始执行: 步骤 17 - 内容: CONFigure:CELL1:NR:SIGN:SLOT5:CTYPe PDSCh
+2026-02-09 17:09:25,265 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT5:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:25,266 - SourenToolSet - INFO - 开始执行: 步骤 18 - 内容: CONFigure:CELL1:NR:SIGN:SLOT5:DL:TIND 3
+2026-02-09 17:09:25,768 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT5:DL:TIND 3' - 结果: 命令执行成功
+2026-02-09 17:09:25,769 - SourenToolSet - INFO - 开始执行: 步骤 19 - 内容: CONFigure:CELL1:NR:SIGN:SLOT6:CTYPe PDSCh
+2026-02-09 17:09:26,271 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT6:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:26,272 - SourenToolSet - INFO - 开始执行: 步骤 20 - 内容: CONFigure:CELL1:NR:SIGN:SLOT6:DL:TIND 2
+2026-02-09 17:09:26,774 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT6:DL:TIND 2' - 结果: 命令执行成功
+2026-02-09 17:09:26,776 - SourenToolSet - INFO - 开始执行: 步骤 21 - 内容: CONFigure:CELL1:NR:SIGN:SLOT10:CTYPe PDSCh
+2026-02-09 17:09:27,277 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT10:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:27,279 - SourenToolSet - INFO - 开始执行: 步骤 22 - 内容: CONFigure:CELL1:NR:SIGN:SLOT10:DL:TIND 8
+2026-02-09 17:09:27,781 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT10:DL:TIND 8' - 结果: 命令执行成功
+2026-02-09 17:09:27,782 - SourenToolSet - INFO - 开始执行: 步骤 23 - 内容: CONFigure:CELL1:NR:SIGN:SLOT11:CTYPe PDSCh
+2026-02-09 17:09:28,283 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT11:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:28,285 - SourenToolSet - INFO - 开始执行: 步骤 24 - 内容: CONFigure:CELL1:NR:SIGN:SLOT11:DL:TIND 7
+2026-02-09 17:09:28,787 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT11:DL:TIND 7' - 结果: 命令执行成功
+2026-02-09 17:09:28,788 - SourenToolSet - INFO - 开始执行: 步骤 25 - 内容: CONFigure:CELL1:NR:SIGN:SLOT12:CTYPe PDSCh
+2026-02-09 17:09:29,290 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT12:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:29,291 - SourenToolSet - INFO - 开始执行: 步骤 26 - 内容: CONFigure:CELL1:NR:SIGN:SLOT12:DL:TIND 6
+2026-02-09 17:09:29,793 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT12:DL:TIND 6' - 结果: 命令执行成功
+2026-02-09 17:09:29,794 - SourenToolSet - INFO - 开始执行: 步骤 27 - 内容: CONFigure:CELL1:NR:SIGN:SLOT13:CTYPe PDSCh
+2026-02-09 17:09:30,298 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT13:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:30,299 - SourenToolSet - INFO - 开始执行: 步骤 28 - 内容: CONFigure:CELL1:NR:SIGN:SLOT13:DL:TIND 5
+2026-02-09 17:09:30,801 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT13:DL:TIND 5' - 结果: 命令执行成功
+2026-02-09 17:09:30,804 - SourenToolSet - INFO - 开始执行: 步骤 29 - 内容: CONFigure:CELL1:NR:SIGN:SLOT14:CTYPe PDSCh
+2026-02-09 17:09:31,306 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT14:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:31,307 - SourenToolSet - INFO - 开始执行: 步骤 30 - 内容: CONFigure:CELL1:NR:SIGN:SLOT14:DL:TIND 4
+2026-02-09 17:09:31,809 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT14:DL:TIND 4' - 结果: 命令执行成功
+2026-02-09 17:09:31,810 - SourenToolSet - INFO - 开始执行: 步骤 31 - 内容: CONFigure:CELL1:NR:SIGN:SLOT15:CTYPe PDSCh
+2026-02-09 17:09:32,312 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT15:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:32,314 - SourenToolSet - INFO - 开始执行: 步骤 32 - 内容: CONFigure:CELL1:NR:SIGN:SLOT15:DL:TIND 3
+2026-02-09 17:09:32,816 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT15:DL:TIND 3' - 结果: 命令执行成功
+2026-02-09 17:09:32,817 - SourenToolSet - INFO - 开始执行: 步骤 33 - 内容: CONFigure:CELL1:NR:SIGN:SLOT16:CTYPe PDSCh
+2026-02-09 17:09:33,319 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT16:CTYPe PDSCh' - 结果: 命令执行成功
+2026-02-09 17:09:33,321 - SourenToolSet - INFO - 开始执行: 步骤 34 - 内容: CONFigure:CELL1:NR:SIGN:SLOT16:DL:TIND 2
+2026-02-09 17:09:33,822 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT16:DL:TIND 2' - 结果: 命令执行成功
+2026-02-09 17:09:33,823 - SourenToolSet - INFO - 开始执行: 步骤 35 - 内容: CONFigure:CELL1:NR:SIGN:SLOT:UPDate
+2026-02-09 17:09:34,325 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:UPDate' - 结果: 命令执行成功
+2026-02-09 17:09:34,328 - SourenToolSet - INFO - 开始执行: 步骤 36 - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:09:34,829 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:09:34,831 - SourenToolSet - INFO - 开始执行: 步骤 37 - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-02-09 17:09:35,333 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-02-09 17:09:35,334 - SourenToolSet - INFO - 开始执行: 步骤 38 - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-02-09 17:09:35,836 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-02-09 17:09:35,838 - SourenToolSet - INFO - 开始执行: 步骤 39 - 内容: CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+2026-02-09 17:09:36,340 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF' - 结果: 命令执行成功
+2026-02-09 17:09:36,341 - SourenToolSet - INFO - 开始执行: 步骤 40 - 内容: INITiate:NR:BLER
+2026-02-09 17:09:36,844 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:09:36,845 - SourenToolSet - INFO - 开始执行: 步骤 41 - 内容: INITiate:NR:MEValuation
+2026-02-09 17:09:37,348 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:09:37,349 - SourenToolSet - INFO - 开始执行: 步骤 42 - 内容: FETCh:NR:MEValuation:STATe?
+2026-02-09 17:09:37,351 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:STATe?' - 结果: RDY
+2026-02-09 17:09:37,352 - SourenToolSet - INFO - 开始执行: 步骤 43 - 内容: FETCh:NR:BLER:STATe?
+2026-02-09 17:09:37,358 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:STATe?' - 结果: RDY
+2026-02-09 17:09:37,360 - SourenToolSet - INFO - 开始执行: 步骤 44 - 内容: Sleep 3000
+2026-02-09 17:09:40,364 - SourenToolSet - INFO - 开始执行: 步骤 45 - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:09:40,368 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,57955,57955,0.000,0.000,957.934,957.934
+2026-02-09 17:09:40,372 - SourenToolSet - INFO - 开始执行: 步骤 46 - 内容: CONFigure:NR:MEValuation:REPetition CONTINUOUS
+2026-02-09 17:09:40,875 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-02-09 17:09:40,876 - SourenToolSet - INFO - 开始执行: 步骤 47 - 内容: CONFigure:NR:BLER:REPetition CONTINUOUS
+2026-02-09 17:09:41,378 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-02-09 17:09:41,379 - SourenToolSet - INFO - 开始执行: 步骤 48 - 内容: Sleep 10000
+2026-02-09 17:09:51,381 - SourenToolSet - INFO - 开始执行: 步骤 49 - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-02-09 17:09:51,384 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,9.249
+2026-02-09 17:09:51,385 - SourenToolSet - INFO - 开始执行: 步骤 50 - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-02-09 17:09:51,887 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-02-09 17:09:51,890 - SourenToolSet - INFO - 开始执行: 步骤 51 - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-02-09 17:09:52,392 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-02-09 17:09:52,397 - SourenToolSet - INFO - 开始执行: 步骤 52 (循环1 迭代1/1, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -85.0
+2026-02-09 17:09:52,909 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -85.0' - 结果: 命令执行成功
+2026-02-09 17:09:52,911 - SourenToolSet - INFO - 开始执行: 步骤 53 (循环1 迭代1/1, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:09:53,413 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:09:53,417 - SourenToolSet - INFO - 开始执行: 步骤 54 (循环1 迭代1/1, 功率=-85.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:09:53,919 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:09:53,920 - SourenToolSet - INFO - 开始执行: 步骤 55 (循环1 迭代1/1, 功率=-85.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:09:54,423 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:09:54,424 - SourenToolSet - INFO - 开始执行: 步骤 56 (循环1 迭代1/1, 功率=-85.0) - 内容: Sleep 2000
+2026-02-09 17:09:56,429 - SourenToolSet - INFO - 开始执行: 步骤 57 (循环1 迭代1/1, 功率=-85.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:09:56,431 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,57955,57955,0.000,0.000,957.934,957.934
+2026-02-09 17:09:56,433 - SourenToolSet - INFO - 开始执行: 步骤 58 (循环1 迭代1/1, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:09:56,436 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:09:56,438 - SourenToolSet - INFO - 开始执行: 步骤 59 (循环1 迭代2/1, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -86.0
+2026-02-09 17:09:56,941 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -86.0' - 结果: 命令执行成功
+2026-02-09 17:09:56,943 - SourenToolSet - INFO - 开始执行: 步骤 60 (循环1 迭代2/1, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:09:57,445 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:09:57,447 - SourenToolSet - INFO - 开始执行: 步骤 61 (循环1 迭代2/1, 功率=-86.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:09:57,950 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:09:57,953 - SourenToolSet - INFO - 开始执行: 步骤 62 (循环1 迭代2/1, 功率=-86.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:09:58,457 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:09:58,461 - SourenToolSet - INFO - 开始执行: 步骤 63 (循环1 迭代2/1, 功率=-86.0) - 内容: Sleep 2000
+2026-02-09 17:10:00,463 - SourenToolSet - INFO - 开始执行: 步骤 64 (循环1 迭代2/1, 功率=-86.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:10:00,466 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,34,24,10,0,20760,29410,0.294,0.000,680.656,964.262
+2026-02-09 17:10:00,467 - SourenToolSet - INFO - 开始执行: 步骤 65 (循环1 迭代2/1, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:00,470 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:00,473 - SourenToolSet - INFO - 开始执行: 步骤 66 (循环1 迭代3/1, 功率=-87.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -87.0
+2026-02-09 17:10:00,975 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -87.0' - 结果: 命令执行成功
+2026-02-09 17:10:00,977 - SourenToolSet - INFO - 开始执行: 步骤 67 (循环1 迭代3/1, 功率=-87.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:10:01,479 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:10:01,480 - SourenToolSet - INFO - 开始执行: 步骤 68 (循环1 迭代3/1, 功率=-87.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:10:01,982 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:10:01,984 - SourenToolSet - INFO - 开始执行: 步骤 69 (循环1 迭代3/1, 功率=-87.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:10:02,486 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:10:02,488 - SourenToolSet - INFO - 开始执行: 步骤 70 (循环1 迭代3/1, 功率=-87.0) - 内容: Sleep 2000
+2026-02-09 17:10:04,490 - SourenToolSet - INFO - 开始执行: 步骤 71 (循环1 迭代3/1, 功率=-87.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:10:04,492 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,10,0,0,10,0,8650,1.000,1.000,0.000,752.174
+2026-02-09 17:10:04,508 - SourenToolSet - INFO - 开始执行: 步骤 72 (循环2 迭代1/4, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -85.0
+2026-02-09 17:10:05,009 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -85.0' - 结果: 命令执行成功
+2026-02-09 17:10:05,011 - SourenToolSet - INFO - 开始执行: 步骤 73 (循环2 迭代1/4, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:10:05,513 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:10:05,514 - SourenToolSet - INFO - 开始执行: 步骤 74 (循环2 迭代1/4, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:05,517 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:05,518 - SourenToolSet - INFO - 开始执行: 步骤 75 (循环2 迭代1/4, 功率=-85.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:10:06,022 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:10:06,023 - SourenToolSet - INFO - 开始执行: 步骤 76 (循环2 迭代1/4, 功率=-85.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:10:06,525 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:10:06,527 - SourenToolSet - INFO - 开始执行: 步骤 77 (循环2 迭代1/4, 功率=-85.0) - 内容: Sleep 5000
+2026-02-09 17:10:11,529 - SourenToolSet - INFO - 开始执行: 步骤 78 (循环2 迭代1/4, 功率=-85.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:10:11,532 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,57955,57955,0.000,0.000,957.934,957.934
+2026-02-09 17:10:11,534 - SourenToolSet - INFO - 开始执行: 步骤 79 (循环2 迭代1/4, 功率=-85.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:11,536 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:11,542 - SourenToolSet - INFO - 开始执行: 步骤 80 (循环2 迭代2/4, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -86.0
+2026-02-09 17:10:12,044 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -86.0' - 结果: 命令执行成功
+2026-02-09 17:10:12,045 - SourenToolSet - INFO - 开始执行: 步骤 81 (循环2 迭代2/4, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:10:12,547 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:10:12,548 - SourenToolSet - INFO - 开始执行: 步骤 82 (循环2 迭代2/4, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:12,550 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:12,552 - SourenToolSet - INFO - 开始执行: 步骤 83 (循环2 迭代2/4, 功率=-86.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:10:13,055 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:10:13,056 - SourenToolSet - INFO - 开始执行: 步骤 84 (循环2 迭代2/4, 功率=-86.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:10:13,559 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:10:13,562 - SourenToolSet - INFO - 开始执行: 步骤 85 (循环2 迭代2/4, 功率=-86.0) - 内容: Sleep 5000
+2026-02-09 17:10:18,564 - SourenToolSet - INFO - 开始执行: 步骤 86 (循环2 迭代2/4, 功率=-86.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:10:18,566 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,16,6,10,0,5190,13840,0.625,0.000,415.200,1107.200
+2026-02-09 17:10:18,568 - SourenToolSet - INFO - 开始执行: 步骤 87 (循环2 迭代2/4, 功率=-86.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:18,571 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:18,576 - SourenToolSet - INFO - 开始执行: 步骤 88 (循环2 迭代3/4, 功率=-87.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -87.0
+2026-02-09 17:10:19,078 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -87.0' - 结果: 命令执行成功
+2026-02-09 17:10:19,079 - SourenToolSet - INFO - 开始执行: 步骤 89 (循环2 迭代3/4, 功率=-87.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:10:19,582 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:10:19,583 - SourenToolSet - INFO - 开始执行: 步骤 90 (循环2 迭代3/4, 功率=-87.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:19,585 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:19,587 - SourenToolSet - INFO - 开始执行: 步骤 91 (循环2 迭代3/4, 功率=-87.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:10:20,092 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:10:20,093 - SourenToolSet - INFO - 开始执行: 步骤 92 (循环2 迭代3/4, 功率=-87.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:10:20,595 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:10:20,596 - SourenToolSet - INFO - 开始执行: 步骤 93 (循环2 迭代3/4, 功率=-87.0) - 内容: Sleep 5000
+2026-02-09 17:10:25,598 - SourenToolSet - INFO - 开始执行: 步骤 94 (循环2 迭代3/4, 功率=-87.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:10:25,601 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,10,0,0,10,0,8650,1.000,1.000,0.000,752.174
+2026-02-09 17:10:25,603 - SourenToolSet - INFO - 开始执行: 步骤 95 (循环2 迭代3/4, 功率=-87.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:25,606 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:25,613 - SourenToolSet - INFO - 开始执行: 步骤 96 (循环2 迭代4/4, 功率=-88.0) - 内容: CONFigure:CELL1:NR:SIGN:POWer -88.0
+2026-02-09 17:10:26,115 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:POWer -88.0' - 结果: 命令执行成功
+2026-02-09 17:10:26,116 - SourenToolSet - INFO - 开始执行: 步骤 97 (循环2 迭代4/4, 功率=-88.0) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-02-09 17:10:26,618 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-02-09 17:10:26,621 - SourenToolSet - INFO - 开始执行: 步骤 98 (循环2 迭代4/4, 功率=-88.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:26,624 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:26,625 - SourenToolSet - INFO - 开始执行: 步骤 99 (循环2 迭代4/4, 功率=-88.0) - 内容: INITiate:NR:BLER
+2026-02-09 17:10:27,128 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:10:27,129 - SourenToolSet - INFO - 开始执行: 步骤 100 (循环2 迭代4/4, 功率=-88.0) - 内容: INITiate:NR:MEValuation
+2026-02-09 17:10:27,631 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:10:27,633 - SourenToolSet - INFO - 开始执行: 步骤 101 (循环2 迭代4/4, 功率=-88.0) - 内容: Sleep 5000
+2026-02-09 17:10:32,635 - SourenToolSet - INFO - 开始执行: 步骤 102 (循环2 迭代4/4, 功率=-88.0) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-02-09 17:10:32,639 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,10,0,0,10,0,8650,1.000,1.000,0.000,752.174
+2026-02-09 17:10:32,640 - SourenToolSet - INFO - 开始执行: 步骤 103 (循环2 迭代4/4, 功率=-88.0) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-02-09 17:10:32,643 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-02-09 17:10:32,651 - SourenToolSet - INFO - 开始执行: 步骤 104 - 内容: ABORt:NR:BLER
+2026-02-09 17:10:33,160 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:BLER' - 结果: 命令执行成功
+2026-02-09 17:10:33,162 - SourenToolSet - INFO - 开始执行: 步骤 105 - 内容: ABORt:NR:MEValuation
+2026-02-09 17:10:33,664 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:MEValuation' - 结果: 命令执行成功
+2026-02-09 17:10:33,665 - SourenToolSet - INFO - 开始执行: 步骤 106 - 内容: CALL:CELL1 OFF
+2026-02-09 17:10:34,166 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 OFF' - 结果: 命令执行成功
+2026-02-09 17:10:34,167 - SourenToolSet - INFO - 开始执行: 步骤 107 - 内容: Sleep 10000
+2026-02-09 17:10:44,169 - SourenToolSet - INFO - 开始执行: 步骤 108 - 内容: CALL:CELL1?
+2026-02-09 17:10:44,171 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1?' - 结果: OFF
+2026-02-09 17:10:44,218 - SourenToolSet - INFO - 完整工作流程执行成功
+2026-02-09 17:10:45,365 - SourenToolSet - INFO - 开始清理资源
+2026-02-09 17:10:45,368 - SourenToolSet - INFO - 资源清理完成

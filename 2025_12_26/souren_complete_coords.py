@@ -1,0 +1,15 @@
+relative_coordinates = {
+    'click_toolset_menu': (52, 41),
+    'hover_command_menu': (71, 84),
+    'click_commander_visa': (315, 97),
+    'click_open_file_menu': (25, 94),
+    'click_open_scv_option': (59, 114),
+    'click_scv_file': (255, 188),
+    'click_ok_button': (796, 532),
+    'click_device_area': (160, 92),
+    'click_device_list': (169, 113),
+    'click_run_all': (398, 97),
+    'click_loop_info': (517, 92),
+    'input_loop_count': (632, 391),
+    'click_loop_ok': (880, 431),
+}

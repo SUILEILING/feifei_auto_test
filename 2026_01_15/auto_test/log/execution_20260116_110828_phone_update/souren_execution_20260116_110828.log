@@ -1,0 +1,647 @@
+2026-01-16 11:08:31,176 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-01-16 11:08:31,176 - SourenToolSet - INFO - 开始初始化系统
+2026-01-16 11:08:31,378 - SourenToolSet - INFO - 系统初始化完成，找到 3 个SCV文件
+2026-01-16 11:08:31,378 - SourenToolSet - INFO - 加载SCV文件: night_cycle_update_feifei.scv
+2026-01-16 11:08:31,378 - SourenToolSet - INFO - 文件完整路径: D:\feifei\2026_01_15\auto_test\save_scv\night_cycle_update_feifei.scv
+2026-01-16 11:08:31,379 - SourenToolSet - INFO - 动态获取并连接设备
+2026-01-16 11:08:31,379 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info
+2026-01-16 11:08:31,379 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info
+2026-01-16 11:08:31,384 - SourenToolSet - INFO - 全局循环模式激活: LOOP_COUNT = 5
+2026-01-16 11:08:31,385 - SourenToolSet - INFO - 解析SCV文件: D:\feifei\2026_01_15\auto_test\save_scv\night_cycle_update_feifei.scv
+2026-01-16 11:08:31,386 - SourenToolSet - INFO - 解析SCV文件完成，共 25 个步骤
+2026-01-16 11:08:31,387 - SourenToolSet - INFO - 开始第 1/5 轮全局循环
+2026-01-16 11:08:31,388 - SourenToolSet - INFO - 开始执行: 步骤 1/125 (第1/5轮循环 - 原始步骤1) - 内容: CALL:CELL1 ON
+2026-01-16 11:09:01,091 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 ON' - 结果: 命令执行成功
+2026-01-16 11:09:01,091 - SourenToolSet - INFO - 步骤执行成功: 步骤 1/125 (第1/5轮循环 - 原始步骤1) - 结果: 命令执行成功
+2026-01-16 11:09:01,091 - SourenToolSet - INFO - 进度更新: 1/125 (0.8%) - 已执行: 1, 通过: 1, 失败: 0, 通信错误: 0
+2026-01-16 11:09:01,092 - SourenToolSet - INFO - 开始执行: 步骤 2/125 (第1/5轮循环 - 原始步骤2) - 内容: Sleep 10000
+2026-01-16 11:09:11,092 - SourenToolSet - INFO - 命令执行成功: 'Sleep 10000' - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:09:11,093 - SourenToolSet - INFO - 步骤执行成功: 步骤 2/125 (第1/5轮循环 - 原始步骤2) - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:09:11,094 - SourenToolSet - INFO - 进度更新: 2/125 (1.6%) - 已执行: 2, 通过: 2, 失败: 0, 通信错误: 0
+2026-01-16 11:09:11,094 - SourenToolSet - INFO - 开始执行: 步骤 3/125 (第1/5轮循环 - 原始步骤3) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-01-16 11:09:11,095 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='Connected'
+2026-01-16 11:09:11,095 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:09:11,103 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-01-16 11:09:11,109 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.01秒
+2026-01-16 11:09:11,112 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'Connected'
+2026-01-16 11:09:11,112 - SourenToolSet - INFO - 找到期望结果 'Connected'，停止循环
+2026-01-16 11:09:11,112 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:09:11,112 - SourenToolSet - INFO - 步骤执行成功: 步骤 3/125 (第1/5轮循环 - 原始步骤3) - 结果: 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:09:11,114 - SourenToolSet - INFO - 进度更新: 3/125 (2.4%) - 已执行: 3, 通过: 3, 失败: 0, 通信错误: 0
+2026-01-16 11:09:11,114 - SourenToolSet - INFO - 开始执行: 步骤 4/125 (第1/5轮循环 - 原始步骤4) - 内容: CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+2026-01-16 11:09:11,616 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF' - 结果: 命令执行成功
+2026-01-16 11:09:11,616 - SourenToolSet - INFO - 步骤执行成功: 步骤 4/125 (第1/5轮循环 - 原始步骤4) - 结果: 命令执行成功
+2026-01-16 11:09:11,617 - SourenToolSet - INFO - 进度更新: 4/125 (3.2%) - 已执行: 4, 通过: 4, 失败: 0, 通信错误: 0
+2026-01-16 11:09:11,617 - SourenToolSet - INFO - 开始执行: 步骤 5/125 (第1/5轮循环 - 原始步骤5) - 内容: *OPC?
+2026-01-16 11:09:11,620 - SourenToolSet - INFO - 命令执行成功: '*OPC?' - 结果: 1
+2026-01-16 11:09:11,620 - SourenToolSet - INFO - 步骤执行成功: 步骤 5/125 (第1/5轮循环 - 原始步骤5) - 结果: 1
+2026-01-16 11:09:11,621 - SourenToolSet - INFO - 进度更新: 5/125 (4.0%) - 已执行: 5, 通过: 5, 失败: 0, 通信错误: 0
+2026-01-16 11:09:11,623 - SourenToolSet - INFO - 开始执行: 步骤 6/125 (第1/5轮循环 - 原始步骤6) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-01-16 11:09:12,127 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-01-16 11:09:12,127 - SourenToolSet - INFO - 步骤执行成功: 步骤 6/125 (第1/5轮循环 - 原始步骤6) - 结果: 命令执行成功
+2026-01-16 11:09:12,128 - SourenToolSet - INFO - 进度更新: 6/125 (4.8%) - 已执行: 6, 通过: 6, 失败: 0, 通信错误: 0
+2026-01-16 11:09:12,128 - SourenToolSet - INFO - 开始执行: 步骤 7/125 (第1/5轮循环 - 原始步骤7) - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-01-16 11:09:12,631 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:09:12,631 - SourenToolSet - INFO - 步骤执行成功: 步骤 7/125 (第1/5轮循环 - 原始步骤7) - 结果: 命令执行成功
+2026-01-16 11:09:12,632 - SourenToolSet - INFO - 进度更新: 7/125 (5.6%) - 已执行: 7, 通过: 7, 失败: 0, 通信错误: 0
+2026-01-16 11:09:12,632 - SourenToolSet - INFO - 开始执行: 步骤 8/125 (第1/5轮循环 - 原始步骤8) - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-01-16 11:09:13,134 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:09:13,134 - SourenToolSet - INFO - 步骤执行成功: 步骤 8/125 (第1/5轮循环 - 原始步骤8) - 结果: 命令执行成功
+2026-01-16 11:09:13,135 - SourenToolSet - INFO - 进度更新: 8/125 (6.4%) - 已执行: 8, 通过: 8, 失败: 0, 通信错误: 0
+2026-01-16 11:09:13,135 - SourenToolSet - INFO - 开始执行: 步骤 9/125 (第1/5轮循环 - 原始步骤9) - 内容: INITiate:NR:BLER
+2026-01-16 11:09:13,637 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:09:13,637 - SourenToolSet - INFO - 步骤执行成功: 步骤 9/125 (第1/5轮循环 - 原始步骤9) - 结果: 命令执行成功
+2026-01-16 11:09:13,637 - SourenToolSet - INFO - 进度更新: 9/125 (7.2%) - 已执行: 9, 通过: 9, 失败: 0, 通信错误: 0
+2026-01-16 11:09:13,638 - SourenToolSet - INFO - 开始执行: 步骤 10/125 (第1/5轮循环 - 原始步骤10) - 内容: INITiate:NR:MEValuation
+2026-01-16 11:09:14,140 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:09:14,140 - SourenToolSet - INFO - 步骤执行成功: 步骤 10/125 (第1/5轮循环 - 原始步骤10) - 结果: 命令执行成功
+2026-01-16 11:09:14,141 - SourenToolSet - INFO - 进度更新: 10/125 (8.0%) - 已执行: 10, 通过: 10, 失败: 0, 通信错误: 0
+2026-01-16 11:09:14,141 - SourenToolSet - INFO - 开始执行: 步骤 11/125 (第1/5轮循环 - 原始步骤11) - 内容: FETCh:NR:MEValuation:STATe?
+2026-01-16 11:09:14,142 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:09:14,142 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:09:14,144 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:STATe?' - 结果: RDY
+2026-01-16 11:09:14,144 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:09:14,145 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:09:14,146 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:09:14,146 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:09:14,146 - SourenToolSet - INFO - 步骤执行成功: 步骤 11/125 (第1/5轮循环 - 原始步骤11) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:09:14,151 - SourenToolSet - INFO - 进度更新: 11/125 (8.8%) - 已执行: 11, 通过: 11, 失败: 0, 通信错误: 0
+2026-01-16 11:09:14,152 - SourenToolSet - INFO - 开始执行: 步骤 12/125 (第1/5轮循环 - 原始步骤12) - 内容: FETCh:NR:BLER:STATe?
+2026-01-16 11:09:14,154 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:09:14,154 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:09:14,155 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:STATe?' - 结果: RDY
+2026-01-16 11:09:14,155 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:09:14,156 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:09:14,156 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:09:14,156 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:09:14,156 - SourenToolSet - INFO - 步骤执行成功: 步骤 12/125 (第1/5轮循环 - 原始步骤12) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:09:14,157 - SourenToolSet - INFO - 进度更新: 12/125 (9.6%) - 已执行: 12, 通过: 12, 失败: 0, 通信错误: 0
+2026-01-16 11:09:14,157 - SourenToolSet - INFO - 开始执行: 步骤 13/125 (第1/5轮循环 - 原始步骤13) - 内容: Sleep 5000
+2026-01-16 11:09:19,158 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:09:19,158 - SourenToolSet - INFO - 步骤执行成功: 步骤 13/125 (第1/5轮循环 - 原始步骤13) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:09:19,159 - SourenToolSet - INFO - 进度更新: 13/125 (10.4%) - 已执行: 13, 通过: 13, 失败: 0, 通信错误: 0
+2026-01-16 11:09:19,159 - SourenToolSet - INFO - 开始执行: 步骤 14/125 (第1/5轮循环 - 原始步骤14) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-01-16 11:09:19,160 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,166.970,166.970
+2026-01-16 11:09:19,161 - SourenToolSet - INFO - 步骤执行成功: 步骤 14/125 (第1/5轮循环 - 原始步骤14) - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,166.970,166.970
+2026-01-16 11:09:19,161 - SourenToolSet - INFO - 进度更新: 14/125 (11.2%) - 已执行: 14, 通过: 14, 失败: 0, 通信错误: 0
+2026-01-16 11:09:19,161 - SourenToolSet - INFO - 开始执行: 步骤 15/125 (第1/5轮循环 - 原始步骤15) - 内容: FETCh:NR:BLER:UL:RESult?
+2026-01-16 11:09:19,162 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:UL:RESult?' - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:09:19,163 - SourenToolSet - INFO - 步骤执行成功: 步骤 15/125 (第1/5轮循环 - 原始步骤15) - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:09:19,163 - SourenToolSet - INFO - 进度更新: 15/125 (12.0%) - 已执行: 15, 通过: 15, 失败: 0, 通信错误: 0
+2026-01-16 11:09:19,163 - SourenToolSet - INFO - 开始执行: 步骤 16/125 (第1/5轮循环 - 原始步骤16) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:09:19,165 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.490
+2026-01-16 11:09:19,165 - SourenToolSet - INFO - 步骤执行成功: 步骤 16/125 (第1/5轮循环 - 原始步骤16) - 结果: 0,14.490
+2026-01-16 11:09:19,166 - SourenToolSet - INFO - 进度更新: 16/125 (12.8%) - 已执行: 16, 通过: 16, 失败: 0, 通信错误: 0
+2026-01-16 11:09:19,167 - SourenToolSet - INFO - 开始执行: 步骤 17/125 (第1/5轮循环 - 原始步骤17) - 内容: CONFigure:NR:MEValuation:REPetition CONTINUOUS
+2026-01-16 11:09:19,669 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:09:19,669 - SourenToolSet - INFO - 步骤执行成功: 步骤 17/125 (第1/5轮循环 - 原始步骤17) - 结果: 命令执行成功
+2026-01-16 11:09:19,671 - SourenToolSet - INFO - 进度更新: 17/125 (13.6%) - 已执行: 17, 通过: 17, 失败: 0, 通信错误: 0
+2026-01-16 11:09:19,671 - SourenToolSet - INFO - 开始执行: 步骤 18/125 (第1/5轮循环 - 原始步骤18) - 内容: CONFigure:NR:BLER:REPetition CONTINUOUS
+2026-01-16 11:09:20,172 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:09:20,172 - SourenToolSet - INFO - 步骤执行成功: 步骤 18/125 (第1/5轮循环 - 原始步骤18) - 结果: 命令执行成功
+2026-01-16 11:09:20,173 - SourenToolSet - INFO - 进度更新: 18/125 (14.4%) - 已执行: 18, 通过: 18, 失败: 0, 通信错误: 0
+2026-01-16 11:09:20,173 - SourenToolSet - INFO - 开始执行: 步骤 19/125 (第1/5轮循环 - 原始步骤19) - 内容: Sleep 30000
+2026-01-16 11:09:50,174 - SourenToolSet - INFO - 命令执行成功: 'Sleep 30000' - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:09:50,174 - SourenToolSet - INFO - 步骤执行成功: 步骤 19/125 (第1/5轮循环 - 原始步骤19) - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:09:50,175 - SourenToolSet - INFO - 进度更新: 19/125 (15.2%) - 已执行: 19, 通过: 19, 失败: 0, 通信错误: 0
+2026-01-16 11:09:50,175 - SourenToolSet - INFO - 开始执行: 步骤 20/125 (第1/5轮循环 - 原始步骤20) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:09:50,179 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.430
+2026-01-16 11:09:50,179 - SourenToolSet - INFO - 步骤执行成功: 步骤 20/125 (第1/5轮循环 - 原始步骤20) - 结果: 0,14.430
+2026-01-16 11:09:50,185 - SourenToolSet - INFO - 进度更新: 20/125 (16.0%) - 已执行: 20, 通过: 20, 失败: 0, 通信错误: 0
+2026-01-16 11:09:50,187 - SourenToolSet - INFO - 开始执行: 步骤 21/125 (第1/5轮循环 - 原始步骤21) - 内容: ABORt:NR:BLER 
+2026-01-16 11:09:50,690 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:09:50,690 - SourenToolSet - INFO - 步骤执行成功: 步骤 21/125 (第1/5轮循环 - 原始步骤21) - 结果: 命令执行成功
+2026-01-16 11:09:50,691 - SourenToolSet - INFO - 进度更新: 21/125 (16.8%) - 已执行: 21, 通过: 21, 失败: 0, 通信错误: 0
+2026-01-16 11:09:50,691 - SourenToolSet - INFO - 开始执行: 步骤 22/125 (第1/5轮循环 - 原始步骤22) - 内容: ABORt:NR:MEValuation
+2026-01-16 11:09:51,192 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:09:51,193 - SourenToolSet - INFO - 步骤执行成功: 步骤 22/125 (第1/5轮循环 - 原始步骤22) - 结果: 命令执行成功
+2026-01-16 11:09:51,193 - SourenToolSet - INFO - 进度更新: 22/125 (17.6%) - 已执行: 22, 通过: 22, 失败: 0, 通信错误: 0
+2026-01-16 11:09:51,193 - SourenToolSet - INFO - 开始执行: 步骤 23/125 (第1/5轮循环 - 原始步骤23) - 内容: CALL:CELL1 OFF
+2026-01-16 11:09:51,695 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 OFF' - 结果: 命令执行成功
+2026-01-16 11:09:51,695 - SourenToolSet - INFO - 步骤执行成功: 步骤 23/125 (第1/5轮循环 - 原始步骤23) - 结果: 命令执行成功
+2026-01-16 11:09:51,696 - SourenToolSet - INFO - 进度更新: 23/125 (18.4%) - 已执行: 23, 通过: 23, 失败: 0, 通信错误: 0
+2026-01-16 11:09:51,697 - SourenToolSet - INFO - 开始执行: 步骤 24/125 (第1/5轮循环 - 原始步骤24) - 内容: Sleep 5000
+2026-01-16 11:09:56,697 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:09:56,697 - SourenToolSet - INFO - 步骤执行成功: 步骤 24/125 (第1/5轮循环 - 原始步骤24) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:09:56,699 - SourenToolSet - INFO - 进度更新: 24/125 (19.2%) - 已执行: 24, 通过: 24, 失败: 0, 通信错误: 0
+2026-01-16 11:09:56,699 - SourenToolSet - INFO - 开始执行: 步骤 25/125 (第1/5轮循环 - 原始步骤25) - 内容: CALL:CELL1?
+2026-01-16 11:09:56,699 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='OFF'
+2026-01-16 11:09:56,699 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:09:56,701 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1?' - 结果: OFF
+2026-01-16 11:09:56,701 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:09:56,702 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'OFF'
+2026-01-16 11:09:56,702 - SourenToolSet - INFO - 找到期望结果 'OFF'，停止循环
+2026-01-16 11:09:56,702 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:09:56,702 - SourenToolSet - INFO - 步骤执行成功: 步骤 25/125 (第1/5轮循环 - 原始步骤25) - 结果: 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:09:56,708 - SourenToolSet - INFO - 进度更新: 25/125 (20.0%) - 已执行: 25, 通过: 25, 失败: 0, 通信错误: 0
+2026-01-16 11:09:56,710 - SourenToolSet - INFO - 第 1/5 轮循环完成，耗时: 85.3秒
+2026-01-16 11:09:56,711 - SourenToolSet - INFO - 开始第 2/5 轮全局循环
+2026-01-16 11:09:56,711 - SourenToolSet - INFO - 开始执行: 步骤 26/125 (第2/5轮循环 - 原始步骤1) - 内容: CALL:CELL1 ON
+2026-01-16 11:10:26,349 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 ON' - 结果: 命令执行成功
+2026-01-16 11:10:26,349 - SourenToolSet - INFO - 步骤执行成功: 步骤 26/125 (第2/5轮循环 - 原始步骤1) - 结果: 命令执行成功
+2026-01-16 11:10:26,350 - SourenToolSet - INFO - 进度更新: 26/125 (20.8%) - 已执行: 26, 通过: 26, 失败: 0, 通信错误: 0
+2026-01-16 11:10:26,350 - SourenToolSet - INFO - 开始执行: 步骤 27/125 (第2/5轮循环 - 原始步骤2) - 内容: Sleep 10000
+2026-01-16 11:10:36,351 - SourenToolSet - INFO - 命令执行成功: 'Sleep 10000' - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:10:36,351 - SourenToolSet - INFO - 步骤执行成功: 步骤 27/125 (第2/5轮循环 - 原始步骤2) - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:10:36,353 - SourenToolSet - INFO - 进度更新: 27/125 (21.6%) - 已执行: 27, 通过: 27, 失败: 0, 通信错误: 0
+2026-01-16 11:10:36,353 - SourenToolSet - INFO - 开始执行: 步骤 28/125 (第2/5轮循环 - 原始步骤3) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-01-16 11:10:36,354 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='Connected'
+2026-01-16 11:10:36,354 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:10:36,357 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-01-16 11:10:36,357 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:10:36,358 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'Connected'
+2026-01-16 11:10:36,358 - SourenToolSet - INFO - 找到期望结果 'Connected'，停止循环
+2026-01-16 11:10:36,358 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:10:36,358 - SourenToolSet - INFO - 步骤执行成功: 步骤 28/125 (第2/5轮循环 - 原始步骤3) - 结果: 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:10:36,359 - SourenToolSet - INFO - 进度更新: 28/125 (22.4%) - 已执行: 28, 通过: 28, 失败: 0, 通信错误: 0
+2026-01-16 11:10:36,359 - SourenToolSet - INFO - 开始执行: 步骤 29/125 (第2/5轮循环 - 原始步骤4) - 内容: CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+2026-01-16 11:10:36,864 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF' - 结果: 命令执行成功
+2026-01-16 11:10:36,865 - SourenToolSet - INFO - 步骤执行成功: 步骤 29/125 (第2/5轮循环 - 原始步骤4) - 结果: 命令执行成功
+2026-01-16 11:10:36,866 - SourenToolSet - INFO - 进度更新: 29/125 (23.2%) - 已执行: 29, 通过: 29, 失败: 0, 通信错误: 0
+2026-01-16 11:10:36,866 - SourenToolSet - INFO - 开始执行: 步骤 30/125 (第2/5轮循环 - 原始步骤5) - 内容: *OPC?
+2026-01-16 11:10:36,869 - SourenToolSet - INFO - 命令执行成功: '*OPC?' - 结果: 1
+2026-01-16 11:10:36,869 - SourenToolSet - INFO - 步骤执行成功: 步骤 30/125 (第2/5轮循环 - 原始步骤5) - 结果: 1
+2026-01-16 11:10:36,870 - SourenToolSet - INFO - 进度更新: 30/125 (24.0%) - 已执行: 30, 通过: 30, 失败: 0, 通信错误: 0
+2026-01-16 11:10:36,870 - SourenToolSet - INFO - 开始执行: 步骤 31/125 (第2/5轮循环 - 原始步骤6) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-01-16 11:10:37,373 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-01-16 11:10:37,373 - SourenToolSet - INFO - 步骤执行成功: 步骤 31/125 (第2/5轮循环 - 原始步骤6) - 结果: 命令执行成功
+2026-01-16 11:10:37,379 - SourenToolSet - INFO - 进度更新: 31/125 (24.8%) - 已执行: 31, 通过: 31, 失败: 0, 通信错误: 0
+2026-01-16 11:10:37,379 - SourenToolSet - INFO - 开始执行: 步骤 32/125 (第2/5轮循环 - 原始步骤7) - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-01-16 11:10:37,883 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:10:37,884 - SourenToolSet - INFO - 步骤执行成功: 步骤 32/125 (第2/5轮循环 - 原始步骤7) - 结果: 命令执行成功
+2026-01-16 11:10:37,884 - SourenToolSet - INFO - 进度更新: 32/125 (25.6%) - 已执行: 32, 通过: 32, 失败: 0, 通信错误: 0
+2026-01-16 11:10:37,884 - SourenToolSet - INFO - 开始执行: 步骤 33/125 (第2/5轮循环 - 原始步骤8) - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-01-16 11:10:38,386 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:10:38,386 - SourenToolSet - INFO - 步骤执行成功: 步骤 33/125 (第2/5轮循环 - 原始步骤8) - 结果: 命令执行成功
+2026-01-16 11:10:38,387 - SourenToolSet - INFO - 进度更新: 33/125 (26.4%) - 已执行: 33, 通过: 33, 失败: 0, 通信错误: 0
+2026-01-16 11:10:38,387 - SourenToolSet - INFO - 开始执行: 步骤 34/125 (第2/5轮循环 - 原始步骤9) - 内容: INITiate:NR:BLER
+2026-01-16 11:10:38,888 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:10:38,889 - SourenToolSet - INFO - 步骤执行成功: 步骤 34/125 (第2/5轮循环 - 原始步骤9) - 结果: 命令执行成功
+2026-01-16 11:10:38,890 - SourenToolSet - INFO - 进度更新: 34/125 (27.2%) - 已执行: 34, 通过: 34, 失败: 0, 通信错误: 0
+2026-01-16 11:10:38,890 - SourenToolSet - INFO - 开始执行: 步骤 35/125 (第2/5轮循环 - 原始步骤10) - 内容: INITiate:NR:MEValuation
+2026-01-16 11:10:39,391 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:10:39,392 - SourenToolSet - INFO - 步骤执行成功: 步骤 35/125 (第2/5轮循环 - 原始步骤10) - 结果: 命令执行成功
+2026-01-16 11:10:39,393 - SourenToolSet - INFO - 进度更新: 35/125 (28.0%) - 已执行: 35, 通过: 35, 失败: 0, 通信错误: 0
+2026-01-16 11:10:39,393 - SourenToolSet - INFO - 开始执行: 步骤 36/125 (第2/5轮循环 - 原始步骤11) - 内容: FETCh:NR:MEValuation:STATe?
+2026-01-16 11:10:39,394 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:10:39,394 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:10:39,395 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:STATe?' - 结果: RDY
+2026-01-16 11:10:39,395 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:10:39,396 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:10:39,396 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:10:39,396 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:10:39,396 - SourenToolSet - INFO - 步骤执行成功: 步骤 36/125 (第2/5轮循环 - 原始步骤11) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:10:39,397 - SourenToolSet - INFO - 进度更新: 36/125 (28.8%) - 已执行: 36, 通过: 36, 失败: 0, 通信错误: 0
+2026-01-16 11:10:39,398 - SourenToolSet - INFO - 开始执行: 步骤 37/125 (第2/5轮循环 - 原始步骤12) - 内容: FETCh:NR:BLER:STATe?
+2026-01-16 11:10:39,399 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:10:39,399 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:10:39,401 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:STATe?' - 结果: RDY
+2026-01-16 11:10:39,402 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:10:39,403 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:10:39,404 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:10:39,404 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:10:39,404 - SourenToolSet - INFO - 步骤执行成功: 步骤 37/125 (第2/5轮循环 - 原始步骤12) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:10:39,405 - SourenToolSet - INFO - 进度更新: 37/125 (29.6%) - 已执行: 37, 通过: 37, 失败: 0, 通信错误: 0
+2026-01-16 11:10:39,405 - SourenToolSet - INFO - 开始执行: 步骤 38/125 (第2/5轮循环 - 原始步骤13) - 内容: Sleep 5000
+2026-01-16 11:10:44,406 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:10:44,406 - SourenToolSet - INFO - 步骤执行成功: 步骤 38/125 (第2/5轮循环 - 原始步骤13) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:10:44,407 - SourenToolSet - INFO - 进度更新: 38/125 (30.4%) - 已执行: 38, 通过: 38, 失败: 0, 通信错误: 0
+2026-01-16 11:10:44,408 - SourenToolSet - INFO - 开始执行: 步骤 39/125 (第2/5轮循环 - 原始步骤14) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-01-16 11:10:44,410 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,166.970,166.970
+2026-01-16 11:10:44,410 - SourenToolSet - INFO - 步骤执行成功: 步骤 39/125 (第2/5轮循环 - 原始步骤14) - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,166.970,166.970
+2026-01-16 11:10:44,411 - SourenToolSet - INFO - 进度更新: 39/125 (31.2%) - 已执行: 39, 通过: 39, 失败: 0, 通信错误: 0
+2026-01-16 11:10:44,411 - SourenToolSet - INFO - 开始执行: 步骤 40/125 (第2/5轮循环 - 原始步骤15) - 内容: FETCh:NR:BLER:UL:RESult?
+2026-01-16 11:10:44,414 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:UL:RESult?' - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:10:44,414 - SourenToolSet - INFO - 步骤执行成功: 步骤 40/125 (第2/5轮循环 - 原始步骤15) - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:10:44,419 - SourenToolSet - INFO - 进度更新: 40/125 (32.0%) - 已执行: 40, 通过: 40, 失败: 0, 通信错误: 0
+2026-01-16 11:10:44,420 - SourenToolSet - INFO - 开始执行: 步骤 41/125 (第2/5轮循环 - 原始步骤16) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:10:44,422 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.426
+2026-01-16 11:10:44,422 - SourenToolSet - INFO - 步骤执行成功: 步骤 41/125 (第2/5轮循环 - 原始步骤16) - 结果: 0,14.426
+2026-01-16 11:10:44,424 - SourenToolSet - INFO - 进度更新: 41/125 (32.8%) - 已执行: 41, 通过: 41, 失败: 0, 通信错误: 0
+2026-01-16 11:10:44,424 - SourenToolSet - INFO - 开始执行: 步骤 42/125 (第2/5轮循环 - 原始步骤17) - 内容: CONFigure:NR:MEValuation:REPetition CONTINUOUS
+2026-01-16 11:10:44,926 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:10:44,926 - SourenToolSet - INFO - 步骤执行成功: 步骤 42/125 (第2/5轮循环 - 原始步骤17) - 结果: 命令执行成功
+2026-01-16 11:10:44,927 - SourenToolSet - INFO - 进度更新: 42/125 (33.6%) - 已执行: 42, 通过: 42, 失败: 0, 通信错误: 0
+2026-01-16 11:10:44,928 - SourenToolSet - INFO - 开始执行: 步骤 43/125 (第2/5轮循环 - 原始步骤18) - 内容: CONFigure:NR:BLER:REPetition CONTINUOUS
+2026-01-16 11:10:45,430 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:10:45,430 - SourenToolSet - INFO - 步骤执行成功: 步骤 43/125 (第2/5轮循环 - 原始步骤18) - 结果: 命令执行成功
+2026-01-16 11:10:45,432 - SourenToolSet - INFO - 进度更新: 43/125 (34.4%) - 已执行: 43, 通过: 43, 失败: 0, 通信错误: 0
+2026-01-16 11:10:45,433 - SourenToolSet - INFO - 开始执行: 步骤 44/125 (第2/5轮循环 - 原始步骤19) - 内容: Sleep 30000
+2026-01-16 11:11:15,433 - SourenToolSet - INFO - 命令执行成功: 'Sleep 30000' - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:11:15,433 - SourenToolSet - INFO - 步骤执行成功: 步骤 44/125 (第2/5轮循环 - 原始步骤19) - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:11:15,435 - SourenToolSet - INFO - 进度更新: 44/125 (35.2%) - 已执行: 44, 通过: 44, 失败: 0, 通信错误: 0
+2026-01-16 11:11:15,435 - SourenToolSet - INFO - 开始执行: 步骤 45/125 (第2/5轮循环 - 原始步骤20) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:11:15,437 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.381
+2026-01-16 11:11:15,437 - SourenToolSet - INFO - 步骤执行成功: 步骤 45/125 (第2/5轮循环 - 原始步骤20) - 结果: 0,14.381
+2026-01-16 11:11:15,438 - SourenToolSet - INFO - 进度更新: 45/125 (36.0%) - 已执行: 45, 通过: 45, 失败: 0, 通信错误: 0
+2026-01-16 11:11:15,439 - SourenToolSet - INFO - 开始执行: 步骤 46/125 (第2/5轮循环 - 原始步骤21) - 内容: ABORt:NR:BLER 
+2026-01-16 11:11:15,951 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:11:15,951 - SourenToolSet - INFO - 步骤执行成功: 步骤 46/125 (第2/5轮循环 - 原始步骤21) - 结果: 命令执行成功
+2026-01-16 11:11:15,951 - SourenToolSet - INFO - 进度更新: 46/125 (36.8%) - 已执行: 46, 通过: 46, 失败: 0, 通信错误: 0
+2026-01-16 11:11:15,952 - SourenToolSet - INFO - 开始执行: 步骤 47/125 (第2/5轮循环 - 原始步骤22) - 内容: ABORt:NR:MEValuation
+2026-01-16 11:11:16,454 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:11:16,454 - SourenToolSet - INFO - 步骤执行成功: 步骤 47/125 (第2/5轮循环 - 原始步骤22) - 结果: 命令执行成功
+2026-01-16 11:11:16,456 - SourenToolSet - INFO - 进度更新: 47/125 (37.6%) - 已执行: 47, 通过: 47, 失败: 0, 通信错误: 0
+2026-01-16 11:11:16,457 - SourenToolSet - INFO - 开始执行: 步骤 48/125 (第2/5轮循环 - 原始步骤23) - 内容: CALL:CELL1 OFF
+2026-01-16 11:11:16,958 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 OFF' - 结果: 命令执行成功
+2026-01-16 11:11:16,958 - SourenToolSet - INFO - 步骤执行成功: 步骤 48/125 (第2/5轮循环 - 原始步骤23) - 结果: 命令执行成功
+2026-01-16 11:11:16,959 - SourenToolSet - INFO - 进度更新: 48/125 (38.4%) - 已执行: 48, 通过: 48, 失败: 0, 通信错误: 0
+2026-01-16 11:11:16,959 - SourenToolSet - INFO - 开始执行: 步骤 49/125 (第2/5轮循环 - 原始步骤24) - 内容: Sleep 5000
+2026-01-16 11:11:21,960 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:11:21,960 - SourenToolSet - INFO - 步骤执行成功: 步骤 49/125 (第2/5轮循环 - 原始步骤24) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:11:21,961 - SourenToolSet - INFO - 进度更新: 49/125 (39.2%) - 已执行: 49, 通过: 49, 失败: 0, 通信错误: 0
+2026-01-16 11:11:21,961 - SourenToolSet - INFO - 开始执行: 步骤 50/125 (第2/5轮循环 - 原始步骤25) - 内容: CALL:CELL1?
+2026-01-16 11:11:21,962 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='OFF'
+2026-01-16 11:11:21,962 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:11:21,964 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1?' - 结果: OFF
+2026-01-16 11:11:21,965 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:11:21,965 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'OFF'
+2026-01-16 11:11:21,965 - SourenToolSet - INFO - 找到期望结果 'OFF'，停止循环
+2026-01-16 11:11:21,966 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:11:21,966 - SourenToolSet - INFO - 步骤执行成功: 步骤 50/125 (第2/5轮循环 - 原始步骤25) - 结果: 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:11:21,968 - SourenToolSet - INFO - 进度更新: 50/125 (40.0%) - 已执行: 50, 通过: 50, 失败: 0, 通信错误: 0
+2026-01-16 11:11:21,969 - SourenToolSet - INFO - 第 2/5 轮循环完成，耗时: 85.3秒
+2026-01-16 11:11:21,970 - SourenToolSet - INFO - 开始第 3/5 轮全局循环
+2026-01-16 11:11:21,970 - SourenToolSet - INFO - 开始执行: 步骤 51/125 (第3/5轮循环 - 原始步骤1) - 内容: CALL:CELL1 ON
+2026-01-16 11:11:51,505 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 ON' - 结果: 命令执行成功
+2026-01-16 11:11:51,505 - SourenToolSet - INFO - 步骤执行成功: 步骤 51/125 (第3/5轮循环 - 原始步骤1) - 结果: 命令执行成功
+2026-01-16 11:11:51,506 - SourenToolSet - INFO - 进度更新: 51/125 (40.8%) - 已执行: 51, 通过: 51, 失败: 0, 通信错误: 0
+2026-01-16 11:11:51,507 - SourenToolSet - INFO - 开始执行: 步骤 52/125 (第3/5轮循环 - 原始步骤2) - 内容: Sleep 10000
+2026-01-16 11:12:01,507 - SourenToolSet - INFO - 命令执行成功: 'Sleep 10000' - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:12:01,508 - SourenToolSet - INFO - 步骤执行成功: 步骤 52/125 (第3/5轮循环 - 原始步骤2) - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:12:01,508 - SourenToolSet - INFO - 进度更新: 52/125 (41.6%) - 已执行: 52, 通过: 52, 失败: 0, 通信错误: 0
+2026-01-16 11:12:01,508 - SourenToolSet - INFO - 开始执行: 步骤 53/125 (第3/5轮循环 - 原始步骤3) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-01-16 11:12:01,509 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='Connected'
+2026-01-16 11:12:01,509 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:12:01,511 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-01-16 11:12:01,512 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:12:01,512 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'Connected'
+2026-01-16 11:12:01,512 - SourenToolSet - INFO - 找到期望结果 'Connected'，停止循环
+2026-01-16 11:12:01,512 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:12:01,512 - SourenToolSet - INFO - 步骤执行成功: 步骤 53/125 (第3/5轮循环 - 原始步骤3) - 结果: 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:12:01,513 - SourenToolSet - INFO - 进度更新: 53/125 (42.4%) - 已执行: 53, 通过: 53, 失败: 0, 通信错误: 0
+2026-01-16 11:12:01,513 - SourenToolSet - INFO - 开始执行: 步骤 54/125 (第3/5轮循环 - 原始步骤4) - 内容: CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+2026-01-16 11:12:02,016 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF' - 结果: 命令执行成功
+2026-01-16 11:12:02,016 - SourenToolSet - INFO - 步骤执行成功: 步骤 54/125 (第3/5轮循环 - 原始步骤4) - 结果: 命令执行成功
+2026-01-16 11:12:02,016 - SourenToolSet - INFO - 进度更新: 54/125 (43.2%) - 已执行: 54, 通过: 54, 失败: 0, 通信错误: 0
+2026-01-16 11:12:02,017 - SourenToolSet - INFO - 开始执行: 步骤 55/125 (第3/5轮循环 - 原始步骤5) - 内容: *OPC?
+2026-01-16 11:12:02,020 - SourenToolSet - INFO - 命令执行成功: '*OPC?' - 结果: 1
+2026-01-16 11:12:02,020 - SourenToolSet - INFO - 步骤执行成功: 步骤 55/125 (第3/5轮循环 - 原始步骤5) - 结果: 1
+2026-01-16 11:12:02,021 - SourenToolSet - INFO - 进度更新: 55/125 (44.0%) - 已执行: 55, 通过: 55, 失败: 0, 通信错误: 0
+2026-01-16 11:12:02,021 - SourenToolSet - INFO - 开始执行: 步骤 56/125 (第3/5轮循环 - 原始步骤6) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-01-16 11:12:02,526 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-01-16 11:12:02,526 - SourenToolSet - INFO - 步骤执行成功: 步骤 56/125 (第3/5轮循环 - 原始步骤6) - 结果: 命令执行成功
+2026-01-16 11:12:02,527 - SourenToolSet - INFO - 进度更新: 56/125 (44.8%) - 已执行: 56, 通过: 56, 失败: 0, 通信错误: 0
+2026-01-16 11:12:02,527 - SourenToolSet - INFO - 开始执行: 步骤 57/125 (第3/5轮循环 - 原始步骤7) - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-01-16 11:12:03,030 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:12:03,030 - SourenToolSet - INFO - 步骤执行成功: 步骤 57/125 (第3/5轮循环 - 原始步骤7) - 结果: 命令执行成功
+2026-01-16 11:12:03,030 - SourenToolSet - INFO - 进度更新: 57/125 (45.6%) - 已执行: 57, 通过: 57, 失败: 0, 通信错误: 0
+2026-01-16 11:12:03,031 - SourenToolSet - INFO - 开始执行: 步骤 58/125 (第3/5轮循环 - 原始步骤8) - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-01-16 11:12:03,532 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:12:03,532 - SourenToolSet - INFO - 步骤执行成功: 步骤 58/125 (第3/5轮循环 - 原始步骤8) - 结果: 命令执行成功
+2026-01-16 11:12:03,533 - SourenToolSet - INFO - 进度更新: 58/125 (46.4%) - 已执行: 58, 通过: 58, 失败: 0, 通信错误: 0
+2026-01-16 11:12:03,533 - SourenToolSet - INFO - 开始执行: 步骤 59/125 (第3/5轮循环 - 原始步骤9) - 内容: INITiate:NR:BLER
+2026-01-16 11:12:04,034 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:12:04,034 - SourenToolSet - INFO - 步骤执行成功: 步骤 59/125 (第3/5轮循环 - 原始步骤9) - 结果: 命令执行成功
+2026-01-16 11:12:04,035 - SourenToolSet - INFO - 进度更新: 59/125 (47.2%) - 已执行: 59, 通过: 59, 失败: 0, 通信错误: 0
+2026-01-16 11:12:04,035 - SourenToolSet - INFO - 开始执行: 步骤 60/125 (第3/5轮循环 - 原始步骤10) - 内容: INITiate:NR:MEValuation
+2026-01-16 11:12:04,537 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:12:04,537 - SourenToolSet - INFO - 步骤执行成功: 步骤 60/125 (第3/5轮循环 - 原始步骤10) - 结果: 命令执行成功
+2026-01-16 11:12:04,537 - SourenToolSet - INFO - 进度更新: 60/125 (48.0%) - 已执行: 60, 通过: 60, 失败: 0, 通信错误: 0
+2026-01-16 11:12:04,538 - SourenToolSet - INFO - 开始执行: 步骤 61/125 (第3/5轮循环 - 原始步骤11) - 内容: FETCh:NR:MEValuation:STATe?
+2026-01-16 11:12:04,538 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:12:04,538 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:12:04,541 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:STATe?' - 结果: RDY
+2026-01-16 11:12:04,541 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:12:04,542 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:12:04,543 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:12:04,543 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:12:04,543 - SourenToolSet - INFO - 步骤执行成功: 步骤 61/125 (第3/5轮循环 - 原始步骤11) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:12:04,546 - SourenToolSet - INFO - 进度更新: 61/125 (48.8%) - 已执行: 61, 通过: 61, 失败: 0, 通信错误: 0
+2026-01-16 11:12:04,547 - SourenToolSet - INFO - 开始执行: 步骤 62/125 (第3/5轮循环 - 原始步骤12) - 内容: FETCh:NR:BLER:STATe?
+2026-01-16 11:12:04,548 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:12:04,548 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:12:04,550 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:STATe?' - 结果: RDY
+2026-01-16 11:12:04,550 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:12:04,550 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:12:04,551 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:12:04,551 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:12:04,551 - SourenToolSet - INFO - 步骤执行成功: 步骤 62/125 (第3/5轮循环 - 原始步骤12) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:12:04,551 - SourenToolSet - INFO - 进度更新: 62/125 (49.6%) - 已执行: 62, 通过: 62, 失败: 0, 通信错误: 0
+2026-01-16 11:12:04,552 - SourenToolSet - INFO - 开始执行: 步骤 63/125 (第3/5轮循环 - 原始步骤13) - 内容: Sleep 5000
+2026-01-16 11:12:09,552 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:12:09,553 - SourenToolSet - INFO - 步骤执行成功: 步骤 63/125 (第3/5轮循环 - 原始步骤13) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:12:09,554 - SourenToolSet - INFO - 进度更新: 63/125 (50.4%) - 已执行: 63, 通过: 63, 失败: 0, 通信错误: 0
+2026-01-16 11:12:09,554 - SourenToolSet - INFO - 开始执行: 步骤 64/125 (第3/5轮循环 - 原始步骤14) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-01-16 11:12:09,556 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,169.800,169.800
+2026-01-16 11:12:09,556 - SourenToolSet - INFO - 步骤执行成功: 步骤 64/125 (第3/5轮循环 - 原始步骤14) - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,169.800,169.800
+2026-01-16 11:12:09,558 - SourenToolSet - INFO - 进度更新: 64/125 (51.2%) - 已执行: 64, 通过: 64, 失败: 0, 通信错误: 0
+2026-01-16 11:12:09,558 - SourenToolSet - INFO - 开始执行: 步骤 65/125 (第3/5轮循环 - 原始步骤15) - 内容: FETCh:NR:BLER:UL:RESult?
+2026-01-16 11:12:09,561 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:UL:RESult?' - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:12:09,561 - SourenToolSet - INFO - 步骤执行成功: 步骤 65/125 (第3/5轮循环 - 原始步骤15) - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:12:09,566 - SourenToolSet - INFO - 进度更新: 65/125 (52.0%) - 已执行: 65, 通过: 65, 失败: 0, 通信错误: 0
+2026-01-16 11:12:09,567 - SourenToolSet - INFO - 开始执行: 步骤 66/125 (第3/5轮循环 - 原始步骤16) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:12:09,568 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.453
+2026-01-16 11:12:09,568 - SourenToolSet - INFO - 步骤执行成功: 步骤 66/125 (第3/5轮循环 - 原始步骤16) - 结果: 0,14.453
+2026-01-16 11:12:09,569 - SourenToolSet - INFO - 进度更新: 66/125 (52.8%) - 已执行: 66, 通过: 66, 失败: 0, 通信错误: 0
+2026-01-16 11:12:09,569 - SourenToolSet - INFO - 开始执行: 步骤 67/125 (第3/5轮循环 - 原始步骤17) - 内容: CONFigure:NR:MEValuation:REPetition CONTINUOUS
+2026-01-16 11:12:10,071 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:12:10,071 - SourenToolSet - INFO - 步骤执行成功: 步骤 67/125 (第3/5轮循环 - 原始步骤17) - 结果: 命令执行成功
+2026-01-16 11:12:10,071 - SourenToolSet - INFO - 进度更新: 67/125 (53.6%) - 已执行: 67, 通过: 67, 失败: 0, 通信错误: 0
+2026-01-16 11:12:10,072 - SourenToolSet - INFO - 开始执行: 步骤 68/125 (第3/5轮循环 - 原始步骤18) - 内容: CONFigure:NR:BLER:REPetition CONTINUOUS
+2026-01-16 11:12:10,573 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:12:10,573 - SourenToolSet - INFO - 步骤执行成功: 步骤 68/125 (第3/5轮循环 - 原始步骤18) - 结果: 命令执行成功
+2026-01-16 11:12:10,576 - SourenToolSet - INFO - 进度更新: 68/125 (54.4%) - 已执行: 68, 通过: 68, 失败: 0, 通信错误: 0
+2026-01-16 11:12:10,576 - SourenToolSet - INFO - 开始执行: 步骤 69/125 (第3/5轮循环 - 原始步骤19) - 内容: Sleep 30000
+2026-01-16 11:12:40,578 - SourenToolSet - INFO - 命令执行成功: 'Sleep 30000' - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:12:40,578 - SourenToolSet - INFO - 步骤执行成功: 步骤 69/125 (第3/5轮循环 - 原始步骤19) - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:12:40,579 - SourenToolSet - INFO - 进度更新: 69/125 (55.2%) - 已执行: 69, 通过: 69, 失败: 0, 通信错误: 0
+2026-01-16 11:12:40,580 - SourenToolSet - INFO - 开始执行: 步骤 70/125 (第3/5轮循环 - 原始步骤20) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:12:40,582 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.455
+2026-01-16 11:12:40,582 - SourenToolSet - INFO - 步骤执行成功: 步骤 70/125 (第3/5轮循环 - 原始步骤20) - 结果: 0,14.455
+2026-01-16 11:12:40,584 - SourenToolSet - INFO - 进度更新: 70/125 (56.0%) - 已执行: 70, 通过: 70, 失败: 0, 通信错误: 0
+2026-01-16 11:12:40,585 - SourenToolSet - INFO - 开始执行: 步骤 71/125 (第3/5轮循环 - 原始步骤21) - 内容: ABORt:NR:BLER 
+2026-01-16 11:12:41,089 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:12:41,089 - SourenToolSet - INFO - 步骤执行成功: 步骤 71/125 (第3/5轮循环 - 原始步骤21) - 结果: 命令执行成功
+2026-01-16 11:12:41,091 - SourenToolSet - INFO - 进度更新: 71/125 (56.8%) - 已执行: 71, 通过: 71, 失败: 0, 通信错误: 0
+2026-01-16 11:12:41,092 - SourenToolSet - INFO - 开始执行: 步骤 72/125 (第3/5轮循环 - 原始步骤22) - 内容: ABORt:NR:MEValuation
+2026-01-16 11:12:41,597 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:12:41,598 - SourenToolSet - INFO - 步骤执行成功: 步骤 72/125 (第3/5轮循环 - 原始步骤22) - 结果: 命令执行成功
+2026-01-16 11:12:41,598 - SourenToolSet - INFO - 进度更新: 72/125 (57.6%) - 已执行: 72, 通过: 72, 失败: 0, 通信错误: 0
+2026-01-16 11:12:41,599 - SourenToolSet - INFO - 开始执行: 步骤 73/125 (第3/5轮循环 - 原始步骤23) - 内容: CALL:CELL1 OFF
+2026-01-16 11:12:42,100 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 OFF' - 结果: 命令执行成功
+2026-01-16 11:12:42,101 - SourenToolSet - INFO - 步骤执行成功: 步骤 73/125 (第3/5轮循环 - 原始步骤23) - 结果: 命令执行成功
+2026-01-16 11:12:42,101 - SourenToolSet - INFO - 进度更新: 73/125 (58.4%) - 已执行: 73, 通过: 73, 失败: 0, 通信错误: 0
+2026-01-16 11:12:42,101 - SourenToolSet - INFO - 开始执行: 步骤 74/125 (第3/5轮循环 - 原始步骤24) - 内容: Sleep 5000
+2026-01-16 11:12:47,102 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:12:47,102 - SourenToolSet - INFO - 步骤执行成功: 步骤 74/125 (第3/5轮循环 - 原始步骤24) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:12:47,103 - SourenToolSet - INFO - 进度更新: 74/125 (59.2%) - 已执行: 74, 通过: 74, 失败: 0, 通信错误: 0
+2026-01-16 11:12:47,104 - SourenToolSet - INFO - 开始执行: 步骤 75/125 (第3/5轮循环 - 原始步骤25) - 内容: CALL:CELL1?
+2026-01-16 11:12:47,104 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='OFF'
+2026-01-16 11:12:47,104 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:12:47,105 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1?' - 结果: OFF
+2026-01-16 11:12:47,106 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:12:47,106 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'OFF'
+2026-01-16 11:12:47,107 - SourenToolSet - INFO - 找到期望结果 'OFF'，停止循环
+2026-01-16 11:12:47,107 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:12:47,107 - SourenToolSet - INFO - 步骤执行成功: 步骤 75/125 (第3/5轮循环 - 原始步骤25) - 结果: 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:12:47,108 - SourenToolSet - INFO - 进度更新: 75/125 (60.0%) - 已执行: 75, 通过: 75, 失败: 0, 通信错误: 0
+2026-01-16 11:12:47,108 - SourenToolSet - INFO - 第 3/5 轮循环完成，耗时: 85.1秒
+2026-01-16 11:12:47,112 - SourenToolSet - INFO - 开始第 4/5 轮全局循环
+2026-01-16 11:12:47,112 - SourenToolSet - INFO - 开始执行: 步骤 76/125 (第4/5轮循环 - 原始步骤1) - 内容: CALL:CELL1 ON
+2026-01-16 11:13:16,809 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 ON' - 结果: 命令执行成功
+2026-01-16 11:13:16,809 - SourenToolSet - INFO - 步骤执行成功: 步骤 76/125 (第4/5轮循环 - 原始步骤1) - 结果: 命令执行成功
+2026-01-16 11:13:16,810 - SourenToolSet - INFO - 进度更新: 76/125 (60.8%) - 已执行: 76, 通过: 76, 失败: 0, 通信错误: 0
+2026-01-16 11:13:16,810 - SourenToolSet - INFO - 开始执行: 步骤 77/125 (第4/5轮循环 - 原始步骤2) - 内容: Sleep 10000
+2026-01-16 11:13:26,812 - SourenToolSet - INFO - 命令执行成功: 'Sleep 10000' - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:13:26,812 - SourenToolSet - INFO - 步骤执行成功: 步骤 77/125 (第4/5轮循环 - 原始步骤2) - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:13:26,812 - SourenToolSet - INFO - 进度更新: 77/125 (61.6%) - 已执行: 77, 通过: 77, 失败: 0, 通信错误: 0
+2026-01-16 11:13:26,813 - SourenToolSet - INFO - 开始执行: 步骤 78/125 (第4/5轮循环 - 原始步骤3) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-01-16 11:13:26,813 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='Connected'
+2026-01-16 11:13:26,813 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:13:26,816 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-01-16 11:13:26,816 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:13:26,817 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'Connected'
+2026-01-16 11:13:26,818 - SourenToolSet - INFO - 找到期望结果 'Connected'，停止循环
+2026-01-16 11:13:26,818 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:13:26,818 - SourenToolSet - INFO - 步骤执行成功: 步骤 78/125 (第4/5轮循环 - 原始步骤3) - 结果: 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:13:26,820 - SourenToolSet - INFO - 进度更新: 78/125 (62.4%) - 已执行: 78, 通过: 78, 失败: 0, 通信错误: 0
+2026-01-16 11:13:26,821 - SourenToolSet - INFO - 开始执行: 步骤 79/125 (第4/5轮循环 - 原始步骤4) - 内容: CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+2026-01-16 11:13:27,324 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF' - 结果: 命令执行成功
+2026-01-16 11:13:27,324 - SourenToolSet - INFO - 步骤执行成功: 步骤 79/125 (第4/5轮循环 - 原始步骤4) - 结果: 命令执行成功
+2026-01-16 11:13:27,325 - SourenToolSet - INFO - 进度更新: 79/125 (63.2%) - 已执行: 79, 通过: 79, 失败: 0, 通信错误: 0
+2026-01-16 11:13:27,325 - SourenToolSet - INFO - 开始执行: 步骤 80/125 (第4/5轮循环 - 原始步骤5) - 内容: *OPC?
+2026-01-16 11:13:27,328 - SourenToolSet - INFO - 命令执行成功: '*OPC?' - 结果: 1
+2026-01-16 11:13:27,328 - SourenToolSet - INFO - 步骤执行成功: 步骤 80/125 (第4/5轮循环 - 原始步骤5) - 结果: 1
+2026-01-16 11:13:27,332 - SourenToolSet - INFO - 进度更新: 80/125 (64.0%) - 已执行: 80, 通过: 80, 失败: 0, 通信错误: 0
+2026-01-16 11:13:27,332 - SourenToolSet - INFO - 开始执行: 步骤 81/125 (第4/5轮循环 - 原始步骤6) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-01-16 11:13:27,835 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-01-16 11:13:27,835 - SourenToolSet - INFO - 步骤执行成功: 步骤 81/125 (第4/5轮循环 - 原始步骤6) - 结果: 命令执行成功
+2026-01-16 11:13:27,838 - SourenToolSet - INFO - 进度更新: 81/125 (64.8%) - 已执行: 81, 通过: 81, 失败: 0, 通信错误: 0
+2026-01-16 11:13:27,838 - SourenToolSet - INFO - 开始执行: 步骤 82/125 (第4/5轮循环 - 原始步骤7) - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-01-16 11:13:28,340 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:13:28,340 - SourenToolSet - INFO - 步骤执行成功: 步骤 82/125 (第4/5轮循环 - 原始步骤7) - 结果: 命令执行成功
+2026-01-16 11:13:28,341 - SourenToolSet - INFO - 进度更新: 82/125 (65.6%) - 已执行: 82, 通过: 82, 失败: 0, 通信错误: 0
+2026-01-16 11:13:28,341 - SourenToolSet - INFO - 开始执行: 步骤 83/125 (第4/5轮循环 - 原始步骤8) - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-01-16 11:13:28,844 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:13:28,844 - SourenToolSet - INFO - 步骤执行成功: 步骤 83/125 (第4/5轮循环 - 原始步骤8) - 结果: 命令执行成功
+2026-01-16 11:13:28,844 - SourenToolSet - INFO - 进度更新: 83/125 (66.4%) - 已执行: 83, 通过: 83, 失败: 0, 通信错误: 0
+2026-01-16 11:13:28,845 - SourenToolSet - INFO - 开始执行: 步骤 84/125 (第4/5轮循环 - 原始步骤9) - 内容: INITiate:NR:BLER
+2026-01-16 11:13:29,346 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:13:29,346 - SourenToolSet - INFO - 步骤执行成功: 步骤 84/125 (第4/5轮循环 - 原始步骤9) - 结果: 命令执行成功
+2026-01-16 11:13:29,347 - SourenToolSet - INFO - 进度更新: 84/125 (67.2%) - 已执行: 84, 通过: 84, 失败: 0, 通信错误: 0
+2026-01-16 11:13:29,347 - SourenToolSet - INFO - 开始执行: 步骤 85/125 (第4/5轮循环 - 原始步骤10) - 内容: INITiate:NR:MEValuation
+2026-01-16 11:13:29,849 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:13:29,849 - SourenToolSet - INFO - 步骤执行成功: 步骤 85/125 (第4/5轮循环 - 原始步骤10) - 结果: 命令执行成功
+2026-01-16 11:13:29,849 - SourenToolSet - INFO - 进度更新: 85/125 (68.0%) - 已执行: 85, 通过: 85, 失败: 0, 通信错误: 0
+2026-01-16 11:13:29,850 - SourenToolSet - INFO - 开始执行: 步骤 86/125 (第4/5轮循环 - 原始步骤11) - 内容: FETCh:NR:MEValuation:STATe?
+2026-01-16 11:13:29,850 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:13:29,850 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:13:29,851 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:STATe?' - 结果: RDY
+2026-01-16 11:13:29,852 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:13:29,852 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:13:29,852 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:13:29,852 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:13:29,852 - SourenToolSet - INFO - 步骤执行成功: 步骤 86/125 (第4/5轮循环 - 原始步骤11) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:13:29,853 - SourenToolSet - INFO - 进度更新: 86/125 (68.8%) - 已执行: 86, 通过: 86, 失败: 0, 通信错误: 0
+2026-01-16 11:13:29,853 - SourenToolSet - INFO - 开始执行: 步骤 87/125 (第4/5轮循环 - 原始步骤12) - 内容: FETCh:NR:BLER:STATe?
+2026-01-16 11:13:29,853 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:13:29,853 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:13:29,855 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:STATe?' - 结果: RDY
+2026-01-16 11:13:29,856 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:13:29,857 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:13:29,857 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:13:29,857 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:13:29,857 - SourenToolSet - INFO - 步骤执行成功: 步骤 87/125 (第4/5轮循环 - 原始步骤12) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:13:29,858 - SourenToolSet - INFO - 进度更新: 87/125 (69.6%) - 已执行: 87, 通过: 87, 失败: 0, 通信错误: 0
+2026-01-16 11:13:29,858 - SourenToolSet - INFO - 开始执行: 步骤 88/125 (第4/5轮循环 - 原始步骤13) - 内容: Sleep 5000
+2026-01-16 11:13:34,859 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:13:34,859 - SourenToolSet - INFO - 步骤执行成功: 步骤 88/125 (第4/5轮循环 - 原始步骤13) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:13:34,860 - SourenToolSet - INFO - 进度更新: 88/125 (70.4%) - 已执行: 88, 通过: 88, 失败: 0, 通信错误: 0
+2026-01-16 11:13:34,860 - SourenToolSet - INFO - 开始执行: 步骤 89/125 (第4/5轮循环 - 原始步骤14) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-01-16 11:13:34,861 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,166.970,166.970
+2026-01-16 11:13:34,861 - SourenToolSet - INFO - 步骤执行成功: 步骤 89/125 (第4/5轮循环 - 原始步骤14) - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,166.970,166.970
+2026-01-16 11:13:34,862 - SourenToolSet - INFO - 进度更新: 89/125 (71.2%) - 已执行: 89, 通过: 89, 失败: 0, 通信错误: 0
+2026-01-16 11:13:34,862 - SourenToolSet - INFO - 开始执行: 步骤 90/125 (第4/5轮循环 - 原始步骤15) - 内容: FETCh:NR:BLER:UL:RESult?
+2026-01-16 11:13:34,863 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:UL:RESult?' - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:13:34,863 - SourenToolSet - INFO - 步骤执行成功: 步骤 90/125 (第4/5轮循环 - 原始步骤15) - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:13:34,864 - SourenToolSet - INFO - 进度更新: 90/125 (72.0%) - 已执行: 90, 通过: 90, 失败: 0, 通信错误: 0
+2026-01-16 11:13:34,864 - SourenToolSet - INFO - 开始执行: 步骤 91/125 (第4/5轮循环 - 原始步骤16) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:13:34,865 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.442
+2026-01-16 11:13:34,865 - SourenToolSet - INFO - 步骤执行成功: 步骤 91/125 (第4/5轮循环 - 原始步骤16) - 结果: 0,14.442
+2026-01-16 11:13:34,868 - SourenToolSet - INFO - 进度更新: 91/125 (72.8%) - 已执行: 91, 通过: 91, 失败: 0, 通信错误: 0
+2026-01-16 11:13:34,869 - SourenToolSet - INFO - 开始执行: 步骤 92/125 (第4/5轮循环 - 原始步骤17) - 内容: CONFigure:NR:MEValuation:REPetition CONTINUOUS
+2026-01-16 11:13:35,370 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:13:35,370 - SourenToolSet - INFO - 步骤执行成功: 步骤 92/125 (第4/5轮循环 - 原始步骤17) - 结果: 命令执行成功
+2026-01-16 11:13:35,371 - SourenToolSet - INFO - 进度更新: 92/125 (73.6%) - 已执行: 92, 通过: 92, 失败: 0, 通信错误: 0
+2026-01-16 11:13:35,372 - SourenToolSet - INFO - 开始执行: 步骤 93/125 (第4/5轮循环 - 原始步骤18) - 内容: CONFigure:NR:BLER:REPetition CONTINUOUS
+2026-01-16 11:13:35,874 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:13:35,874 - SourenToolSet - INFO - 步骤执行成功: 步骤 93/125 (第4/5轮循环 - 原始步骤18) - 结果: 命令执行成功
+2026-01-16 11:13:35,876 - SourenToolSet - INFO - 进度更新: 93/125 (74.4%) - 已执行: 93, 通过: 93, 失败: 0, 通信错误: 0
+2026-01-16 11:13:35,876 - SourenToolSet - INFO - 开始执行: 步骤 94/125 (第4/5轮循环 - 原始步骤19) - 内容: Sleep 30000
+2026-01-16 11:14:05,877 - SourenToolSet - INFO - 命令执行成功: 'Sleep 30000' - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:14:05,877 - SourenToolSet - INFO - 步骤执行成功: 步骤 94/125 (第4/5轮循环 - 原始步骤19) - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:14:05,878 - SourenToolSet - INFO - 进度更新: 94/125 (75.2%) - 已执行: 94, 通过: 94, 失败: 0, 通信错误: 0
+2026-01-16 11:14:05,879 - SourenToolSet - INFO - 开始执行: 步骤 95/125 (第4/5轮循环 - 原始步骤20) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:14:05,881 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.411
+2026-01-16 11:14:05,881 - SourenToolSet - INFO - 步骤执行成功: 步骤 95/125 (第4/5轮循环 - 原始步骤20) - 结果: 0,14.411
+2026-01-16 11:14:05,882 - SourenToolSet - INFO - 进度更新: 95/125 (76.0%) - 已执行: 95, 通过: 95, 失败: 0, 通信错误: 0
+2026-01-16 11:14:05,882 - SourenToolSet - INFO - 开始执行: 步骤 96/125 (第4/5轮循环 - 原始步骤21) - 内容: ABORt:NR:BLER 
+2026-01-16 11:14:06,384 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:14:06,384 - SourenToolSet - INFO - 步骤执行成功: 步骤 96/125 (第4/5轮循环 - 原始步骤21) - 结果: 命令执行成功
+2026-01-16 11:14:06,385 - SourenToolSet - INFO - 进度更新: 96/125 (76.8%) - 已执行: 96, 通过: 96, 失败: 0, 通信错误: 0
+2026-01-16 11:14:06,385 - SourenToolSet - INFO - 开始执行: 步骤 97/125 (第4/5轮循环 - 原始步骤22) - 内容: ABORt:NR:MEValuation
+2026-01-16 11:14:06,886 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:14:06,886 - SourenToolSet - INFO - 步骤执行成功: 步骤 97/125 (第4/5轮循环 - 原始步骤22) - 结果: 命令执行成功
+2026-01-16 11:14:06,888 - SourenToolSet - INFO - 进度更新: 97/125 (77.6%) - 已执行: 97, 通过: 97, 失败: 0, 通信错误: 0
+2026-01-16 11:14:06,890 - SourenToolSet - INFO - 开始执行: 步骤 98/125 (第4/5轮循环 - 原始步骤23) - 内容: CALL:CELL1 OFF
+2026-01-16 11:14:07,391 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 OFF' - 结果: 命令执行成功
+2026-01-16 11:14:07,392 - SourenToolSet - INFO - 步骤执行成功: 步骤 98/125 (第4/5轮循环 - 原始步骤23) - 结果: 命令执行成功
+2026-01-16 11:14:07,392 - SourenToolSet - INFO - 进度更新: 98/125 (78.4%) - 已执行: 98, 通过: 98, 失败: 0, 通信错误: 0
+2026-01-16 11:14:07,393 - SourenToolSet - INFO - 开始执行: 步骤 99/125 (第4/5轮循环 - 原始步骤24) - 内容: Sleep 5000
+2026-01-16 11:14:12,393 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:14:12,393 - SourenToolSet - INFO - 步骤执行成功: 步骤 99/125 (第4/5轮循环 - 原始步骤24) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:14:12,395 - SourenToolSet - INFO - 进度更新: 99/125 (79.2%) - 已执行: 99, 通过: 99, 失败: 0, 通信错误: 0
+2026-01-16 11:14:12,395 - SourenToolSet - INFO - 开始执行: 步骤 100/125 (第4/5轮循环 - 原始步骤25) - 内容: CALL:CELL1?
+2026-01-16 11:14:12,395 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='OFF'
+2026-01-16 11:14:12,395 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:14:12,397 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1?' - 结果: OFF
+2026-01-16 11:14:12,397 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:14:12,398 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'OFF'
+2026-01-16 11:14:12,398 - SourenToolSet - INFO - 找到期望结果 'OFF'，停止循环
+2026-01-16 11:14:12,398 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:14:12,398 - SourenToolSet - INFO - 步骤执行成功: 步骤 100/125 (第4/5轮循环 - 原始步骤25) - 结果: 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:14:12,403 - SourenToolSet - INFO - 进度更新: 100/125 (80.0%) - 已执行: 100, 通过: 100, 失败: 0, 通信错误: 0
+2026-01-16 11:14:12,404 - SourenToolSet - INFO - 第 4/5 轮循环完成，耗时: 85.3秒
+2026-01-16 11:14:12,405 - SourenToolSet - INFO - 开始第 5/5 轮全局循环
+2026-01-16 11:14:12,406 - SourenToolSet - INFO - 开始执行: 步骤 101/125 (第5/5轮循环 - 原始步骤1) - 内容: CALL:CELL1 ON
+2026-01-16 11:14:41,611 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 ON' - 结果: 命令执行成功
+2026-01-16 11:14:41,611 - SourenToolSet - INFO - 步骤执行成功: 步骤 101/125 (第5/5轮循环 - 原始步骤1) - 结果: 命令执行成功
+2026-01-16 11:14:41,613 - SourenToolSet - INFO - 进度更新: 101/125 (80.8%) - 已执行: 101, 通过: 101, 失败: 0, 通信错误: 0
+2026-01-16 11:14:41,614 - SourenToolSet - INFO - 开始执行: 步骤 102/125 (第5/5轮循环 - 原始步骤2) - 内容: Sleep 10000
+2026-01-16 11:14:51,614 - SourenToolSet - INFO - 命令执行成功: 'Sleep 10000' - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:14:51,614 - SourenToolSet - INFO - 步骤执行成功: 步骤 102/125 (第5/5轮循环 - 原始步骤2) - 结果: 睡眠完成 (10000毫秒)
+2026-01-16 11:14:51,615 - SourenToolSet - INFO - 进度更新: 102/125 (81.6%) - 已执行: 102, 通过: 102, 失败: 0, 通信错误: 0
+2026-01-16 11:14:51,615 - SourenToolSet - INFO - 开始执行: 步骤 103/125 (第5/5轮循环 - 原始步骤3) - 内容: CONFigure:CELL1:NR:SIGN:UE:STATe?
+2026-01-16 11:14:51,616 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='Connected'
+2026-01-16 11:14:51,616 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:14:51,617 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:UE:STATe?' - 结果: "Connected"
+2026-01-16 11:14:51,618 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:14:51,619 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'Connected'
+2026-01-16 11:14:51,619 - SourenToolSet - INFO - 找到期望结果 'Connected'，停止循环
+2026-01-16 11:14:51,619 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:14:51,619 - SourenToolSet - INFO - 步骤执行成功: 步骤 103/125 (第5/5轮循环 - 原始步骤3) - 结果: 循环完成，在第1次迭代找到期望结果: 'Connected'
+2026-01-16 11:14:51,624 - SourenToolSet - INFO - 进度更新: 103/125 (82.4%) - 已执行: 103, 通过: 103, 失败: 0, 通信错误: 0
+2026-01-16 11:14:51,627 - SourenToolSet - INFO - 开始执行: 步骤 104/125 (第5/5轮循环 - 原始步骤4) - 内容: CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+2026-01-16 11:14:52,130 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF' - 结果: 命令执行成功
+2026-01-16 11:14:52,130 - SourenToolSet - INFO - 步骤执行成功: 步骤 104/125 (第5/5轮循环 - 原始步骤4) - 结果: 命令执行成功
+2026-01-16 11:14:52,131 - SourenToolSet - INFO - 进度更新: 104/125 (83.2%) - 已执行: 104, 通过: 104, 失败: 0, 通信错误: 0
+2026-01-16 11:14:52,131 - SourenToolSet - INFO - 开始执行: 步骤 105/125 (第5/5轮循环 - 原始步骤5) - 内容: *OPC?
+2026-01-16 11:14:52,132 - SourenToolSet - INFO - 命令执行成功: '*OPC?' - 结果: 1
+2026-01-16 11:14:52,132 - SourenToolSet - INFO - 步骤执行成功: 步骤 105/125 (第5/5轮循环 - 原始步骤5) - 结果: 1
+2026-01-16 11:14:52,134 - SourenToolSet - INFO - 进度更新: 105/125 (84.0%) - 已执行: 105, 通过: 105, 失败: 0, 通信错误: 0
+2026-01-16 11:14:52,134 - SourenToolSet - INFO - 开始执行: 步骤 106/125 (第5/5轮循环 - 原始步骤6) - 内容: CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+2026-01-16 11:14:52,636 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:CELL1:NR:SIGN:SLOT:APPLy' - 结果: 命令执行成功
+2026-01-16 11:14:52,636 - SourenToolSet - INFO - 步骤执行成功: 步骤 106/125 (第5/5轮循环 - 原始步骤6) - 结果: 命令执行成功
+2026-01-16 11:14:52,637 - SourenToolSet - INFO - 进度更新: 106/125 (84.8%) - 已执行: 106, 通过: 106, 失败: 0, 通信错误: 0
+2026-01-16 11:14:52,637 - SourenToolSet - INFO - 开始执行: 步骤 107/125 (第5/5轮循环 - 原始步骤7) - 内容: CONFigure:NR:MEValuation:REPetition SINGLESHOT
+2026-01-16 11:14:53,139 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:14:53,139 - SourenToolSet - INFO - 步骤执行成功: 步骤 107/125 (第5/5轮循环 - 原始步骤7) - 结果: 命令执行成功
+2026-01-16 11:14:53,140 - SourenToolSet - INFO - 进度更新: 107/125 (85.6%) - 已执行: 107, 通过: 107, 失败: 0, 通信错误: 0
+2026-01-16 11:14:53,140 - SourenToolSet - INFO - 开始执行: 步骤 108/125 (第5/5轮循环 - 原始步骤8) - 内容: CONFigure:NR:BLER:REPetition SINGLESHOT
+2026-01-16 11:14:53,641 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition SINGLESHOT' - 结果: 命令执行成功
+2026-01-16 11:14:53,641 - SourenToolSet - INFO - 步骤执行成功: 步骤 108/125 (第5/5轮循环 - 原始步骤8) - 结果: 命令执行成功
+2026-01-16 11:14:53,642 - SourenToolSet - INFO - 进度更新: 108/125 (86.4%) - 已执行: 108, 通过: 108, 失败: 0, 通信错误: 0
+2026-01-16 11:14:53,643 - SourenToolSet - INFO - 开始执行: 步骤 109/125 (第5/5轮循环 - 原始步骤9) - 内容: INITiate:NR:BLER
+2026-01-16 11:14:54,144 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:14:54,144 - SourenToolSet - INFO - 步骤执行成功: 步骤 109/125 (第5/5轮循环 - 原始步骤9) - 结果: 命令执行成功
+2026-01-16 11:14:54,145 - SourenToolSet - INFO - 进度更新: 109/125 (87.2%) - 已执行: 109, 通过: 109, 失败: 0, 通信错误: 0
+2026-01-16 11:14:54,145 - SourenToolSet - INFO - 开始执行: 步骤 110/125 (第5/5轮循环 - 原始步骤10) - 内容: INITiate:NR:MEValuation
+2026-01-16 11:14:54,647 - SourenToolSet - INFO - 命令执行成功: 'INITiate:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:14:54,647 - SourenToolSet - INFO - 步骤执行成功: 步骤 110/125 (第5/5轮循环 - 原始步骤10) - 结果: 命令执行成功
+2026-01-16 11:14:54,648 - SourenToolSet - INFO - 进度更新: 110/125 (88.0%) - 已执行: 110, 通过: 110, 失败: 0, 通信错误: 0
+2026-01-16 11:14:54,648 - SourenToolSet - INFO - 开始执行: 步骤 111/125 (第5/5轮循环 - 原始步骤11) - 内容: FETCh:NR:MEValuation:STATe?
+2026-01-16 11:14:54,648 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:14:54,648 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:14:54,649 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:STATe?' - 结果: RDY
+2026-01-16 11:14:54,649 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:14:54,650 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:14:54,650 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:14:54,650 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:14:54,650 - SourenToolSet - INFO - 步骤执行成功: 步骤 111/125 (第5/5轮循环 - 原始步骤11) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:14:54,651 - SourenToolSet - INFO - 进度更新: 111/125 (88.8%) - 已执行: 111, 通过: 111, 失败: 0, 通信错误: 0
+2026-01-16 11:14:54,652 - SourenToolSet - INFO - 开始执行: 步骤 112/125 (第5/5轮循环 - 原始步骤12) - 内容: FETCh:NR:BLER:STATe?
+2026-01-16 11:14:54,652 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=10, 期望结果='RDY'
+2026-01-16 11:14:54,652 - SourenToolSet - INFO - 循环迭代 1/10
+2026-01-16 11:14:54,654 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:STATe?' - 结果: RDY
+2026-01-16 11:14:54,656 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:14:54,656 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'RDY'
+2026-01-16 11:14:54,656 - SourenToolSet - INFO - 找到期望结果 'RDY'，停止循环
+2026-01-16 11:14:54,656 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:14:54,656 - SourenToolSet - INFO - 步骤执行成功: 步骤 112/125 (第5/5轮循环 - 原始步骤12) - 结果: 循环完成，在第1次迭代找到期望结果: 'RDY'
+2026-01-16 11:14:54,657 - SourenToolSet - INFO - 进度更新: 112/125 (89.6%) - 已执行: 112, 通过: 112, 失败: 0, 通信错误: 0
+2026-01-16 11:14:54,658 - SourenToolSet - INFO - 开始执行: 步骤 113/125 (第5/5轮循环 - 原始步骤13) - 内容: Sleep 5000
+2026-01-16 11:14:59,659 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:14:59,660 - SourenToolSet - INFO - 步骤执行成功: 步骤 113/125 (第5/5轮循环 - 原始步骤13) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:14:59,660 - SourenToolSet - INFO - 进度更新: 113/125 (90.4%) - 已执行: 113, 通过: 113, 失败: 0, 通信错误: 0
+2026-01-16 11:14:59,661 - SourenToolSet - INFO - 开始执行: 步骤 114/125 (第5/5轮循环 - 原始步骤14) - 内容: FETCh:NR:BLER:DL:RESult?
+2026-01-16 11:14:59,662 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:DL:RESult?' - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,169.800,169.800
+2026-01-16 11:14:59,662 - SourenToolSet - INFO - 步骤执行成功: 步骤 114/125 (第5/5轮循环 - 原始步骤14) - 结果: 0,67,67,0,0,56883,56883,0.000,0.000,169.800,169.800
+2026-01-16 11:14:59,663 - SourenToolSet - INFO - 进度更新: 114/125 (91.2%) - 已执行: 114, 通过: 114, 失败: 0, 通信错误: 0
+2026-01-16 11:14:59,664 - SourenToolSet - INFO - 开始执行: 步骤 115/125 (第5/5轮循环 - 原始步骤15) - 内容: FETCh:NR:BLER:UL:RESult?
+2026-01-16 11:14:59,665 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:BLER:UL:RESult?' - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:14:59,665 - SourenToolSet - INFO - 步骤执行成功: 步骤 115/125 (第5/5轮循环 - 原始步骤15) - 结果: 0,67,67,0,0,70752,70752,0.000,0.000,211.200,211.200
+2026-01-16 11:14:59,668 - SourenToolSet - INFO - 进度更新: 115/125 (92.0%) - 已执行: 115, 通过: 115, 失败: 0, 通信错误: 0
+2026-01-16 11:14:59,669 - SourenToolSet - INFO - 开始执行: 步骤 116/125 (第5/5轮循环 - 原始步骤16) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:14:59,673 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,14.435
+2026-01-16 11:14:59,673 - SourenToolSet - INFO - 步骤执行成功: 步骤 116/125 (第5/5轮循环 - 原始步骤16) - 结果: 0,14.435
+2026-01-16 11:14:59,674 - SourenToolSet - INFO - 进度更新: 116/125 (92.8%) - 已执行: 116, 通过: 116, 失败: 0, 通信错误: 0
+2026-01-16 11:14:59,674 - SourenToolSet - INFO - 开始执行: 步骤 117/125 (第5/5轮循环 - 原始步骤17) - 内容: CONFigure:NR:MEValuation:REPetition CONTINUOUS
+2026-01-16 11:15:00,179 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:MEValuation:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:15:00,179 - SourenToolSet - INFO - 步骤执行成功: 步骤 117/125 (第5/5轮循环 - 原始步骤17) - 结果: 命令执行成功
+2026-01-16 11:15:00,181 - SourenToolSet - INFO - 进度更新: 117/125 (93.6%) - 已执行: 117, 通过: 117, 失败: 0, 通信错误: 0
+2026-01-16 11:15:00,182 - SourenToolSet - INFO - 开始执行: 步骤 118/125 (第5/5轮循环 - 原始步骤18) - 内容: CONFigure:NR:BLER:REPetition CONTINUOUS
+2026-01-16 11:15:00,684 - SourenToolSet - INFO - 命令执行成功: 'CONFigure:NR:BLER:REPetition CONTINUOUS' - 结果: 命令执行成功
+2026-01-16 11:15:00,684 - SourenToolSet - INFO - 步骤执行成功: 步骤 118/125 (第5/5轮循环 - 原始步骤18) - 结果: 命令执行成功
+2026-01-16 11:15:00,685 - SourenToolSet - INFO - 进度更新: 118/125 (94.4%) - 已执行: 118, 通过: 118, 失败: 0, 通信错误: 0
+2026-01-16 11:15:00,686 - SourenToolSet - INFO - 开始执行: 步骤 119/125 (第5/5轮循环 - 原始步骤19) - 内容: Sleep 30000
+2026-01-16 11:15:30,687 - SourenToolSet - INFO - 命令执行成功: 'Sleep 30000' - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:15:30,687 - SourenToolSet - INFO - 步骤执行成功: 步骤 119/125 (第5/5轮循环 - 原始步骤19) - 结果: 睡眠完成 (30000毫秒)
+2026-01-16 11:15:30,688 - SourenToolSet - INFO - 进度更新: 119/125 (95.2%) - 已执行: 119, 通过: 119, 失败: 0, 通信错误: 0
+2026-01-16 11:15:30,688 - SourenToolSet - INFO - 开始执行: 步骤 120/125 (第5/5轮循环 - 原始步骤20) - 内容: FETCh:NR:MEValuation:TXP:AVG?
+2026-01-16 11:15:30,690 - SourenToolSet - INFO - 命令执行成功: 'FETCh:NR:MEValuation:TXP:AVG?' - 结果: 0,-25.067
+2026-01-16 11:15:30,690 - SourenToolSet - INFO - 步骤执行成功: 步骤 120/125 (第5/5轮循环 - 原始步骤20) - 结果: 0,-25.067
+2026-01-16 11:15:30,690 - SourenToolSet - INFO - 进度更新: 120/125 (96.0%) - 已执行: 120, 通过: 120, 失败: 0, 通信错误: 0
+2026-01-16 11:15:30,691 - SourenToolSet - INFO - 开始执行: 步骤 121/125 (第5/5轮循环 - 原始步骤21) - 内容: ABORt:NR:BLER 
+2026-01-16 11:15:31,192 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:BLER' - 结果: 命令执行成功
+2026-01-16 11:15:31,192 - SourenToolSet - INFO - 步骤执行成功: 步骤 121/125 (第5/5轮循环 - 原始步骤21) - 结果: 命令执行成功
+2026-01-16 11:15:31,193 - SourenToolSet - INFO - 进度更新: 121/125 (96.8%) - 已执行: 121, 通过: 121, 失败: 0, 通信错误: 0
+2026-01-16 11:15:31,193 - SourenToolSet - INFO - 开始执行: 步骤 122/125 (第5/5轮循环 - 原始步骤22) - 内容: ABORt:NR:MEValuation
+2026-01-16 11:15:31,695 - SourenToolSet - INFO - 命令执行成功: 'ABORt:NR:MEValuation' - 结果: 命令执行成功
+2026-01-16 11:15:31,695 - SourenToolSet - INFO - 步骤执行成功: 步骤 122/125 (第5/5轮循环 - 原始步骤22) - 结果: 命令执行成功
+2026-01-16 11:15:31,696 - SourenToolSet - INFO - 进度更新: 122/125 (97.6%) - 已执行: 122, 通过: 122, 失败: 0, 通信错误: 0
+2026-01-16 11:15:31,696 - SourenToolSet - INFO - 开始执行: 步骤 123/125 (第5/5轮循环 - 原始步骤23) - 内容: CALL:CELL1 OFF
+2026-01-16 11:15:32,198 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1 OFF' - 结果: 命令执行成功
+2026-01-16 11:15:32,198 - SourenToolSet - INFO - 步骤执行成功: 步骤 123/125 (第5/5轮循环 - 原始步骤23) - 结果: 命令执行成功
+2026-01-16 11:15:32,198 - SourenToolSet - INFO - 进度更新: 123/125 (98.4%) - 已执行: 123, 通过: 123, 失败: 0, 通信错误: 0
+2026-01-16 11:15:32,199 - SourenToolSet - INFO - 开始执行: 步骤 124/125 (第5/5轮循环 - 原始步骤24) - 内容: Sleep 5000
+2026-01-16 11:15:37,201 - SourenToolSet - INFO - 命令执行成功: 'Sleep 5000' - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:15:37,202 - SourenToolSet - INFO - 步骤执行成功: 步骤 124/125 (第5/5轮循环 - 原始步骤24) - 结果: 睡眠完成 (5000毫秒)
+2026-01-16 11:15:37,205 - SourenToolSet - INFO - 进度更新: 124/125 (99.2%) - 已执行: 124, 通过: 124, 失败: 0, 通信错误: 0
+2026-01-16 11:15:37,205 - SourenToolSet - INFO - 开始执行: 步骤 125/125 (第5/5轮循环 - 原始步骤25) - 内容: CALL:CELL1?
+2026-01-16 11:15:37,206 - SourenToolSet - INFO - 开始执行循环步骤: 最大次数=20, 期望结果='OFF'
+2026-01-16 11:15:37,206 - SourenToolSet - INFO - 循环迭代 1/20
+2026-01-16 11:15:37,208 - SourenToolSet - INFO - 命令执行成功: 'CALL:CELL1?' - 结果: OFF
+2026-01-16 11:15:37,208 - SourenToolSet - INFO - 循环迭代 1 命令执行成功 - 耗时: 0.00秒
+2026-01-16 11:15:37,212 - SourenToolSet - INFO - 循环迭代 1 符合期望结果: 'OFF'
+2026-01-16 11:15:37,213 - SourenToolSet - INFO - 找到期望结果 'OFF'，停止循环
+2026-01-16 11:15:37,213 - SourenToolSet - INFO - 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:15:37,213 - SourenToolSet - INFO - 步骤执行成功: 步骤 125/125 (第5/5轮循环 - 原始步骤25) - 结果: 循环完成，在第1次迭代找到期望结果: 'OFF'
+2026-01-16 11:15:37,217 - SourenToolSet - INFO - 进度更新: 125/125 (100.0%) - 已执行: 125, 通过: 125, 失败: 0, 通信错误: 0
+2026-01-16 11:15:37,219 - SourenToolSet - INFO - 第 5/5 轮循环完成，耗时: 84.8秒
+2026-01-16 11:15:37,219 - SourenToolSet - INFO - 测试执行完成 - 状态: stopped, 消息: 测试被用户停止 (设备: TCPIP0::192.168.30.122::inst0::INSTR)
+2026-01-16 11:15:37,219 - SourenToolSet - INFO - 统计信息: 原始步骤25, 总执行次数125, 已执行125, 通过125, 失败0, 通信错误0
+2026-01-16 11:15:37,231 - SourenToolSet - INFO - 循环模式统计: 5次全局循环，共执行 125 次，成功率: 100.0%
+2026-01-16 11:15:37,231 - SourenToolSet - INFO - 完整工作流程执行成功
+2026-01-16 11:15:40,161 - SourenToolSet - INFO - 开始清理资源
+2026-01-16 11:15:40,163 - SourenToolSet - INFO - 资源清理完成
