@@ -1,0 +1,24 @@
+2026-02-13 15:19:45,833 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-02-13 15:19:45,837 - SourenToolSet - INFO - 开始初始化系统
+2026-02-13 15:19:46,045 - SourenToolSet - INFO - 系统初始化完成
+2026-02-13 15:19:46,045 - SourenToolSet - INFO - 加载Python文件: sa_test.py
+2026-02-13 15:19:46,045 - SourenToolSet - INFO - 文件完整路径: d:\feifei\2026_02_10\auto_test\yc1100\sa_test.py
+2026-02-13 15:19:46,046 - SourenToolSet - INFO - 使用参数配置: {'lineLoss': 5.0, 'band': 77, 'bw': 100, 'scs': 30, 'range': 'LOW', 'case_dir': 'yc1100'}
+2026-02-13 15:19:46,048 - SourenToolSet - INFO - 获取仪器信息
+2026-02-13 15:19:46,050 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-02-13 15:19:46,054 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-02-13 15:21:08,067 - SourenToolSet - INFO - 完整工作流程执行成功，完成 1 次循环
+2026-02-13 15:21:09,717 - SourenToolSet - INFO - 开始清理资源
+2026-02-13 15:21:09,720 - SourenToolSet - INFO - 资源清理完成
+2026-02-13 15:21:11,772 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-02-13 15:21:11,772 - SourenToolSet - INFO - 开始初始化系统
+2026-02-13 15:21:11,891 - SourenToolSet - INFO - 系统初始化完成
+2026-02-13 15:21:11,891 - SourenToolSet - INFO - 加载Python文件: sa_test.py
+2026-02-13 15:21:11,892 - SourenToolSet - INFO - 文件完整路径: d:\feifei\2026_02_10\auto_test\yc1100\sa_test.py
+2026-02-13 15:21:11,892 - SourenToolSet - INFO - 使用参数配置: {'lineLoss': 5.0, 'band': 78, 'bw': 100, 'scs': 30, 'range': 'LOW', 'case_dir': 'yc1100'}
+2026-02-13 15:21:11,892 - SourenToolSet - INFO - 获取仪器信息
+2026-02-13 15:21:11,892 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-02-13 15:21:11,893 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-02-13 15:22:21,666 - SourenToolSet - INFO - 完整工作流程执行成功，完成 1 次循环
+2026-02-13 15:22:22,715 - SourenToolSet - INFO - 开始清理资源
+2026-02-13 15:22:22,717 - SourenToolSet - INFO - 资源清理完成

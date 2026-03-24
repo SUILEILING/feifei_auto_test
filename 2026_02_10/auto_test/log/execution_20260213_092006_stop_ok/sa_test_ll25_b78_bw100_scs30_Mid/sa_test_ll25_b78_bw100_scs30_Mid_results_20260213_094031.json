@@ -1,0 +1,105 @@
+[
+  {
+    "workflow": "complete",
+    "steps": [
+      {
+        "step": 1,
+        "name": "initialize_system",
+        "success": true,
+        "message": "系统初始化完成"
+      },
+      {
+        "step": 2,
+        "name": "load_file",
+        "success": true,
+        "result": {
+          "success": true,
+          "file": "d:\\feifei\\2026_02_10\\auto_test\\yc1100\\sa_test.py",
+          "message": "文件加载成功",
+          "size": 3984
+        }
+      },
+      {
+        "step": 3,
+        "name": "get_instrument_info",
+        "success": true,
+        "result": {
+          "success": true,
+          "device": {
+            "id": "TCPIP0::192.168.30.122::inst0::INSTR",
+            "name": "TCPIP0::192.168.30.122::inst0::INSTR",
+            "type": "TCPIP",
+            "status": "online",
+            "address": "TCPIP0::192.168.30.122::inst0::INSTR"
+          },
+          "message": "成功获取仪器信息: TCPIP0::192.168.30.122::inst0::INSTR"
+        }
+      },
+      {
+        "step": 4,
+        "name": "execute_tests_loop_1",
+        "success": false,
+        "result": {
+          "error": "用户中断测试执行",
+          "interrupted": true
+        }
+      }
+    ],
+    "overall_success": true,
+    "start_time": "2026-02-13T09:40:31.041112",
+    "loop_count": 5,
+    "loop_results": [
+      {
+        "loop_index": 1,
+        "success": false,
+        "result": {
+          "error": "用户中断测试执行",
+          "interrupted": true
+        },
+        "parameters": {
+          "lineLoss": 25.0,
+          "band": 78,
+          "bw": 100,
+          "scs": 30,
+          "range": "Mid",
+          "case_dir": "yc1100"
+        }
+      }
+    ],
+    "parameters": {
+      "lineLoss": 25.0,
+      "band": 78,
+      "bw": 100,
+      "scs": 30,
+      "range": "Mid",
+      "case_dir": "yc1100"
+    },
+    "interrupted": true,
+    "status": "interrupted",
+    "message": "测试被用户中断，但已保存已执行的数据",
+    "end_time": "2026-02-13T09:40:32.002972",
+    "total_loops_executed": 1,
+    "final_result": [
+      {
+        "loop_index": 1,
+        "success": false,
+        "result": {
+          "error": "用户中断测试执行",
+          "interrupted": true
+        },
+        "parameters": {
+          "lineLoss": 25.0,
+          "band": 78,
+          "bw": 100,
+          "scs": 30,
+          "range": "Mid",
+          "case_dir": "yc1100"
+        }
+      }
+    ],
+    "excel_export": "失败",
+    "timestamp": "2026-02-13T09:40:32.005910",
+    "timestamp_readable": "2026-02-13 09:40:32",
+    "script_name": "sa_test_ll25_b78_bw100_scs30_Mid.py"
+  }
+]

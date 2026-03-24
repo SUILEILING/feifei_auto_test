@@ -1,0 +1,28 @@
+2026-03-05 14:36:21,106 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-03-05 14:36:21,107 - SourenToolSet - INFO - 开始初始化系统
+2026-03-05 14:36:21,309 - SourenToolSet - INFO - 系统初始化完成
+2026-03-05 14:36:21,309 - SourenToolSet - INFO - 加载Python文件: sa_test.py
+2026-03-05 14:36:21,309 - SourenToolSet - INFO - 文件完整路径: d:\feifei\2026_02_10\auto_test\yc1100\sa_test.py
+2026-03-05 14:36:21,310 - SourenToolSet - INFO - 使用参数配置: {'lineLoss': 25.0, 'band': 77, 'bw': 100, 'scs': 30, 'range': 'LOW', 'case_dir': 'yc1100'}
+2026-03-05 14:36:21,310 - SourenToolSet - INFO - 获取仪器信息
+2026-03-05 14:36:21,312 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-03-05 14:36:21,313 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/2
+2026-03-05 14:37:57,834 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 2
+2026-03-05 14:37:57,835 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 2/2
+2026-03-05 14:39:31,308 - SourenToolSet - INFO - 完整工作流程执行成功，完成 2 次循环
+2026-03-05 14:39:33,824 - SourenToolSet - INFO - 开始清理资源
+2026-03-05 14:39:33,825 - SourenToolSet - INFO - 资源清理完成
+2026-03-05 14:39:35,842 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-03-05 14:39:35,843 - SourenToolSet - INFO - 开始初始化系统
+2026-03-05 14:39:35,988 - SourenToolSet - INFO - 系统初始化完成
+2026-03-05 14:39:35,988 - SourenToolSet - INFO - 加载Python文件: sa_test.py
+2026-03-05 14:39:35,988 - SourenToolSet - INFO - 文件完整路径: d:\feifei\2026_02_10\auto_test\yc1100\sa_test.py
+2026-03-05 14:39:35,988 - SourenToolSet - INFO - 使用参数配置: {'lineLoss': 25.0, 'band': 78, 'bw': 100, 'scs': 30, 'range': 'LOW', 'case_dir': 'yc1100'}
+2026-03-05 14:39:35,988 - SourenToolSet - INFO - 获取仪器信息
+2026-03-05 14:39:35,989 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-03-05 14:39:35,990 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/2
+2026-03-05 14:41:13,125 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 2
+2026-03-05 14:41:13,126 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 2/2
+2026-03-05 14:42:46,900 - SourenToolSet - INFO - 完整工作流程执行成功，完成 2 次循环
+2026-03-05 14:42:48,470 - SourenToolSet - INFO - 开始清理资源
+2026-03-05 14:42:48,472 - SourenToolSet - INFO - 资源清理完成
