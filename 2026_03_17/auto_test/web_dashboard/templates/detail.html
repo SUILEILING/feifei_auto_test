@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="mb-3">
+    <a href="/" class="btn btn-secondary">← 返回列表</a>
+</div>
+
+<h2>执行详情</h2>
+<div class="card mb-4">
+    <div class="card-header">
+        基本信息
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-2">脚本</dt>
+            <dd class="col-sm-10">{{ data.get('script_name', data.get('file', '')) }}</dd>
+            <dt class="col-sm-2">设备</dt>
+            <dd class="col-sm-10">{{ data.get('device', {}).get('address', 'N/A') }}</dd>
+            <dt class="col-sm-2">参数</dt>
+            <dd class="col-sm-10">
+                {% for k, v in data.get('parameters', {}).items() %}
+                    {{ k }}: {{ v }}<br>
+                {% endfor %}
+            </dd>
+            <dt class="col-sm-2">开始时间</dt>
+            <dd class="col-sm-10">{{ data.get('start_time', '') }}</dd>
+            <dt class="col-sm-2">结束时间</dt>
+            <dd class="col-sm-10">{{ data.get('end_time', '') }}</dd>
+            <dt class="col-sm-2">总耗时</dt>
+            <dd class="col-sm-10">{{ "%.2f"|format(data.get('execution_time', 0)) }} 秒</dd>
+            <dt class="col-sm-2">状态</dt>
+            <dd class="col-sm-10">
+                {% if data.get('overall_success') %}
+                    <span class="badge bg-success">成功</span>
+                {% else %}
+                    <span class="badge bg-danger">失败</span>
+                {% endif %}
+                {% if data.get('interrupted') %}
+                    <span class="badge bg-warning text-dark">中断</span>
+                {% endif %}
+            </dd>
+        </dl>
+    </div>
+</div>
+
+{% if data.get('extracted_data') %}
+<div class="card mb-4">
+    <div class="card-header">
+        提取的数据
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>循环</th>
+                        <th>命令</th>
+                        <th>数值</th>
+                        <th>图表标题</th>
+                        <th>横坐标</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in data.extracted_data %}
+                    <tr>
+                        <td>{{ item.loop_iteration }}</td>
+                        <td><code>{{ item.command }}</code></td>
+                        <td>{{ item.extracted_data }}</td>
+                        <td>{{ item.chart_title or '' }}</td>
+                        <td>{{ item.x_label or '' }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{% if data.get('execution_details') %}
+<div class="card">
+    <div class="card-header">
+        执行步骤
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>步骤</th>
+                        <th>类型</th>
+                        <th>内容</th>
+                        <th>状态</th>
+                        <th>耗时(s)</th>
+                        <th>结果</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for step in data.execution_details %}
+                    <tr>
+                        <td>{{ step.step }}</td>
+                        <td>{{ step.type }}</td>
+                        <td><code>{{ step.content }}</code></td>
+                        <td>
+                            {% if step.status == 'success' %}
+                                <span class="badge bg-success">成功</span>
+                            {% elif step.status == 'failed' %}
+                                <span class="badge bg-danger">失败</span>
+                            {% else %}
+                                <span class="badge bg-secondary">{{ step.status }}</span>
+                            {% endif %}
+                        </td>
+                        <td>{{ "%.3f"|format(step.duration) }}</td>
+                        <td style="max-width: 400px; word-break: break-all;">{{ step.result }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,80 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[python]": {
+        
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.pasteAs.preferences": [
+
+
+    ],       
+    "python.analysis.extraPaths": ["${workspaceFolder}"],
+    "python.autoComplete.extraPaths": ["${workspaceFolder}"],
+    "python.analysis.indexing": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": true,
+    "python.languageServer": "Pylance", 
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.indentSize": "tabSize",
+    "workbench.editor.enablePreview": false,
+    
+
+    "python.pythonPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "python.venvPath": "${workspaceFolder}/venv",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.importFormat": "absolute",
+    
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoFormatStrings": true,
+
+    "python.analysis.useLibraryCodeForTypes": true,
+
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.showClasses": true,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showModules": true,
+    "editor.suggest.showStructs": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.codeActionsOnSave": {
+    },
+
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": "cmd.exe",
+            "args": ["/k", "chcp 65001"]
+        },
+        "PowerShell": {
+            "path": "powershell.exe",
+            "args": []
+        }
+    },
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/k", "chcp 65001"],
+    "python.terminal.activateEnvironment": false,
+    "python.terminal.executeInFileDir": true,
+    "python.defaultInterpreterPath": "c:\\Users\\吴非\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "editor.language.brackets": [
+        
+    ],
+    "workbench.settings.applyToAllProfiles": [
+    
+    ],
+
+}

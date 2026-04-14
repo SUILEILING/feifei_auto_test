@@ -1,0 +1,12 @@
+2026-03-30 19:14:45,692 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-03-30 19:14:45,693 - SourenToolSet - INFO - 开始初始化系统
+2026-03-30 19:14:45,876 - SourenToolSet - INFO - 系统初始化完成
+2026-03-30 19:14:45,878 - SourenToolSet - INFO - 加载Python文件: sa_power_test_ot.py
+2026-03-30 19:14:45,878 - SourenToolSet - INFO - 文件完整路径: d:\feifei\2026_03_17\auto_test\yc1100\sa_power_test_ot.py
+2026-03-30 19:14:45,878 - SourenToolSet - INFO - 使用参数配置: {'lineLoss': 30.0, 'band': 79, 'bw': 100, 'scs': 30, 'range': 'LOW', 'start_power': -40, 'end_power': -130, 'step': -2, 'fallback_delta': 36, 'case_dir': 'yc1100'}
+2026-03-30 19:14:45,879 - SourenToolSet - INFO - 获取仪器信息
+2026-03-30 19:14:45,882 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-03-30 19:14:45,882 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-03-30 19:16:10,148 - SourenToolSet - INFO - 完整工作流程执行成功，完成 1 次循环
+2026-03-30 19:16:14,220 - SourenToolSet - INFO - 开始清理资源
+2026-03-30 19:16:14,226 - SourenToolSet - INFO - 资源清理完成

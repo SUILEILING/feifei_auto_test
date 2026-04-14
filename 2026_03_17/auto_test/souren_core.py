@@ -78,7 +78,7 @@ class InstrumentController:
                 return True, result
             else:
                 self.instrument.write(command)
-                time.sleep(0.5)
+                time.sleep(0.05)
                 return True, "命令执行成功"
         except pyvisa.errors.VisaIOError as e:
             error_msg = f"仪器通信错误: {str(e)}"
