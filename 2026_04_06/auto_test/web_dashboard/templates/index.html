@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="mb-4">历史执行记录</h1>
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>时间</th>
+                <th>脚本</th>
+                <th>设备</th>
+                <th>参数</th>
+                <th>循环次数</th>
+                <th>耗时(s)</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for exec in executions %}
+            <tr>
+                <td>{{ exec.timestamp }}</td>
+                <td>{{ exec.script }}</td>
+                <td>{{ exec.device }}</td>
+                <td>
+                    {% for k, v in exec.parameters.items() %}
+                        {{ k }}:{{ v }}<br>
+                    {% endfor %}
+                </td>
+                <td>{{ exec.loop_count }}</td>
+                <td>{{ "%.2f"|format(exec.duration) }}</td>
+                <td>
+                    {% if exec.status == '完成' %}
+                        <span class="badge bg-success">完成</span>
+                    {% else %}
+                        <span class="badge bg-danger">失败</span>
+                    {% endif %}
+                </td>
+                <td>
+                    <a href="{{ url_for('detail', dir_name=exec.dir, json_file=exec.json_file) }}" class="btn btn-sm btn-primary">查看详情</a>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td colspan="8" class="text-center">暂无执行记录</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

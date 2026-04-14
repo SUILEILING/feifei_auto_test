@@ -32,7 +32,9 @@ PYTHON_SCRIPT_NAME = [
     # {"script": "sa_test", "lineLoss": 30.00, "band": 79, "bw": 100, "scs": 30, "range": "Mid", "case_dir": "yc1100"},
     # {"script": "sa_test", "lineLoss": 30.00, "band": 79, "bw": 100, "scs": 30, "range": "High", "case_dir": "yc1100"},
 
-    # {"script": "sa_power_test", "lineLoss": 30.00, "band": 79, "bw": 100, "scs": 30, "range": "LOW", "start_power": -40, "end_power": -95, "step": -2, "fallback_delta": 10, "case_dir": "yc1100"}
+    # {"script": "sa_power_test", "lineLoss": 30.00, "band": 79, "bw": 100, "scs": 30, "range": "LOW", "start_power": -40, "end_power": -95, "step": -2, "fallback_delta": 10, "case_dir": "yc1100"},
+
+    {"script": "sa_power_test_ot", "lineLoss": 30.00, "band": 79, "bw": 100, "scs": 30, "range": "LOW", "start_power": -40, "end_power": -130, "step": -2, "fallback_delta": 36, "case_dir": "yc1100"},
 
     #-----------------------------------------------------------------------------------------------------------------
 

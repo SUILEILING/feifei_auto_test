@@ -1,0 +1,4 @@
+/* 可选，用于微调表格样式 */
+.table td {
+    vertical-align: middle;
+}
