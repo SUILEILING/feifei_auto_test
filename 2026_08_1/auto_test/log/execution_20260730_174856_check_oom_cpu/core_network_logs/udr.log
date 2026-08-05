@@ -1,0 +1,194 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:21:46.721: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:21:46.721: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:21:46.722: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:21:46.722: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:21:46.722: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:1829)
+07/29 15:21:46.722: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:424)
+07/29 15:21:46.722: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+07/29 15:21:46.723: [sbi] INFO: [28564e82-8b1e-41f1-93d7-b10927ae423b] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/29 15:21:46.723: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/29 15:21:46.723: [sbi] INFO: [28568014-8b1e-41f1-9f04-1f24480b1fe9] Subscription created until 2026-07-30T15:21:46.723337+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+07/29 15:24:27.583: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:24:27.583: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:24:27.583: [sbi] INFO: [28564e82-8b1e-41f1-93d7-b10927ae423b] NF de-registered (../lib/sbi/nf-sm.c:235)
+07/29 15:24:27.586: [app] INFO: UDR terminate...done (../src/udr/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:25:04.957: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:25:04.957: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:25:04.958: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:25:04.960: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:25:04.960: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:25:07.234: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:25:07.234: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:25:07.235: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:25:07.235: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:25:07.235: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:25:09.508: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:25:09.508: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:25:09.508: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:25:09.509: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:25:09.509: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:1829)
+07/29 15:25:09.509: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:424)
+07/29 15:25:09.509: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+07/29 15:25:09.511: [sbi] INFO: [a1351e3c-8b1e-41f1-9902-8d3677ab3cfd] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/29 15:25:09.511: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/29 15:25:09.511: [sbi] INFO: [a1357f9e-8b1e-41f1-8b8e-05027d6703e7] Subscription created until 2026-07-30T15:25:09.511369+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+07/29 15:27:40.733: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:27:40.733: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:27:40.733: [sbi] INFO: [a1351e3c-8b1e-41f1-9902-8d3677ab3cfd] NF de-registered (../lib/sbi/nf-sm.c:235)
+07/29 15:27:40.737: [app] INFO: UDR terminate...done (../src/udr/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:04.834: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:04.834: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:04.835: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:28:04.835: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:28:04.835: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:07.114: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:07.114: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:07.115: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:28:07.115: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:28:07.115: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:09.123: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:09.123: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:09.124: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:28:09.124: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:28:09.124: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:11.400: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:11.400: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:11.400: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:28:11.401: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:28:11.401: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:1829)
+07/29 15:28:11.401: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:424)
+07/29 15:28:11.401: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+07/29 15:28:11.402: [sbi] INFO: [0d9f9d18-8b1f-41f1-8bf5-73795d9faa1e] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/29 15:28:11.402: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/29 15:28:11.402: [sbi] INFO: [0d9fe87c-8b1f-41f1-8f14-e36739568735] Subscription created until 2026-07-30T15:28:11.402682+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+07/29 15:29:03.618: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:29:03.618: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:29:03.618: [sbi] INFO: [0d9f9d18-8b1f-41f1-8bf5-73795d9faa1e] NF de-registered (../lib/sbi/nf-sm.c:235)
+07/29 15:29:03.621: [app] INFO: UDR terminate...done (../src/udr/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:29:25.892: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:29:25.892: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:29:25.893: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:29:25.893: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:29:25.893: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:29:27.954: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:29:27.954: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:29:27.955: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:29:27.955: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:29:27.955: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:29:30.208: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:29:30.208: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:29:30.209: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:29:30.209: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:29:30.209: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:1829)
+07/29 15:29:30.209: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:424)
+07/29 15:29:30.209: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+07/29 15:29:30.210: [sbi] INFO: [3c98d760-8b1f-41f1-bed0-e9c81086ce9c] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/29 15:29:30.211: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/29 15:29:30.211: [sbi] INFO: [3c99166c-8b1f-41f1-9a20-7b82ac38d740] Subscription created until 2026-07-30T15:29:30.210896+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+07/29 15:30:18.158: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:30:18.158: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:30:18.158: [sbi] INFO: [3c98d760-8b1f-41f1-bed0-e9c81086ce9c] NF de-registered (../lib/sbi/nf-sm.c:235)
+07/29 15:30:18.159: [sbi] WARNING: [7] Failed to connect to 127.0.0.200 port 7777 after 0 ms: Connection refused (../lib/sbi/client.c:698)
+07/29 15:30:18.159: [sbi] WARNING: ogs_sbi_client_handler() failed [-1] (../lib/sbi/path.c:62)
+07/29 15:30:18.161: [app] INFO: UDR terminate...done (../src/udr/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:10.899: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:10.899: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:10.900: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:31:10.901: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:31:10.901: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:13.178: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:13.178: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:13.179: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:31:13.179: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:31:13.179: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:15.450: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:15.450: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:15.451: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:31:15.451: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:31:15.451: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:17.727: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:17.727: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:17.727: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/29 15:31:17.729: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:31:17.729: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:1829)
+07/29 15:31:17.730: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:424)
+07/29 15:31:17.730: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+07/29 15:31:17.731: [sbi] INFO: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/29 15:31:17.732: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/29 15:31:17.732: [sbi] INFO: [7caf7688-8b1f-41f1-8845-5f87f13eb356] Subscription created until 2026-07-30T15:31:17.731704+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+07/29 22:11:22.989: [sbi] ERROR: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] No heartbeat [type:UDR] (../lib/sbi/nf-sm.c:297)
+07/29 22:11:22.990: [sbi] INFO: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] NF de-registered (../lib/sbi/nf-sm.c:235)
+07/29 22:11:23.006: [sbi] ERROR: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] HTTP Response Status Code [404] (../lib/sbi/nf-sm.c:145)
+07/29 22:11:25.008: [sbi] WARNING: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] Retry registration with NRF (../lib/sbi/nf-sm.c:395)
+07/29 22:11:25.009: [sbi] INFO: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/29 22:11:25.010: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/29 22:11:25.010: [sbi] INFO: [62236c74-8b57-41f1-8845-5f87f13eb356] Subscription created until 2026-07-30T22:11:25.010044+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+07/30 03:31:17.736: [udr] INFO: [7caf7688-8b1f-41f1-8845-5f87f13eb356] Need to update Subscription (../src/udr/udr-sm.c:339)
+07/30 03:31:17.738: [udr] ERROR: [7caf7688-8b1f-41f1-8845-5f87f13eb356] HTTP response error [404] (../src/udr/udr-sm.c:256)
+07/30 09:26:02.885: [app] INFO: SIGTERM received (../src/main.c:53)
+07/30 09:26:02.885: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/30 09:26:02.885: [sbi] INFO: [7caedf16-8b1f-41f1-88b9-5188e85e60a0] NF de-registered (../lib/sbi/nf-sm.c:235)
+07/30 09:26:02.998: [app] INFO: UDR terminate...done (../src/udr/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:12.884: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:12.884: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:12.885: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/30 09:31:12.886: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/30 09:31:12.886: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:15.159: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:15.159: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:15.159: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/30 09:31:15.160: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/30 09:31:15.160: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:17.304: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:17.304: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:17.304: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/30 09:31:17.304: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/30 09:31:17.304: [app] WARNING: Failed to initialize UDR (../src/udr/app.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:19.575: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/udr.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:19.575: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/udr.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:19.576: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+07/30 09:31:19.577: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/30 09:31:19.577: [sbi] INFO: NF Service [nudr-dr] (../lib/sbi/context.c:1829)
+07/30 09:31:19.577: [sbi] INFO: nghttp2_server() [http://127.0.0.20]:7777 (../lib/sbi/nghttp2-server.c:424)
+07/30 09:31:19.577: [app] INFO: UDR initialize...done (../src/udr/app.c:31)
+07/30 09:31:19.578: [sbi] INFO: [5d984724-8bb6-41f1-b5d0-e539c3e9ad47] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+07/30 09:31:19.578: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+07/30 09:31:19.578: [sbi] INFO: [5d9897f6-8bb6-41f1-9482-41bc74d5adf2] Subscription created until 2026-07-31T09:31:19.578629+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)

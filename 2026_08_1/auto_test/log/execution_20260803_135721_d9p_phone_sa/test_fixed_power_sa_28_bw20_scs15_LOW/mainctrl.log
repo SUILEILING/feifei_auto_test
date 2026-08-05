@@ -1,0 +1,3564 @@
+Version: v1.02.01-102-g32e6689, BuildTime: 14:06:53-Jul 29 2026.
+son process create success, background process started.
+son process is running...
+daemon started!
+[authentication] LicenseFileReader::read:: _verifyCheckSum return true.
+[authentication] LicenseFileReader::read:: _readHeader return true.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-A001;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.645;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-S100;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.649;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-S101;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.653;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-S102;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.656;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-S100A;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.659;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-M100A;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.662;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-M100B;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.666;.
+[authentication] LicenseFileReader::_readAllFeatures a_featur: YC-S-M110;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.669;.
+[authentication] LicenseFileReader::read:: _readAllFeatures return true.
+[authentication] LicenseFileReader::read return true.
+[authentication] Authorization_p::initialize f_l.size() = 8.
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-A001;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.645;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-S100;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.649;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-S101;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.653;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-S102;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.656;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-S100A;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.659;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-M100A;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.662;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-M100B;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.666;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] LicenseStatusChecker::setFeatureList a_feature: YC-S-M110;Trial Licensed;2026-08-03;2026-08-16;Trial Licensed;9adf78ac324ecfe25e3507cad4ef0bc4fe7ffd3ca42ff0b889d8e18d0343fd1f;2026-08-03T12:00:25.669;.
+[authentication] LicenseStatusChecker::setFeatureList Trial: currentDateTime = 2026-08-03T14:08:11.969, start_datetime = 2026-08-03T00:00:00.000, end_datetime = 2026-08-16T23:59:59.999 .
+[authentication] Authorization_p::initialize error_string_ = no error.
+Base module loading ...
+IID: 3, mt.mainctrl.libBaseLoader.BaseModuleInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, GenericCommandsPluginImpl
+debug: 1, false
+version: 2, 331520
+IID: 3, mt.mainctrl.libBaseLoader.BaseModuleInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, RFCtrlPluginImpl
+debug: 1, false
+version: 2, 331520
+Done, 2 base libraries are loaded.
+Signal module loading ...
+IID: 3, mt.mainctrl.libNRLoader.NRModuleInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, LTESignal
+debug: 1, false
+version: 2, 331520
+IID: 3, mt.mainctrl.libNRLoader.NRModuleInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, NRSignal
+debug: 1, false
+version: 2, 331520
+Done, 2 Signal libraries are loaded.
+Measurement module loading ...
+loading bler algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelBLERPluginImpl
+debug: 1, false
+version: 2, 331520
+loading CW algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelCWPluginImpl
+debug: 1, false
+version: 2, 331520
+loading GeneralOnOffTimeMask algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelGeneralOnOffTimeMaskPluginImpl
+debug: 1, false
+version: 2, 331520
+loading LTE_BLER algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelLTE_BLERPluginImpl
+debug: 1, false
+version: 2, 331520
+loading LTE TXP algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelLTE_TXPPluginImpl
+debug: 1, false
+version: 2, 331520
+loading MultiEvaluation algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelULMIMOMultiEvaluationPluginImpl
+debug: 1, false
+version: 2, 331520
+loading OSC algorithm....done.
+IID: 3, mt.mainctrl.libMeasurementLoader.MeasurementKernelPluginInterface
+MetaData: 5, keys count: 1
+archreq: 2, 0
+className: 3, KernelOSCPluginImpl
+debug: 1, false
+version: 2, 331520
+Done, 7 Measurement libraries are loaded.
+vxi thread start
+[webserver] ready to run
+web server start
+Loading complete. Let's go!
+[::ffff:127.0.0.1]:49378 Websocket Client Connected.
+[::ffff:127.0.0.1]:49378 command 0: CALL:CELL1? OFF
+[::ffff:127.0.0.1]:49378 command 1: *IDN? YCMeter,YC1100,AY2BY61D9P,YC1100.1.00.03.10
+read ran config path: /opt/yc1100/relversion/YC1100.1.00.03.10/ran/build/conf/gnb.nsa.band78.fr1.273PRB.usrpb210.conf
+[::ffff:127.0.0.1]:49378 command 2: CONFigure:VERSion:LOG:STATe? info;global_log_level,0;sctp_log_level,0;hw_log_level,0;phy_log_level,0;mac_log_level,0;rlc_log_level,0;pdcp_log_level,0;rrc_log_level,0;ngap_log_level,0;f1ap_log_level,0;x2ap_log_level,1;s1ap_log_level,0;ULSCH_dump,0;RRC_dump,0;NAS_dump,0
+[::ffff:127.0.0.1]:49378 command 3: SMODule:VERSion? UI:dev-171-7374691c,Ran:master-V1.03.08-49-g206e023,MainCtrl:v1.02.01-102-g32e6689,Rfdriver_S:v1.00.00-40-ga3552cb,Rfdriver_K:v1.00.00-47-g906975c,FPGA:26040914,5GCore:MT5GC vR2.7.2-20-g2508f63
+
+[::ffff:127.0.0.1]:49378 command 4: SYSTem:BASE:OPTion:LIST? 8,YC-S-A001,Trial Licensed,2026-08-03,2026-08-16,YC-S-S100,Trial Licensed,2026-08-03,2026-08-16,YC-S-S101,Trial Licensed,2026-08-03,2026-08-16,YC-S-S102,Trial Licensed,2026-08-03,2026-08-16,YC-S-S100A,Trial Licensed,2026-08-03,2026-08-16,YC-S-M100A,Trial Licensed,2026-08-03,2026-08-16,YC-S-M100B,Trial Licensed,2026-08-03,2026-08-16,YC-S-M110,Trial Licensed,2026-08-03,2026-08-16
+[::ffff:127.0.0.1]:49378 command 5: CONFigure:NSASa:SWITch? SA
+[::ffff:127.0.0.1]:49378 command 6: CONFigure:CELL1:NR:SIGN:ARFCn? 623334,623334
+[::ffff:127.0.0.1]:49378 command 7: CONFigure:CELL1:NR:UEReport:SINR? 7,0
+[::ffff:127.0.0.1]:49378 command 8: CONFigure:CELL1:NR:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 9: CONFigure:CELL1:NR:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:49378 command 10: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 11: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:49378 command 12: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator? 78
+[::ffff:127.0.0.1]:49378 command 13: CONFigure:CELL1:NR:SIGN:BWidth:DL? BW100
+[::ffff:127.0.0.1]:49378 command 14: CONFigure:CELL1:NR:SIGN:STATe? "CellOff"
+[::ffff:127.0.0.1]:49378 command 15: CONFigure:CELL1:LTE:SIGN:STATe? "CellOff"
+[::ffff:127.0.0.1]:49378 command 16: CONFigure:CELL1:NR:SIGN:UE:STATe? "RRCIdle"
+[::ffff:127.0.0.1]:49378 command 17: FETCh:NR:BLER:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 18: FETCh:NR:MEValuation:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 19: FETCh:LTE:BLER:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 20: FETCh:LTE:TXP:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 21: FETCh:NR:GOOTmask:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 22: FETCh:GPRF:OSC:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 23: FETCh:CW:STATe? OFF
+[::ffff:127.0.0.1]:49378 command 24: CONFigure:NR:MEValuation:RESult? ON,OFF,OFF,OFF,OFF,OFF
+[::ffff:127.0.0.1]:49378 command 25: CONFigure:NR:MEValuation:REPetition? SINGleshot
+[::ffff:127.0.0.1]:49378 command 26: CONFigure:NR:MEValuation:SLOT:STARt? 8
+[::ffff:127.0.0.1]:49378 command 27: CONFigure:NR:MEValuation:SLOT:LENGth? 2
+[::ffff:127.0.0.1]:49378 command 28: CONFigure:NR:MEValuation:ACOunt? 1
+[::ffff:127.0.0.1]:49378 command 29: CONFigure:NR:BLER:TEST:DIRection? BOTH
+[::ffff:127.0.0.1]:49378 command 30: CONFigure:NR:BLER:DTXFlag? Enable
+[::ffff:127.0.0.1]:49378 command 31: CONFigure:NR:BLER:MEASlength? 100
+[::ffff:127.0.0.1]:49378 command 32: CONFigure:LTE:TXP:MSUBframe? 2
+[::ffff:127.0.0.1]:49378 command 33: CONFigure:LTE:BLER:TEST:DIRection? BOTH
+[::ffff:127.0.0.1]:49378 command 34: CONFigure:LTE:BLER:MEASlength? 100
+[::ffff:127.0.0.1]:49378 command 35: CONFigure:CELL1:LTE:SIGN:RSRP? -85.000
+[::ffff:127.0.0.1]:49378 command 36: CONFigure:CELL1:LTE:SIGN:RLEVel? 30.000
+[::ffff:127.0.0.1]:49378 command 37: CONFigure:CELL1:LTE:SIGN:BAND:DL? OB3
+[::ffff:127.0.0.1]:49378 command 38: CONFigure:CELL1:LTE:SIGN:BWidth? BW_200
+[::ffff:127.0.0.1]:49378 command 39: CONFigure:CELL1:LTE:SIGN:ARFCn:DL? 1575
+[::ffff:127.0.0.1]:49378 command 40: CONFigure:CELL1:LTE:SIGN:ARFCn:UL? 19575
+[::ffff:127.0.0.1]:49378 command 41: CONFigure:CELL1:LTE:SIGN:FREQ? 1842.500,1747.500
+[::ffff:127.0.0.1]:49378 command 42: CONFigure:CW:ULCFreq? 3350010000.000
+[::ffff:127.0.0.1]:49378 command 43: CONFigure:CW:RFLevel? 30.000
+[::ffff:127.0.0.1]:49378 command 44: CONFigure:NR:BLER:EJUDgment? ON
+[::ffff:127.0.0.1]:49378 command 45: CONFigure:LTE:BLER:EJUDgment? ON
+[::ffff:127.0.0.1]:49378 command 46: CONFigure:NR:GOOTmask:SLOT:STARt? 8
+[::ffff:127.0.0.1]:49378 command 47: CONFigure:NR:GOOTmask:SLOT:LENGth? 2
+[::ffff:127.0.0.1]:49378 command 48: CONFigure:GPRF:OSC:ACOunt? 1
+[::ffff:127.0.0.1]:49378 command 49: CONFigure:GPRF:OSC:STIMe? 10
+[::ffff:127.0.0.1]:49378 command 50: CONFigure:GPRF:OSC:TDResolution? ns8333
+[::ffff:127.0.0.1]:49378 command 51: CONFigure:CELL1:NR:SIGN:REDCap:MODe? Normal
+[::ffff:127.0.0.1]:49378 command 52: CONFigure:CELL1:NR:SIGN:UE:UL:PMAX? 33
+[::ffff:127.0.0.1]:49378 command 53: CONFigure:CELL1:NR:SIGN:PDUSession:REQuest? Disable
+[::ffff:127.0.0.1]:49378 command 54: CONFigure:CELL1:NR:UE:MReport? OFF
+[::ffff:127.0.0.1]:49378 command 55: CONFigure:CELL1:NR:SIGN:RSRP? -85.000
+[::ffff:127.0.0.1]:49378 command 56: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49378 command 57: CONFigure:CELL1:NR:SIGN:RLEVel? 30.000
+[::ffff:127.0.0.1]:49378 command 58: CONFigure:CELL1:NR:CONFig:PMODe? AUTO
+[::ffff:127.0.0.1]:49378 command 59: CONFigure:CELL1:NR:SIGN:DDETection:SWITch? OFF
+[::ffff:127.0.0.1]:49392 Websocket Client Connected.
+[::ffff:127.0.0.1]:49392 command 60: CALL:CELL1? OFF
+[::ffff:127.0.0.1]:49392 command 61: *IDN? YCMeter,YC1100,AY2BY61D9P,YC1100.1.00.03.10
+read ran config path: /opt/yc1100/relversion/YC1100.1.00.03.10/ran/build/conf/gnb.nsa.band78.fr1.273PRB.usrpb210.conf
+[::ffff:127.0.0.1]:49392 command 62: CONFigure:VERSion:LOG:STATe? info;global_log_level,0;sctp_log_level,0;hw_log_level,0;phy_log_level,0;mac_log_level,0;rlc_log_level,0;pdcp_log_level,0;rrc_log_level,0;ngap_log_level,0;f1ap_log_level,0;x2ap_log_level,1;s1ap_log_level,0;ULSCH_dump,0;RRC_dump,0;NAS_dump,0
+[::ffff:127.0.0.1]:49392 command 63: SMODule:VERSion? UI:dev-171-7374691c,Ran:master-V1.03.08-49-g206e023,MainCtrl:v1.02.01-102-g32e6689,Rfdriver_S:v1.00.00-40-ga3552cb,Rfdriver_K:v1.00.00-47-g906975c,FPGA:26040914,5GCore:MT5GC vR2.7.2-20-g2508f63
+
+[::ffff:127.0.0.1]:49392 command 64: SYSTem:BASE:OPTion:LIST? 8,YC-S-A001,Trial Licensed,2026-08-03,2026-08-16,YC-S-S100,Trial Licensed,2026-08-03,2026-08-16,YC-S-S101,Trial Licensed,2026-08-03,2026-08-16,YC-S-S102,Trial Licensed,2026-08-03,2026-08-16,YC-S-S100A,Trial Licensed,2026-08-03,2026-08-16,YC-S-M100A,Trial Licensed,2026-08-03,2026-08-16,YC-S-M100B,Trial Licensed,2026-08-03,2026-08-16,YC-S-M110,Trial Licensed,2026-08-03,2026-08-16
+[::ffff:127.0.0.1]:49392 command 65: CONFigure:NSASa:SWITch? SA
+[::ffff:127.0.0.1]:49392 command 66: CONFigure:CELL1:NR:SIGN:ARFCn? 623334,623334
+[::ffff:127.0.0.1]:49392 command 67: CONFigure:CELL1:NR:UEReport:SINR? 7,0
+[::ffff:127.0.0.1]:49392 command 68: CONFigure:CELL1:NR:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 69: CONFigure:CELL1:NR:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:49392 command 70: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 71: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:49392 command 72: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator? 78
+[::ffff:127.0.0.1]:49392 command 73: CONFigure:CELL1:NR:SIGN:BWidth:DL? BW100
+[::ffff:127.0.0.1]:49392 command 74: CONFigure:CELL1:NR:SIGN:STATe? "CellOff"
+[::ffff:127.0.0.1]:49392 command 75: CONFigure:CELL1:LTE:SIGN:STATe? "CellOff"
+[::ffff:127.0.0.1]:49392 command 76: CONFigure:CELL1:NR:SIGN:UE:STATe? "RRCIdle"
+[::ffff:127.0.0.1]:49392 command 77: FETCh:NR:BLER:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 78: FETCh:NR:MEValuation:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 79: FETCh:LTE:BLER:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 80: FETCh:LTE:TXP:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 81: FETCh:NR:GOOTmask:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 82: FETCh:GPRF:OSC:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 83: FETCh:CW:STATe? OFF
+[::ffff:127.0.0.1]:49392 command 84: CONFigure:NR:MEValuation:RESult? ON,OFF,OFF,OFF,OFF,OFF
+[::ffff:127.0.0.1]:49392 command 85: CONFigure:NR:MEValuation:REPetition? SINGleshot
+[::ffff:127.0.0.1]:49392 command 86: CONFigure:NR:MEValuation:SLOT:STARt? 8
+[::ffff:127.0.0.1]:49392 command 87: CONFigure:NR:MEValuation:SLOT:LENGth? 2
+[::ffff:127.0.0.1]:49392 command 88: CONFigure:NR:MEValuation:ACOunt? 1
+[::ffff:127.0.0.1]:49392 command 89: CONFigure:NR:BLER:TEST:DIRection? BOTH
+[::ffff:127.0.0.1]:49392 command 90: CONFigure:NR:BLER:DTXFlag? Enable
+[::ffff:127.0.0.1]:49392 command 91: CONFigure:NR:BLER:MEASlength? 100
+[::ffff:127.0.0.1]:49392 command 92: CONFigure:LTE:TXP:MSUBframe? 2
+[::ffff:127.0.0.1]:49392 command 93: CONFigure:LTE:BLER:TEST:DIRection? BOTH
+[::ffff:127.0.0.1]:49392 command 94: CONFigure:LTE:BLER:MEASlength? 100
+[::ffff:127.0.0.1]:49392 command 95: CONFigure:CELL1:LTE:SIGN:RSRP? -85.000
+[::ffff:127.0.0.1]:49392 command 96: CONFigure:CELL1:LTE:SIGN:RLEVel? 30.000
+[::ffff:127.0.0.1]:49392 command 97: CONFigure:CELL1:LTE:SIGN:BAND:DL? OB3
+[::ffff:127.0.0.1]:49392 command 98: CONFigure:CELL1:LTE:SIGN:BWidth? BW_200
+[::ffff:127.0.0.1]:49392 command 99: CONFigure:CELL1:LTE:SIGN:ARFCn:DL? 1575
+[::ffff:127.0.0.1]:49392 command 100: CONFigure:CELL1:LTE:SIGN:ARFCn:UL? 19575
+[::ffff:127.0.0.1]:49392 command 101: CONFigure:CELL1:LTE:SIGN:FREQ? 1842.500,1747.500
+[::ffff:127.0.0.1]:49392 command 102: CONFigure:CW:ULCFreq? 3350010000.000
+[::ffff:127.0.0.1]:49392 command 103: CONFigure:CW:RFLevel? 30.000
+[::ffff:127.0.0.1]:49392 command 104: CONFigure:NR:BLER:EJUDgment? ON
+[::ffff:127.0.0.1]:49392 command 105: CONFigure:LTE:BLER:EJUDgment? ON
+[::ffff:127.0.0.1]:49392 command 106: CONFigure:NR:GOOTmask:SLOT:STARt? 8
+[::ffff:127.0.0.1]:49392 command 107: CONFigure:NR:GOOTmask:SLOT:LENGth? 2
+[::ffff:127.0.0.1]:49392 command 108: CONFigure:GPRF:OSC:ACOunt? 1
+[::ffff:127.0.0.1]:49392 command 109: CONFigure:GPRF:OSC:STIMe? 10
+[::ffff:127.0.0.1]:49392 command 110: CONFigure:GPRF:OSC:TDResolution? ns8333
+[::ffff:127.0.0.1]:49392 command 111: CONFigure:CELL1:NR:SIGN:REDCap:MODe? Normal
+[::ffff:127.0.0.1]:49392 command 112: CONFigure:CELL1:NR:SIGN:UE:UL:PMAX? 33
+[::ffff:127.0.0.1]:49392 command 113: CONFigure:CELL1:NR:SIGN:PDUSession:REQuest? Disable
+[::ffff:127.0.0.1]:49392 command 114: CONFigure:CELL1:NR:UE:MReport? OFF
+[::ffff:127.0.0.1]:49392 command 115: CONFigure:CELL1:NR:SIGN:RSRP? -85.000
+[::ffff:127.0.0.1]:49392 command 116: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 117: CONFigure:CELL1:NR:SIGN:RLEVel? 30.000
+[::ffff:127.0.0.1]:49392 command 118: CONFigure:CELL1:NR:CONFig:PMODe? AUTO
+[::ffff:127.0.0.1]:49392 command 119: CONFigure:CELL1:NR:SIGN:DDETection:SWITch? OFF
+[::ffff:127.0.0.1]:49378 command 120: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49378 command 121: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49378 command 122: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator? 78
+[::ffff:127.0.0.1]:49378 command 123: CONFigure:CELL1:NR:SIGN:BWidth:DL? BW100
+[::ffff:127.0.0.1]:49378 command 124: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:DL:SCSList:SCSPacing? kHz30
+[::ffff:127.0.0.1]:49378 command 125: CONFigure:CELL1:NR:CONFig:RANGe? LOW
+[::ffff:127.0.0.1]:49378 command 126: CONFigure:CELL1:NR:SIGN:CFSCommand? 623334,Auto,Auto
+[::ffff:127.0.0.1]:49378 command 127: CONFigure:CELL1:NR:SIGN:DDETection:SWITch:TIMe? 10
+[::ffff:127.0.0.1]:49378 command 128: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49378 command 129: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49378 command 130: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 131: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 132: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 133: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator? 78
+[::ffff:127.0.0.1]:49392 command 134: CONFigure:CELL1:NR:SIGN:BWidth:DL? BW100
+[::ffff:127.0.0.1]:49392 command 135: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:DL:SCSList:SCSPacing? kHz30
+[::ffff:127.0.0.1]:49392 command 136: CONFigure:CELL1:NR:CONFig:RANGe? LOW
+[::ffff:127.0.0.1]:49392 command 137: CONFigure:CELL1:NR:SIGN:CFSCommand? 623334,Auto,Auto
+[::ffff:127.0.0.1]:49392 command 138: CONFigure:CELL1:NR:SIGN:DDETection:SWITch:TIMe? 10
+[::ffff:127.0.0.1]:49392 command 139: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 140: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 141: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49378 command 142: CONFigure:CELL1:NR:SIGN:ARFCn? 623334,623334
+device_core_1::create_link @socket 54, device = inst0
+*IDN?
+[::ffff:127.0.0.1]:48102 Websocket Client Connected.
+ YCMeter,YC1100,AY2BY61D9P,YC1100.1.00.03.10
+CONFigure:NSASa:SWITch SA
+
+[::ffff:127.0.0.1]:48102 command 143: CALL:CELL1? OFF
+CONFigure:BASE:FDCorrection:CTABle:CREate LineLossTable_1,100000...
+[::ffff:127.0.0.1]:48102 command 144: *IDN? YCMeter,YC1100,AY2BY61D9P,YC1100.1.00.03.10
+read ran config path: /opt/yc1100/relversion/YC1100.1.00.03.10/ran/build/conf/gnb.nsa.band78.fr1.273PRB.usrpb210.conf
+[::ffff:127.0.0.1]:48102 command 145: CONFigure:VERSion:LOG:STATe? info;global_log_level,0;sctp_log_level,0;hw_log_level,0;phy_log_level,0;mac_log_level,0;rlc_log_level,0;pdcp_log_level,0;rrc_log_level,0;ngap_log_level,0;f1ap_log_level,0;x2ap_log_level,1;s1ap_log_level,0;ULSCH_dump,0;RRC_dump,0;NAS_dump,0
+CONFigure:BASE:FDCorrection:SAVE
+
+CONFigure:FDCorrection:ACTivate LineLossTable_1,1,IO,RXTX
+RF_SetTxLevel rfIndex = 0 power = 20.000000 io = 1 (0:OUT 1: IO) freq = 3350000000 loss = 25.000000 
+Recv NR Msg, Msg Type: RF Params Respond 
+[::ffff:127.0.0.1]:48102 command 146: SMODule:VERSion? UI:dev-171-7374691c,Ran:master-V1.03.08-49-g206e023,MainCtrl:v1.02.01-102-g32e6689,Rfdriver_S:v1.00.00-40-ga3552cb,Rfdriver_K:v1.00.00-47-g906975c,FPGA:26040914,5GCore:MT5GC vR2.7.2-20-g2508f63
+
+[::ffff:127.0.0.1]:48102 command 147: SYSTem:BASE:OPTion:LIST? 8,YC-S-A001,Trial Licensed,2026-08-03,2026-08-16,YC-S-S100,Trial Licensed,2026-08-03,2026-08-16,YC-S-S101,Trial Licensed,2026-08-03,2026-08-16,YC-S-S102,Trial Licensed,2026-08-03,2026-08-16,YC-S-S100A,Trial Licensed,2026-08-03,2026-08-16,YC-S-M100A,Trial Licensed,2026-08-03,2026-08-16,YC-S-M100B,Trial Licensed,2026-08-03,2026-08-16,YC-S-M110,Trial Licensed,2026-08-03,2026-08-16
+[::ffff:127.0.0.1]:48102 command 148: CONFigure:NSASa:SWITch? SA
+[::ffff:127.0.0.1]:48102 command 149: CONFigure:CELL1:NR:SIGN:ARFCn? 623334,623334
+[::ffff:127.0.0.1]:48102 command 150: CONFigure:CELL1:NR:UEReport:SINR? 7,0
+[::ffff:127.0.0.1]:48102 command 151: CONFigure:CELL1:NR:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 152: CONFigure:CELL1:NR:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:48102 command 153: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 154: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:48102 command 155: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator? 78
+[::ffff:127.0.0.1]:48102 command 156: CONFigure:CELL1:NR:SIGN:BWidth:DL? BW100
+[::ffff:127.0.0.1]:48102 command 157: CONFigure:CELL1:NR:SIGN:STATe? "CellOff"
+[::ffff:127.0.0.1]:48102 command 158: CONFigure:CELL1:LTE:SIGN:STATe? "CellOff"
+[::ffff:127.0.0.1]:48102 command 159: CONFigure:CELL1:NR:SIGN:UE:STATe? "RRCIdle"
+[::ffff:127.0.0.1]:48102 command 160: FETCh:NR:BLER:STATe? OFF
+[::ffff:127.0.0.1]:48102 command 161: FETCh:NR:MEValuation:STATe? OFF
+[::ffff:127.0.0.1]:48102 command 162: FETCh:LTE:BLER:STATe? OFF
+[::ffff:127.0.0.1]:48102 command 163: FETCh:LTE:TXP:STATe? OFF
+[::ffff:127.0.0.1]:48102 command 164: FETCh:NR:GOOTmask:STATe? OFF
+[::ffff:127.0.0.1]:48102 command 165: FETCh:GPRF:OSC:STATe? OFF
+Recv NR Msg, Msg Type: RF Params Respond 
+RF_SetRxLevel rfIndex = 0 level = -25.000000 freq = 3350000000 loss = 25.000000 
+
+[::ffff:127.0.0.1]:48102 command 166: FETCh:CW:STATe? OFF
+[::ffff:127.0.0.1]:48102 command 167: CONFigure:NR:MEValuation:RESult? ON,OFF,OFF,OFF,OFF,OFF
+[::ffff:127.0.0.1]:48102 command 168: CONFigure:NR:MEValuation:REPetition? SINGleshot
+[::ffff:127.0.0.1]:48102 command 169: CONFigure:NR:MEValuation:SLOT:STARt? 8
+[::ffff:127.0.0.1]:48102 command 170: CONFigure:NR:MEValuation:SLOTStart Mode: SA, 0(0:background / 1:OpenTerminal, foreground).
+/tmp/yc1100/current/NR_20260803_140828.log
+Start Mode: SA, Process: NR, OpenTerminal 0, logpath: /tmp/yc1100/current/NR_20260803_140828.log(0:close / 1:open).
+NR SA
+:LENGth? 2
+[::ffff:127.0.0.1]:48102 command 171: CONFigure:NR:MEValuation:ACOunt? 1
+[::ffff:127.0.0.1]:48102 command 172: CONFigure:NR:BLER:TEST:DIRection? BOTH
+[::ffff:127.0.0.1]:48102 command 173: CONFigure:NR:BLER:DTXFlag? Enable
+[::ffff:127.0.0.1]:48102 command 174: CONFigure:NR:BLER:MEASlength? 100
+[::ffff:127.0.0.1]:48102 command 175: CONFigure:LTE:TXP:MSUBframe? 2
+[::ffff:127.0.0.1]:48102 command 176: CONFigure:LTE:BLER:TEST:DIRection? BOTH
+[::ffff:127.0.0.1]:48102 command 177: CONFigure:LTE:BLER:MEASlength? 100
+[::ffff:127.0.0.1]:48102 command 178: CONFigure:CELL1:LTE:SIGN:RSRP? -85.000
+[::ffff:127.0.0.1]:48102 command 179: CONFigure:CELL1:LTE:SIGN:RLEVel? 30.000
+[::ffff:127.0.0.1]:48102 command 180: CONFigure:CELL1:LTE:SIGN:BAND:DL? OB3
+[::ffff:127.0.0.1]:48102 command 181: CONFigure:CELL1:LTE:SIGN:BWidth? BW_200
+[::ffff:127.0.0.1]:48102 command 182: CONFigure:CELL1:LTE:SIGN:ARFCn:DL? 1575
+[::ffff:127.0.0.1]:48102 command 183: CONFigure:CELL1:LTE:SIGN:ARFCn:UL? 19575
+[::ffff:127.0.0.1]:48102 command 184: CONFigure:CELL1:LTE:SIGN:FREQ? 1842.500,1747.500
+[::ffff:127.0.0.1]:48102 command 185: CONFigure:CW:ULCFreq? 3350010000.000
+[::ffff:127.0.0.1]:48102 command 186: CONFigure:CW:RFLevel? 30.000
+[::ffff:127.0.0.1]:48102 command 187: CONFigure:NR:BLER:EJUDgment? ON
+[::ffff:127.0.0.1]:48102 command 188: CONFigure:LTE:BLER:EJUDgment? ON
+[::ffff:127.0.0.1]:48102 command 189: CONFigure:NR:GOOTmask:SLOT:STARt? 8
+[::ffff:127.0.0.1]:48102 command 190: CONFigure:NR:GOOTmask:SLOT:LENGth? 2
+[::ffff:127.0.0.1]:48102 command 191: CONFigure:GPRF:OSC:ACOunt? 1
+[::ffff:127.0.0.1]:48102 command 192: CONFigure:GPRF:OSC:STIMe? 10
+[::ffff:127.0.0.1]:48102 command 193: CONFigure:GPRF:OSC:TDResolution? ns8333
+[::ffff:127.0.0.1]:48102 command 194: CONFigure:CELL1:NR:SIGN:REDCap:MODe? Normal
+[::ffff:127.0.0.1]:48102 command 195: CONFigure:CELL1:NR:SIGN:UE:UL:PMAX? 33
+[::ffff:127.0.0.1]:48102 command 196: CONFigure:CELL1:NR:SIGN:PDUSession:REQuest? Disable
+[::ffff:127.0.0.1]:48102 command 197: CONFigure:CELL1:NR:UE:MReport? OFF
+[::ffff:127.0.0.1]:48102 command 198: CONFigure:CELL1:NR:SIGN:RSRP? -85.000
+[::ffff:127.0.0.1]:48102 command 199: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:48102 command 200: CONFigure:CELL1:NR:SIGN:RLEVel? 30.000
+[::ffff:127.0.0.1]:48102 command 201: CONFigure:CELL1:NR:CONFig:PMODe? AUTO
+[::ffff:127.0.0.1]:48102 command 202: CONFigure:CELL1:NR:SIGN:DDETection:SWITch? OFF
+[::ffff:127.0.0.1]:49392 command 203: CONFigure:CELL1:NR:SIGN:ARFCn? 623334,623334
+CONFigure:FDCorrection:ACTivate LineLossTable_1,1,OUT,TX
+RF_SetTxLevel rfIndex = 0 power = 20.000000 io = 1 (0:OUT 1: IO) freq = 3350000000 loss = 25.000000 
+Recv NR Msg, Msg Type: RF Params Respond 
+
+[::ffff:127.0.0.1]:48102 command 204: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:48102 command 205: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:48102 command 206: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator? 78
+[::ffff:127.0.0.1]:48102 command 207: CONFigure:CELL1:NR:SIGN:BWidth:DL? BW100
+[::ffff:127.0.0.1]:48102 command 208: CONFigure:CELL1:NR:SIGN:COMMon:FBANd:DL:SCSList:SCSPacing? kHz30
+[::ffff:127.0.0.1]:48102 command 209: CONFigure:CELL1:NR:CONFig:RANGe? LOW
+[::ffff:127.0.0.1]:48102 command 210: CONFigure:CELL1:NR:SIGN:CFSCommand? 623334,Auto,Auto
+[::ffff:127.0.0.1]:48102 command 211: CONFigure:CELL1:NR:SIGN:DDETection:SWITch:TIMe? 10
+[::ffff:127.0.0.1]:48102 command 212: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:48102 command 213: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:48102 command 214: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+CONFigure:RFINdex:CLear:ALL
+
+CONFigure:RFINdex:DL NR,1
+
+CONFigure:RFINdex:UL NR,1
+
+CONFigure:RFINdex1:CONNector IO
+
+CONFigure:RFINdex3:CONNector IO
+
+[::ffff:127.0.0.1]:48102 command 215: CONFigure:CELL1:NR:SIGN:ARFCn? 623334,623334
+CONFigure:RFINdex:apply
+SA Mode is changing,please wait 5 s...
+send cell config to NR PS.
+
+CONFigure:CELL1:NR:SIGN:COMMon:FBANd:INDCator 28
+
+[::ffff:127.0.0.1]:49378 command 216: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:49392 command 217: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+[::ffff:127.0.0.1]:48102 command 218: CONFigure:CELL1:NR:SIGN:POWer? -49.847
+CONFigure:CELL1:NR:SIGN:BWidth:DL BW20
+
+[::ffff:127.0.0.1]:49378 command 219: CONFigure:CELL1:NR:SIGN:POWer? -57.132
+[::ffff:127.0.0.1]:49392 command 220: CONFigure:CELL1:NR:SIGN:POWer? -57.132
+[::ffff:127.0.0.1]:48102 command 221: CONFigure:CELL1:NR:SIGN:POWer? -57.132
+CONFigure:CELL1:NR:SIGN:COMMon:FBANd:DL:SCSList:SCSPacing kHz15
+
+[::ffff:127.0.0.1]:48102 command 222: CONFigure:CELL1:NR:SIGN:POWer? -53.955
+[::ffff:127.0.0.1]:49378 command 223: CONFigure:CELL1:NR:SIGN:POWer? -53.955
+[::ffff:127.0.0.1]:49392 command 224: CONFigure:CELL1:NR:SIGN:POWer? -53.955
+CONFigure:CELL1:NR:CONFig:RANGe LOW
+
+CONFigure:CELL1:NR:UE:MReport ON
+
+CALL:CELL1 ON
+NR Cell On...
+RF ON
+rsrp value: -85.000000
+RF_SetTxLevel rfIndex = 0 power = -2.866000 io = 1 (0:OUT 1: IO) freq = 768000000 loss = 25.000000 
+Recv NR Msg, Msg Type: RF Params Respond 
+Recv NR Msg, Msg Type: RF Params Respond 
+RF_SetRxLevel rfIndex = 0 level = 5.000000 freq = 713000000 loss = 25.000000 
+NR Protocol Stack Params Sended. NR Cell On Running...
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Connect State 
+Recv NR Msg, Msg Type: Cell Action Respond 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:08:41.183538]: signal msg: ↓ [RRC] [0XFFFF] NR_MIB (code: 36A084).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:08:41.183747]: signal msg: ↓ [RRC] [0XFFFF] NR_SIB1 (code: 748000020800804000004002F1853B00A8206C00C00001A59C32C57E216E0804000010106E1004000010106E182AC00001010001800D21A90C5800A7081B08965000001A7F7386589531C056473D987270104EF12A624DC4B48D371A9A3CDC89B93369EAE0050E1D201A2B6ED280).
+
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.297579]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.299533]: signal msg: ↓ [MAC] [0X7211] NR_RandomAccessResponse (code: 804100182EB0067211004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.312520]: signal msg: ↑ [MAC] [0X7211] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.457569]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.459557]: signal msg: ↓ [MAC] [0X2D6E] NR_RandomAccessResponse (code: 804100182EB0062D6E004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.472417]: signal msg: ↑ [MAC] [0X2D6E] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.617568]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.619529]: signal msg: ↓ [MAC] [0X66CE] NR_RandomAccessResponse (code: 804300182EB00666CE004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.631901]: signal msg: ↑ [MAC] [0X66CE] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.777599]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.779535]: signal msg: ↓ [MAC] [0X9D6B] NR_RandomAccessResponse (code: 804200182EB0069D6B004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.791941]: signal msg: ↑ [MAC] [0X9D6B] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.937594]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.939539]: signal msg: ↓ [MAC] [0X0158] NR_RandomAccessResponse (code: 804100182EB0060158004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:37.951892]: signal msg: ↑ [MAC] [0X0158] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:38.097571]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:38.099529]: signal msg: ↓ [MAC] [0XEF81] NR_RandomAccessResponse (code: 804000182EB006EF81004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:38.111888]: signal msg: ↑ [MAC] [0XEF81] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:38.257573]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:38.259519]: signal msg: ↓ [MAC] [0X09AD] NR_RandomAccessResponse (code: 804100182EB00609AD004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:38.271894]: signal msg: ↑ [MAC] [0X09AD] NR_Mac_Pdu (code: 341352EF01D3463905343E01003FE0F33BE69C8DFC7A2F1CA395AA7F).
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "RRCIdle"
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.337605]: signal msg: ↑ [MAC] [0XFFFF] NR_RandomAccessRequest.
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.339542]: signal msg: ↓ [MAC] [0XA5F8] NR_RandomAccessResponse (code: 804000182EB006A5F8004002F1853B00A8206C00C00001A59C32).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.352466]: signal msg: ↑ [MAC] [0XA5F8] NR_Mac_Pdu (code: 341403A178D4063E01003FE0F33BE69C8DFC7A2F1CA395AA7F17C75F).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.352605]: signal msg: ↑ [RRC] [0XA5F8] NR_RRCSetupRequest (code: 1403A178D406).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.352741]: signal msg: ↓ [RRC] [0XA5F8] NR_RRCSetup (code: 28400405E2E00580088BD76380830F8003E0102341E04008388BAE80202004B2036A0103FE000000000480004371442000022165000040000011064E800200048D54935060004103081431308122858C1A38680008020010200900808028030200B01008030050200D018080380800238024008E40A0023A02C008EC0C0023C034008F40E0023E494302561B891A2B3C0000014D080100013C0E9060A0C12C1C1821C0028FFD29498C637281C0000201EF40100010000064001400065414018800).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.405860]: signal msg: ↑ [RRC] [0XA5F8] NR_RRCSetupComplete (code: 12C00040080487E01AE401AC4077E004149000BF200F110020040C00003CC2E02F0F07100297E004149000BF200F110020040C00003CC1001062E02F0F02F0201015200F1100000011801005301010).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.405905]: signal msg: ↑ [NAS] [0XA5F8] Registration request (code: 7E01AE401AC4077E004149000BF200F110020040C00003CC2E02F0F07100297E004149000BF200F110020040C00003CC1001062E02F0F02F0201015200F110000001180100530101).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Connect State 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.406269]: signal msg: ↓ [NAS] [0XFFFF] Identity request (code: 7E005B01).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.406309]: signal msg: ↓ [RRC] [0XA5F8] NR_DLInformationTransfer (code: 2C808FC00B6020).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.425867]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A0CBF00CD2D7633043F002E000680807888787F800010A1B2C38480).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.425911]: signal msg: ↑ [NAS] [0XFFFF] Identity response (code: 7E019A5AEC66087E005C000D0100F110F0FF00002143658709).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.428338]: signal msg: ↓ [NAS] [0XFFFF] Authentication request (code: 7E00560502000021471F3C2224007B2EACD2092190603A832010320181E089DA8000E9FA2FE012E873C2).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.428375]: signal msg: ↓ [RRC] [0XA5F8] NR_DLInformationTransfer (code: 2E854FC00AC0A040000428E3E78444800F65D59A4124320C075064020640303C113B50001D3F45FC025D0E7840).
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: 53420746,pusch: 29668; after change, pucch pwr = 53.009301, pusch pwr = 20.455084
+[::ffff:127.0.0.1]:48102 command 225: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 0,53.009,0,20.455
+[::ffff:127.0.0.1]:48102 command 226: CONFigure:CELL1:NR:UEReport:SINR? 7,0
+[::ffff:127.0.0.1]:48102 command 227: CONFigure:CELL1:NR:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 228: CONFigure:CELL1:NR:UEReport:RSRP? 7,0
+[::ffff:127.0.0.1]:48102 command 229: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 230: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+Power: recv pucch: -1,pusch: 30376; after change, pucch pwr = 0.000000, pusch pwr = 20.557507
+[2026-08-03 14:09:48.545814]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A0E3F00ED1CD0B404BF002B96887E4C9B5D8DC927756A82C9C9125C2EB780).
+[::ffff:127.0.0.1]:49378 command 231: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,20.558
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.545902]: signal msg: ↑ [NAS] [0XFFFF] Authentication response (code: 7E01DA39A168097E00572D10FC9936BB1B924EEAD505939224B85D6F).
+[::ffff:127.0.0.1]:49378 command 232: CONFigure:CELL1:NR:UEReport:SINR? 7,0
+[::ffff:127.0.0.1]:49378 command 233: CONFigure:CELL1:NR:UEReport:RSRQ? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[::ffff:127.0.0.1]:49378 command 234: CONFigure:CELL1:NR:UEReport:RSRP? 7,0
+[2026-08-03 14:09:48.549617]: signal msg: ↓ [NAS] [0XFFFF] Security mode command (code: 7E03260A341D007E005D020502F0F0E1360102).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.549703]: signal msg: ↓ [RRC] [0XA5F8] NR_DLInformationTransfer (code: 28826FC064C14683A00FC00BA040A05E1E1C26C02040).
+[::ffff:127.0.0.1]:49378 command 235: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 236: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.585900]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A213F024EF1C10C803F002F3B80049A82B0B100A03BBA7C388014BF0020AC8005F9007888010020600001E60800831701787817810080A90078880000008C008029808080).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.585976]: signal msg: ↑ [NAS] [0XFFFF] Security mode complete (code: 7E049DE38219007E005E7700093505616201407774F87100297E004159000BF200F110020040C00003CC1001062E02F0F02F0201015200F110000001180100530101).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.592737]: signal msg: ↓ [NAS] [0XFFFF] Registration accept (code: 7E028BA3DC7F017E0042010177000BF200F110020040C000031054070000F11000000115020101210201005E01E0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.594005]: signal msg: ↓ [RRC] [0XA5F8] NR_SecurityModeCommand (code: 220810).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.625839]: signal msg: ↑ [RRC] [0XA5F8] NR_SecurityModeComplete (code: 2A00).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.626344]: signal msg: ↓ [RRC] [0XA5F8] NR_UECapabilityEnquiry (code: 3402012001006C00).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.656905]: signal msg: ↑ [RRC] [0XA5F8] NR_UECapabilityInformation (code: 4C8220AE78680FE811D39EBBFFFFEBF0280F05C0407824F7CFFFFFF000E0637DF000281B8080FC7032AEF801EF13843B102087E500882D951D00C49F5883C841E10284B7CFC067F01C0001FC07000006C028003A1577C02F789C21D881043F2804416CA8E80624FAC41E420F081425BE7E033FE0F8000FF83E000036014001D0ABBE027BC4E10EC40821F940220B6547403127D620F2107840A12DF3F019FC0700007F01C00001B00A000E855DF01BDE27087620410FCA01105B2A3A01893EB1079083C205096F9F80CFE0380003F80E00000D805000742AEF80FEF13843B102087E500882D951D00C49F5883C841E10284B7CFC06100040006C028003A1577C13F789C21D881043F2804416CA8E80624FAC41E420F081425BE7E030800200036014001D0ABBE0DFBC4E10EC40821F940220B6547403127D620F2107840A12DF3F019FC0700007F01C00001B00A000E855DF097DE27087620410FCA01105B2A3A01893EB1079083C205096F9F80CFE0380003F80E00000D805000742AEF84FEF13843B102087E500882D951D00C49F5883C841E10284B7CFC06100040006C028003A1577C28F789C21D881043F2804416CA8E80624FAC41E420F081425BE7E02BBB8EF800EEE3BE00037014001D006CA0000A00000ABBE267BC4E10EC40821F940220B6547403127D620F2107840A12DF3F01440010001B00A000E855DF137DE27087620410FCA01105B2A3A01893EB1079083C205096F9F80AEEE3BE003BB8EF8000DC050007401B280002800002AEF89DEF13843B102087E500882D951D00C49F5883C841E10284B7CFC05100040006C028003A002A0706C000001881001006C150680604ED927C002808CFFFF80002A02A00301C040603105C060007000603E008820000004100000200B032B2328020800004B2CA02000032CB2800A81C55238A060D800F9BF01C070079BF01C0700000000600400C010020B412800).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.657052]: signal msg: ↓ [RRC] [0XA5F8] NR_DLInformationTransfer (code: 2E85CFC051747B8FE02FC00840202EE0017E401E22004008180000620A80E0001E2200000022A04020242040200BC03C00).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.657560]: signal msg: ↓ [RRC] [0XA5F8] NR_RRCReconfiguration (code: 002154000784004A4FC081944800070050360000013F0000000200).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.658645]: signal msg: ↓ [RRC] [0XA5F8] NR_RRCReconfiguration (code: 028A90010268078008178FC1D0101988809600222F5D8E020C3E001612222F5D8E020CBC00163806410DF8C341E0A100BAE80202004B2036A0103FE000000000480004371442000022165000040000011064E80020004CD54935060004103081431308122858C1A38680008020010200900808028030200B01008030050200D018080380800238024008E40A0023A02C008EC0C0023C034008F40E0023E494302561B891A2B3C0000014D080100013C0E9060A0C12C1C1821C0028FFD29498C637281C0000201EF40100010000064001400060140180CA8280310000).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.705869]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8D1DC0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.705921]: signal msg: ↑ [RRC] [0XA5F8] NR_RRCReconfigurationComplete (code: 0800).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.705945]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A053F013F5AEFF680BF002180).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.705955]: signal msg: ↑ [RRC] [0XA5F8] NR_RRCReconfigurationComplete (code: 0A00).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.705999]: signal msg: ↑ [NAS] [0XFFFF] Registration complete (code: 7E027EB5DFED017E0043).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.860915]: signal msg: ↓ [NAS] [0XFFFF] Configuration update command (code: 7E026E919DE5027E0054430B90004D0054003500470043450990004E00650078007446234762803060908423490100).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.860971]: signal msg: ↓ [RRC] [0XA5F8] NR_DLInformationTransfer (code: 2C85EFC04DD233BCA04FC00A8861720009A00A8006A008E00868A1320009C00CA00F000E88C468EC50060C12108469202000).
+CONFigure:CELL1:NR:SIGN:UE:STATe?
+ "Connected"
+CONFigure:CELL1:NR:SIGN:SLOT:CLEar
+Clear RMC
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:48.945816]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A273F0105BB58B0013F003380801997078760FFFFC89400802A88003D8011C0401088008080084083000000004183000000000005000006800002800008800008000907C092848434B73A32B93732BA00).
+CONFigure:CELL1:NR:SIGN:SLOT3:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT3:DL:TIND 5
+
+CONFigure:CELL1:NR:SIGN:SLOT3:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT4:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT4:DL:TIND 4
+
+CONFigure:CELL1:NR:SIGN:SLOT4:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT5:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT5:DL:TIND 3
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 30938; after change, pucch pwr = 0.000000, pusch pwr = 20.637123
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[::ffff:127.0.0.1]:49392 command 237: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,20.637
+[2026-08-03 14:09:49.725869]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CDDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+
+[::ffff:127.0.0.1]:49392 command 238: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 239: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-5
+[::ffff:127.0.0.1]:49392 command 240: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 241: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 242: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:CELL1:NR:SIGN:SLOT5:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT6:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT6:DL:TIND 2
+
+CONFigure:CELL1:NR:SIGN:SLOT6:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT10:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT10:DL:TIND 8
+
+CONFigure:CELL1:NR:SIGN:SLOT10:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT11:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT11:DL:TIND 7
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:50.745829]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CDDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:CELL1:NR:SIGN:SLOT11:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT12:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT12:DL:TIND 6
+
+CONFigure:CELL1:NR:SIGN:SLOT12:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT13:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT13:DL:TIND 5
+
+CONFigure:CELL1:NR:SIGN:SLOT13:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT14:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT14:DL:TIND 4
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 31082; after change, pucch pwr = 0.000000, pusch pwr = 20.657291
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[::ffff:127.0.0.1]:48102[2026-08-03 14:09:51.785875]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CDDA0).
+ command 243: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,20.657
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+[::ffff:127.0.0.1]:48102 command 244: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 245: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-5
+[::ffff:127.0.0.1]:48102 command 246: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 247: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 248: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:CELL1:NR:SIGN:SLOT14:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT15:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT15:DL:TIND 3
+
+CONFigure:CELL1:NR:SIGN:SLOT15:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT16:CTYPe PDSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT16:DL:TIND 2
+
+CONFigure:CELL1:NR:SIGN:SLOT16:DL:MCS1 4
+
+CONFigure:CELL1:NR:SIGN:SLOT8:CTYPe PUSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT8:UL:MCS1 2
+
+CONFigure:CELL1:NR:SIGN:SLOT9:CTYPe PUSCh
+
+Pusch Pucch Current Power Request Timeout.
+[::ffff:127.0.0.1]:49378 command 249: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 1,0.000,1,0.000
+[::ffff:127.0.0.1]:49378 command 250: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 251: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-5
+[::ffff:127.0.0.1]:49378 command 252: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 253: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 254: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 31035; after change, pucch pwr = 0.000000, pusch pwr = 20.650719
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[::ffff:127.0.0.1]:49392 command 255: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,20.651
+[2026-08-03 14:09:52.805831]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CDDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+[::ffff:127.0.0.1]:49392 command 256: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 257: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-5
+[::ffff:127.0.0.1]:49392 command 258: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 259: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 260: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:CELL1:NR:SIGN:SLOT9:UL:MCS1 2
+
+CONFigure:CELL1:NR:SIGN:SLOT18:CTYPe PUSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT18:UL:MCS1 2
+
+CONFigure:CELL1:NR:SIGN:SLOT19:CTYPe PUSCh
+
+CONFigure:CELL1:NR:SIGN:SLOT19:UL:MCS1 2
+
+CONFigure:CELL1:NR:SIGN:SLOT8:UL:RB 25,50
+
+CONFigure:CELL1:NR:SIGN:SLOT9:UL:RB 25,50
+
+CONFigure:CELL1:NR:SIGN:SLOT18:UL:RB 25,50
+
+CONFigure:CELL1:NR:SIGN:SLOT19:UL:RB 25,50
+
+CONFigure:CELL1:NR:SIGN:SLOT:APPLy
+DL index 3, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:5,ucTPCForPucch:0
+DL index 4, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:4,ucTPCForPucch:0
+DL index 5, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:3,ucTPCForPucch:0
+DL index 6, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:2,ucTPCForPucch:0
+UL index 8, uiTbNum: 1, uiRbStart:25, uiRbCnt:50,ucMcs1:2,ucSymbolStart:0,ucSymbolCnt:14,ucTPCForPusch:0
+UL index 9, uiTbNum: 1, uiRbStart:25, uiRbCnt:50,ucMcs1:2,ucSymbolStart:0,ucSymbolCnt:14,ucTPCForPusch:0
+DL index 10, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:8,ucTPCForPucch:0
+DL index 11, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:7,ucTPCForPucch:0
+DL index 12, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:6,ucTPCForPucch:0
+DL index 13, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:5,ucTPCForPucch:0
+DL index 14, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:4,ucTPCForPucch:0
+DL index 15, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:3,ucTPCForPucch:0
+DL index 16, uiTbNum: 1, uiRbStart:0, uiRbCnt:106,ucRATypeflag:0,uiRABitmap:0,ucMcs1:4,ucSymbolStart:2,ucSymbolCnt:12,ucPdschFeedbackTimingInd:2,ucTPCForPucch:0
+UL index 18, uiTbNum: 1, uiRbStart:25, uiRbCnt:50,ucMcs1:2,ucSymbolStart:0,ucSymbolCnt:14,ucTPCForPusch:0
+UL index 19, uiTbNum: 1, uiRbStart:25, uiRbCnt:50,ucMcs1:2,ucSymbolStart:0,ucSymbolCnt:14,ucTPCForPusch:0
+Rmc Apply...
+Recv NR Msg, Msg Type: RMC Respond 
+Rmc Apply Replyed.
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:53.821912]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CCDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:CELL1:NR:SIGN:DDETection:SWITch ON,1
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22847; after change, pucch pwr = 0.000000, pusch pwr = 19.320493
+[::ffff:127.0.0.1]:49378 command 261: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.320
+[::ffff:127.0.0.1]:49378 command 262: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 263: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-5
+[::ffff:127.0.0.1]:49378 command 264: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 265: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 266: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22987; after change, pucch pwr = 0.000000, pusch pwr = 19.347024
+[::ffff:127.0.0.1]:48102 command 267: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.347
+[::ffff:127.0.0.1]:48102 command 268: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 269: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-5
+[::ffff:127.0.0.1]:48102 command 270: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 271: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 272: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:54.851864]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22790; after change, pucch pwr = 0.000000, pusch pwr = 19.309644
+[::ffff:127.0.0.1]:49392 command 273: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.310
+[::ffff:127.0.0.1]:49392 command 274: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 275: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 276: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 277: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 278: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:55.881823]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:56.911839]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22809; after change, pucch pwr = 0.000000, pusch pwr = 19.313264
+[::ffff:127.0.0.1]:49378 command 279: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.313
+[::ffff:127.0.0.1]:49378 command 280: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 281: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 282: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 283: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 284: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22824; after change, pucch pwr = 0.000000, pusch pwr = 19.316119
+[::ffff:127.0.0.1]:48102 command 285: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.316
+[::ffff:127.0.0.1]:48102 command 286: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 287: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 288: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 289: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 290: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:57.941904]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:CELL1:NR:SIGN:POWer?
+ -53.955
+CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF
+
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+
+CONFigure:NR:BLER:REPetition SINGLESHOT
+
+INITiate:NR:BLER
+_event_started
+
+BLER measuret start time:[2026-08-03 14:09:58.299878]
+_event_about_to_run_once
+INITiate:NR:MEValuation
+_event_started
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:09:58.408571]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22782; after change, pucch pwr = 0.000000, pusch pwr = 19.308120
+[::ffff:127.0.0.1]:49392 command 291: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.308
+[::ffff:127.0.0.1]:49392 command 292: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 293: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 294: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 295: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 296: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:09:58.971884]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:09:59.271939]
+TXP_ULMIMO measuret start time:[2026-08-03 14:09:59.271951]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:09:59.374558]
+BLER measuret start time:[2026-08-03 14:09:59.374580]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:09:59.579799]
+TXP_ULMIMO measuret start time:[2026-08-03 14:09:59.579812]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:00.001835]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:00.447792]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:00.447804]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22897; after change, pucch pwr = 0.000000, pusch pwr = 19.329987
+[::ffff:127.0.0.1]:49378 command 297: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.330
+[::ffff:127.0.0.1]:49378 command 298: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 299: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+[::ffff:127.0.0.1]:49378 command 300: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 301: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 302: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22925; after change, pucch pwr = 0.000000, pusch pwr = 19.335295
+[::ffff:127.0.0.1]:48102 command 303: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.335
+[::ffff:127.0.0.1]:48102 command 304: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 305: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 306: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 307: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 308: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:00.551103]
+BLER measuret start time:[2026-08-03 14:10:00.551112]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:00.756289]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:00.756312]
+
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:01.031839]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22906; after change, pucch pwr = 0.000000, pusch pwr = 19.331694
+[::ffff:127.0.0.1]:49392 command 309: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.332
+[::ffff:127.0.0.1]:49392 command 310: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 311: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 312: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 313: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 314: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:01.624999]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:01.625012]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:01.727022]
+BLER measuret start time:[2026-08-03 14:10:01.727038]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:01.931244]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:01.931269]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:02.061878]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:02.795302]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:02.795330]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:02.897316]
+BLER measuret start time:[2026-08-03 14:10:02.897333]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:03.091862]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:03.103939]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:03.103956]
+
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23006; after change, pucch pwr = 0.000000, pusch pwr = 19.350612
+[::ffff:127.0.0.1]:49378 command 315: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.351
+[::ffff:127.0.0.1]:49378 command 316: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 317: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 318: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 319: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 320: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23092; after change, pucch pwr = 0.000000, pusch pwr = 19.366817
+[::ffff:127.0.0.1]:48102 command 321: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.367
+[::ffff:127.0.0.1]:48102 command 322: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 323: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 324: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 325: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 326: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:03.973871]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:03.973887]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:04.075679]
+BLER measuret start time:[2026-08-03 14:10:04.075700]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:04.121984]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:04.282253]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:04.282273]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23076; after change, pucch pwr = 0.000000, pusch pwr = 19.363806
+[::ffff:127.0.0.1]:49392 command 327: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.364
+[::ffff:127.0.0.1]:49392 command 328: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49392 command 329: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 330: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 331: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 332: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:04.961908]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A273F01625F24EE01BF003380801997078760FFFFC89400802A88003D8011C0401088008080084083000000004183000000000005000006800002800008800008000907C092848434B73A32B93732BA00).
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:05.141326]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:05.141346]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:05.151845]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:05.243746]
+BLER measuret start time:[2026-08-03 14:10:05.243763]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:05.447433]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:05.447459]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:06.181872]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:06.308538]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:06.308568]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:06.411226]
+BLER measuret start time:[2026-08-03 14:10:06.411242]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23143; after change, pucch pwr = 0.000000, pusch pwr = 19.376398
+[::ffff:127.0.0.1]:49378 command 333: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.376
+[::ffff:127.0.0.1]:49378 command 334: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 335: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 336: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 337: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 338: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23082; after change, pucch pwr = 0.000000, pusch pwr = 19.364935
+[::ffff:127.0.0.1]:48102 command 339: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.365
+[::ffff:127.0.0.1]:48102 command 340: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 341: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 342: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 343: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 344: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:06.616136]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:06.616159]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:07.211908]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:07.477030]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:07.477042]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+
+BLER measuret end time:[2026-08-03 14:10:07.578605]
+BLER measuret start time:[2026-08-03 14:10:07.578636]
+_event_about_to_run_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23091; after change, pucch pwr = 0.000000, pusch pwr = 19.366629
+[::ffff:127.0.0.1]:49392 command 345: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.367
+[::ffff:127.0.0.1]:49392 command 346: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49392 command 347: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 348: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 349: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 350: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:07.783535]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:07.783552]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:08.241906]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:08.652179]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:08.652195]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:08.754251]
+BLER measuret start time:[2026-08-03 14:10:08.754279]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:08.959497]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:08.959514]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:09.272030]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23011; after change, pucch pwr = 0.000000, pusch pwr = 19.351556
+[::ffff:127.0.0.1]:49378 command 351: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.352
+[::ffff:127.0.0.1]:49378 command 352: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 353: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 354: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 355: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 356: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23032; after change, pucch pwr = 0.000000, pusch pwr = 19.355518
+[::ffff:127.0.0.1]:48102 command 357: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.356
+[::ffff:127.0.0.1]:48102 command 358: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 359: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 360: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 361: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 362: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:09.823562]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:09.823576]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:09.926163]
+BLER measuret start time:[2026-08-03 14:10:09.926182]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:10.129643]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:10.129662]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:10.301876]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23100; after change, pucch pwr = 0.000000, pusch pwr = 19.368321
+[::ffff:127.0.0.1]:49392 command 363: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.368
+[::ffff:127.0.0.1]:49392 command 364: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 365: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 366: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 367: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 368: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:10.990081]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:10.990094]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:11.091621]
+BLER measuret start time:[2026-08-03 14:10:11.091645]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:11.331914]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:11.340701]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:11.340721]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: Bler Measurement Result 
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:12.208213]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:12.208231]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:12.311892]
+BLER measuret start time:[2026-08-03 14:10:12.311910]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:12.361895]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23027; after change, pucch pwr = 0.000000, pusch pwr = 19.354575
+[::ffff:127.0.0.1]:49378 command 369: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.355
+[::ffff:127.0.0.1]:49378 command 370: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 371: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 372: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 373: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 374: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:12.517116]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:12.517133]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23041; after change, pucch pwr = 0.000000, pusch pwr = 19.357214
+[::ffff:127.0.0.1]:48102 command 375: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.357
+[::ffff:127.0.0.1]:48102 command 376: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 377: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 378: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 379: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 380: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:13.379567]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:13.379593]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:13.391923]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:13.482411]
+BLER measuret start time:[2026-08-03 14:10:13.482444]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:13.688606]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:13.688627]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23030; after change, pucch pwr = 0.000000, pusch pwr = 19.355141
+[::ffff:127.0.0.1]:49392 command 381: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.355
+[::ffff:127.0.0.1]:49392 command 382: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 383: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 384: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 385: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 386: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:14.422082]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:14.556821]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:14.556842]
+
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:14.659005]
+BLER measuret start time:[2026-08-03 14:10:14.659021]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:14.863420]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:14.863449]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:15.451896]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23004; after change, pucch pwr = 0.000000, pusch pwr = 19.350235
+[::ffff:127.0.0.1]:49378 command 387: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.350
+FETCh:NR:BLER:UL:RESult?
+[::ffff:127.0.0.1]:49378 command 388: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+[::ffff:127.0.0.1]:49378 command 389: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 390: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 391: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 392: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23044; after change, pucch pwr = 0.000000, pusch pwr = 19.357780
+[::ffff:127.0.0.1]:48102 command 393: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.358
+[::ffff:127.0.0.1]:48102 command 394: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 395: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 396: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 397: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 398: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:15.729711]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:15.729724]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:15.835535]
+BLER measuret start time:[2026-08-03 14:10:15.835558]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:16.038991]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:16.039005]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:16.481879]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23083; after change, pucch pwr = 0.000000, pusch pwr = 19.365124
+[::ffff:127.0.0.1]:49392 command 399: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.365
+[::ffff:127.0.0.1]:49392 command 400: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 401: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 402: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 403: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 404: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:16.902077]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:16.902089]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:17.003325]
+BLER measuret start time:[2026-08-03 14:10:17.003337]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:17.226722]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:17.226734]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:17.511970]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:18.109634]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:18.109650]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:18.212006]
+BLER measuret start time:[2026-08-03 14:10:18.212023]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:18.415740]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:18.415757]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23075; after change, pucch pwr = 0.000000, pusch pwr = 19.363618
+[::ffff:127.0.0.1]:49378 command 405: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.364
+[::ffff:127.0.0.1]:49378 command 406: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 407: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 408: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 409: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 410: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:18.541892]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22986; after change, pucch pwr = 0.000000, pusch pwr = 19.346835
+[::ffff:127.0.0.1]:48102 command 411: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.347
+[::ffff:127.0.0.1]:48102 command 412: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 413: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 414: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 415: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 416: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:19.276762]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:19.276774]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:19.379571]
+BLER measuret start time:[2026-08-03 14:10:19.379590]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:19.572032]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:19.583355]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:19.583375]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23082; after change, pucch pwr = 0.000000, pusch pwr = 19.364935
+[::ffff:127.0.0.1]:49392 command 417: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.365
+[::ffff:127.0.0.1]:49392 command 418: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 419: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 420: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 421: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 422: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:20.446046]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:20.446060]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:20.548002]
+BLER measuret start time:[2026-08-03 14:10:20.548017]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:20.601968]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:20.754399]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:20.754411]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:20.971960]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A273F011AE8F021023F003380801997078760FFFFC89400802A88003D8011C0401088008080084083000000004183000000000005000006800002800008800008000907C092848434B73A32B93732BA00).
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22990; after change, pucch pwr = 0.000000, pusch pwr = 19.347591
+[::ffff:127.0.0.1]:49378 command 423: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.348
+[::ffff:127.0.0.1]:49378 command 424: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 425: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 426: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 427: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 428: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:21.615010]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:21.615024]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:21.631942]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22955; after change, pucch pwr = 0.000000, pusch pwr = 19.340974
+[::ffff:127.0.0.1]:48102 command 429: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.341
+[::ffff:127.0.0.1]:48102 command 430: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 431: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 432: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 433: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 434: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:21.716350]
+
+BLER measuret start time:[2026-08-03 14:10:21.716364]
+_event_about_to_run_once
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:21.919277]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:21.919295]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:22.661956]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23015; after change, pucch pwr = 0.000000, pusch pwr = 19.352311
+[::ffff:127.0.0.1]:49392 command 435: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.352
+[::ffff:127.0.0.1]:49392 command 436: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 437: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 438: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 439: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 440: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:22.784902]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:22.784914]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:22.886166]
+BLER measuret start time:[2026-08-03 14:10:22.886193]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:23.092120]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:23.092140]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:23.691943]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:23.961870]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:23.961889]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:24.063809]
+BLER measuret start time:[2026-08-03 14:10:24.063828]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:24.266843]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:24.266865]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22981; after change, pucch pwr = 0.000000, pusch pwr = 19.345890
+[::ffff:127.0.0.1]:49378 command 441: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.346
+[::ffff:127.0.0.1]:49378 command 442: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 443: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 444: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 445: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 446: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23023; after change, pucch pwr = 0.000000, pusch pwr = 19.353820
+[::ffff:127.0.0.1]:48102 command 447: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.354
+[::ffff:127.0.0.1]:48102 command 448: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 449: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 450: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 451: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 452: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:24.721936]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:25.127209]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:25.127229]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:25.230075]
+
+BLER measuret start time:[2026-08-03 14:10:25.230099]
+_event_about_to_run_once
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:25.435675]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:25.435695]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:25.751891]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22970; after change, pucch pwr = 0.000000, pusch pwr = 19.343811
+[::ffff:127.0.0.1]:49392 command 453: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.344
+[::ffff:127.0.0.1]:49392 command 454: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 455: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 456: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 457: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 458: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:26.296266]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:26.296279]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:26.399027]
+BLER measuret start time:[2026-08-03 14:10:26.399049]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:26.604096]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:26.604118]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:26.781958]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:27.469280]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:27.469302]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23013; after change, pucch pwr = 0.000000, pusch pwr = 19.351934
+[::ffff:127.0.0.1]:49378 command 459: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.352
+[::ffff:127.0.0.1]:49378 command 460: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 461: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+[::ffff:127.0.0.1]:49378 command 462: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+[::ffff:127.0.0.1]:49378 command 463: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 464: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:27.572399]
+BLER measuret start time:[2026-08-03 14:10:27.572419]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22952; after change, pucch pwr = 0.000000, pusch pwr = 19.340406
+[::ffff:127.0.0.1]:48102 command 465: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.340
+[::ffff:127.0.0.1]:48102 command 466: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 467: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 468: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 469: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 470: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:27.778011]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:27.778023]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:27.811948]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:28.650119]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:28.650134]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:28.753113]
+BLER measuret start time:[2026-08-03 14:10:28.753136]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23033; after change, pucch pwr = 0.000000, pusch pwr = 19.355706
+[::ffff:127.0.0.1]:49392 command 471: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.356
+[::ffff:127.0.0.1]:49392 command 472: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 473: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 474: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 475: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 476: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:28.841923]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:28.956759]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:28.956777]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:29.847842]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:29.847862]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:29.872316]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:29.973942]
+BLER measuret start time:[2026-08-03 14:10:29.973961]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:30.176774]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:30.176795]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23041; after change, pucch pwr = 0.000000, pusch pwr = 19.357214
+[::ffff:127.0.0.1]:49378 command 477: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.357
+[::ffff:127.0.0.1]:49378 command 478: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 479: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 480: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 481: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 482: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23062; after change, pucch pwr = 0.000000, pusch pwr = 19.361171
+[::ffff:127.0.0.1]:48102 command 483: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.361
+[::ffff:127.0.0.1]:48102 command 484: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 485: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 486: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 487: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 488: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:30.901924]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:31.042646]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:31.042664]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:31.144424]
+BLER measuret start time:[2026-08-03 14:10:31.144448]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:31.349469]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:31.349486]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23080; after change, pucch pwr = 0.000000, pusch pwr = 19.364559
+[::ffff:127.0.0.1]:49392 command 489: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.365
+[::ffff:127.0.0.1]:49392 command 490: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 491: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 492: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 493: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 494: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:31.931991]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:32.212221]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:32.212234]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:32.318090]
+BLER measuret start time:[2026-08-03 14:10:32.318109]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:32.523101]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:32.523117]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:32.962007]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:33.383889]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:33.383906]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23088; after change, pucch pwr = 0.000000, pusch pwr = 19.366064
+[::ffff:127.0.0.1]:49378 command 495: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.366
+[::ffff:127.0.0.1]:49378 command 496: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 497: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 498: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 499: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 500: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:33.486226]
+BLER measuret start time:[2026-08-03 14:10:33.486244]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23084; after change, pucch pwr = 0.000000, pusch pwr = 19.365312
+[::ffff:127.0.0.1]:48102 command 501: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.365
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:33.692976]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:33.692995]
+_event_about_to_run_once
+
+[::ffff:127.0.0.1]:48102 command 502: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 503: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 504: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 505: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 506: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:33.992029]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:34.553021]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:34.553042]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+
+BLER measuret end time:[2026-08-03 14:10:34.655521]
+BLER measuret start time:[2026-08-03 14:10:34.655557]
+_event_about_to_run_once
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23114; after change, pucch pwr = 0.000000, pusch pwr = 19.370952
+[::ffff:127.0.0.1]:49392 command 507: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.371
+[::ffff:127.0.0.1]:49392 command 508: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 509: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 510: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 511: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 512: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:34.859635]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:34.859661]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:35.022000]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:35.730464]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:35.730485]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:35.833334]
+BLER measuret start time:[2026-08-03 14:10:35.833355]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:36.038635]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:36.038651]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:36.051981]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23072; after change, pucch pwr = 0.000000, pusch pwr = 19.363054
+[::ffff:127.0.0.1]:49378 command 513: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.363
+[::ffff:127.0.0.1]:49378 command 514: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 515: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 516: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 517: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 518: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23036; after change, pucch pwr = 0.000000, pusch pwr = 19.356272
+[::ffff:127.0.0.1]:48102 command 519: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.356
+[::ffff:127.0.0.1]:48102 command 520: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 521: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 522: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 523: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 524: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:36.900711]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:36.900723]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:36.982002]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A273F01610A795182BF003380801997078760FFFFC89400802A88003D8011C0401088008080084083000000004183000000000005000006800002800008800008000907C092848434B73A32B93732BA00).
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:37.004640]
+BLER measuret start time:[2026-08-03 14:10:37.004656]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:37.082019]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:37.209479]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:37.209502]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23061; after change, pucch pwr = 0.000000, pusch pwr = 19.360982
+[::ffff:127.0.0.1]:49392 command 525: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.361
+[::ffff:127.0.0.1]:49392 command 526: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 527: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 528: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 529: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 530: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:38.078344]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:38.078362]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:38.111987]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:38.181208]
+BLER measuret start time:[2026-08-03 14:10:38.181219]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:38.386559]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:38.386592]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:39.142003]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:39.251614]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:39.251638]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:39.353366]
+BLER measuret start time:[2026-08-03 14:10:39.353381]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23063; after change, pucch pwr = 0.000000, pusch pwr = 19.361359
+[::ffff:127.0.0.1]:49378 command 531: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.361
+[::ffff:127.0.0.1]:49378 command 532: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 533: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 534: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 535: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 536: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:39.558117]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:39.558131]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23073; after change, pucch pwr = 0.000000, pusch pwr = 19.363242
+[::ffff:127.0.0.1]:48102 command 537: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.363
+[::ffff:127.0.0.1]:48102 command 538: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 539: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 540: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 541: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 542: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:40.172035]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:40.415308]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:40.415334]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:40.517474]
+BLER measuret start time:[2026-08-03 14:10:40.517493]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:40.722194]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:40.722209]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23059; after change, pucch pwr = 0.000000, pusch pwr = 19.360606
+[::ffff:127.0.0.1]:49392 command 543: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.361
+[::ffff:127.0.0.1]:49392 command 544: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49392 command 545: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 546: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 547: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 548: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:41.201970]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:41.582557]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:41.582573]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:41.684616]
+BLER measuret start time:[2026-08-03 14:10:41.684634]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:41.888860]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:41.888883]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:42.231922]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23030; after change, pucch pwr = 0.000000, pusch pwr = 19.355141
+[::ffff:127.0.0.1]:49378 command 549: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.355
+[::ffff:127.0.0.1]:49378 command 550: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 551: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 552: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 553: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 554: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23077; after change, pucch pwr = 0.000000, pusch pwr = 19.363995
+[::ffff:127.0.0.1]:48102 command 555: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.364
+[::ffff:127.0.0.1]:48102 command 556: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 557: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 558: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 559: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 560: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:42.748372]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:42.748382]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:42.850941]
+BLER measuret start time:[2026-08-03 14:10:42.850960]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:43.054844]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:43.054869]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:43.261959]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23053; after change, pucch pwr = 0.000000, pusch pwr = 19.359476
+[::ffff:127.0.0.1]:49392 command 561: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.359
+[::ffff:127.0.0.1]:49392 command 562: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 563: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 564: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 565: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 566: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:43.932568]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:43.932583]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:44.034437]
+BLER measuret start time:[2026-08-03 14:10:44.034451]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:44.240152]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:44.240167]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:44.292027]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:45.101257]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:45.101283]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:45.204381]
+
+BLER measuret start time:[2026-08-03 14:10:45.204402]
+_event_about_to_run_once
+INITiate:NR:BLER
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:45.322122]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:45.410041]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:45.410059]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23064; after change, pucch pwr = 0.000000, pusch pwr = 19.361547
+[::ffff:127.0.0.1]:49378 command 567: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.362
+[::ffff:127.0.0.1]:49378 command 568: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49378 command 569: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 570: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 571: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 572: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23025; after change, pucch pwr = 0.000000, pusch pwr = 19.354198
+[::ffff:127.0.0.1]:48102 command 573: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.354
+[::ffff:127.0.0.1]:48102 command 574: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 575: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 576: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 577: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 578: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:46.272386]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:46.272402]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:46.352019]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:46.374607]
+BLER measuret start time:[2026-08-03 14:10:46.374627]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:46.580627]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:46.580650]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23026; after change, pucch pwr = 0.000000, pusch pwr = 19.354386
+[::ffff:127.0.0.1]:49392 command 579: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.354
+_event_finished_once
+[::ffff:127.0.0.1]:49392 command 580: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 581: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 582: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 583: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 584: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:47.382023]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:47.445294]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:47.445312]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:47.547666]
+BLER measuret start time:[2026-08-03 14:10:47.547699]
+
+_event_about_to_run_once
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:47.753096]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:47.753121]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:48.412008]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23089; after change, pucch pwr = 0.000000, pusch pwr = 19.366252
+[::ffff:127.0.0.1]:49378 command 585: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.366
+[::ffff:127.0.0.1]:49378 command 586: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 587: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 588: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 589: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 590: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:48.622581]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:48.622595]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23050; after change, pucch pwr = 0.000000, pusch pwr = 19.358910
+[::ffff:127.0.0.1]:48102 command 591: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.359
+[::ffff:127.0.0.1]:48102 command 592: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:48102 command 593: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 594: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 595: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 596: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:48.724661]
+BLER measuret start time:[2026-08-03 14:10:48.724683]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:48.929452]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:48.929466]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:49.442028]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:49.809121]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:49.809138]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22998; after change, pucch pwr = 0.000000, pusch pwr = 19.349102
+[::ffff:127.0.0.1]:49392 command 597: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.349
+[::ffff:127.0.0.1]:49392 command 598: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 599: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 600: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 601: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 602: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:49.910415]
+BLER measuret start time:[2026-08-03 14:10:49.910426]
+
+_event_about_to_run_once
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:50.114400]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:50.114419]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:50.471962]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:50.980900]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:50.980917]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:51.081947]
+BLER measuret start time:[2026-08-03 14:10:51.081967]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:51.288209]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:51.288229]
+
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23012; after change, pucch pwr = 0.000000, pusch pwr = 19.351745
+[::ffff:127.0.0.1]:49378 command 603: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.352
+[::ffff:127.0.0.1]:49378 command 604: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 605: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 606: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 607: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 608: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:51.502002]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23016; after change, pucch pwr = 0.000000, pusch pwr = 19.352500
+[::ffff:127.0.0.1]:48102 command 609: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.352
+[::ffff:127.0.0.1]:48102 command 610: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 611: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 612: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 613: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 614: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:52.327150]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:52.327165]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:52.430475]
+BLER measuret start time:[2026-08-03 14:10:52.430488]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:52.531994]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:52.640341]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:52.640368]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23039; after change, pucch pwr = 0.000000, pusch pwr = 19.356837
+[::ffff:127.0.0.1]:49392 command 615: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.357
+_event_finished_once
+[::ffff:127.0.0.1]:49392 command 616: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 617: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 618: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 619: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 620: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:52.992011]: signal msg: ↑ [RRC] [0XA5F8] NR_ULInformationTransfer (code: 3A273F016CAE0697833F003380801997078760FFFFC89400802A88003D8011C0401088008080084083000000004183000000000005000006800002800008800008000907C092848434B73A32B93732BA00).
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:53.503648]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:53.503664]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:53.561991]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:53.606448]
+BLER measuret start time:[2026-08-03 14:10:53.606459]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:53.811577]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:53.811601]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23021; after change, pucch pwr = 0.000000, pusch pwr = 19.353443
+[::ffff:127.0.0.1]:49378 command 621: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.353
+[::ffff:127.0.0.1]:49378 command 622: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 623: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 624: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 625: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 626: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:54.592005]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBDA0).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:54.679168]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:54.679192]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23058; after change, pucch pwr = 0.000000, pusch pwr = 19.360417
+[::ffff:127.0.0.1]:48102 command 627: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.360
+[::ffff:127.0.0.1]:48102 command 628: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 629: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 630: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+[::ffff:127.0.0.1]:48102 command 631: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 632: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:54.780582]
+BLER measuret start time:[2026-08-03 14:10:54.780595]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:54.983145]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:54.983163]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:55.622158]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:55.842381]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:55.842404]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:55.943763]
+BLER measuret start time:[2026-08-03 14:10:55.943782]
+_event_about_to_run_once
+
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22970; after change, pucch pwr = 0.000000, pusch pwr = 19.343811
+[::ffff:127.0.0.1]:49392 command 633: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.344
+[::ffff:127.0.0.1]:49392 command 634: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:49392 command 635: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49392 command 636: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49392 command 637: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49392 command 638: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:56.167159]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:56.167176]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:56.652049]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD60).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+CONFigure:NR:MEValuation:REPetition SINGLESHOT
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:57.027072]
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:57.027090]
+_event_about_to_run_once
+
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+CONFigure:NR:BLER:REPetition SINGLESHOT
+BLER measuret end time:[2026-08-03 14:10:57.128405]
+BLER measuret start time:[2026-08-03 14:10:57.128425]
+_event_about_to_run_once
+
+INITiate:NR:BLER
+
+INITiate:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:57.330996]
+
+TXP_ULMIMO measuret start time:[2026-08-03 14:10:57.331024]
+_event_about_to_run_once
+RX Rf index: 0,Get Freq: 713000000 hz
+RX Rf index: 0,Get Level: 30.000000
+NtaOffsetSa = 0 
+GetMeasRawData.nTriggerOffset 952320, nMeasLength 184320
+GetMeasRawData Success.nTriggerOffset 952320, nMeasLength 184320
+TxPowerFlow. nslot_Meas 1, nHalfCHPMBW 10184 t_nTotalSpecPoint 131072
+_event_finished_once
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 22996; after change, pucch pwr = 0.000000, pusch pwr = 19.348724
+[::ffff:127.0.0.1]:49378 command 639: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.349
+[::ffff:127.0.0.1]:49378 command 640: CONFigure:CELL1:NR:UEReport:SINR? 0,30
+[::ffff:127.0.0.1]:49378 command 641: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:49378 command 642: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:49378 command 643: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:49378 command 644: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+Recv NR Msg, Msg Type: Bler Measurement Result 
+Recv NR Msg, Msg Type: Bler Measurement Result 
+_event_finished_once
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+[2026-08-03 14:10:57.682026]: signal msg: ↑ [RRC] [0XA5F8] NR_MeasurementReport (code: 00000004005E8CBD80).
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Report Info 
+Recv NR Msg, Msg Type: UE POWER Respond 
+Power: recv pucch: -1,pusch: 23150; after change, pucch pwr = 0.000000, pusch pwr = 19.377711
+[::ffff:127.0.0.1]:48102 command 645: QUERy:CELL1:NR:SIGN:UPC:CPOWer? 2,0.000,0,19.378
+[::ffff:127.0.0.1]:48102 command 646: CONFigure:CELL1:NR:UEReport:SINR? 0,31
+[::ffff:127.0.0.1]:48102 command 647: CONFigure:CELL1:NR:UEReport:RSRQ? 0,-6
+[::ffff:127.0.0.1]:48102 command 648: CONFigure:CELL1:NR:UEReport:RSRP? 0,-76
+[::ffff:127.0.0.1]:48102 command 649: CONFigure:CELL1:LTE:UEReport:RSRQ? 7,0
+[::ffff:127.0.0.1]:48102 command 650: CONFigure:CELL1:LTE:UEReport:RSRP? 7,0
+FETCh:NR:BLER:STATe?
+ RDY
+FETCh:NR:BLER:DL:RESult?
+ 0,67,67,0,0,57888,57888,0.000,0.000,345.600,345.600
+FETCh:NR:BLER:UL:RESult?
+ 0,67,67,0,0,20703,20703,0.000,0.000,61.800,61.800
+FETCh:NR:MEValuation:TXP:AVG?
+ 0,19.416
+ABORt:NR:BLER
+BLER measuret end time:[2026-08-03 14:10:58.196060]
+_event_aborted_explicit
+
+ABORt:NR:MEValuation
+TXP_ULMIMO measuret end time:[2026-08-03 14:10:58.297442]
+_event_aborted_explicit
+
+CONFigure:NR:MEValuation:RESult OFF,OFF,OFF,OFF,OFF,OFF
+
+ABORt:NR:BLER
+
+ABORt:NR:MEValuation
+
+CALL:CELL1 OFF
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:UE Connect State 
+Recv NR Msg, Msg Type: Cell Action Respond 
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 
+text:MT5GC Release UE,Group id:1 Cause Code: 21 
+[2026-08-03 14:10:58.707996]: signal msg: ↓ [NAS] [0XFFFF] MT5GC Release UE,Group id:1 Cause Code: 21 .
+Recv NR Msg, Msg Type: UE Report Result, UE Msg Type:Signal Message 

@@ -1,0 +1,26 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:16:46.507: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/nssf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:16:46.507: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/nssf.log' (../lib/app/ogs-init.c:136)
+08/03 13:16:46.508: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+08/03 13:16:46.508: [sbi] INFO: NF Service [nnssf-nsselection] (../lib/sbi/context.c:1829)
+08/03 13:16:46.508: [sbi] INFO: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:424)
+08/03 13:16:46.508: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/03 13:16:46.508: [sbi] INFO: [85ed419c-8efa-41f1-b1d4-037fdba67ff1] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+08/03 13:16:46.509: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+08/03 13:16:46.509: [sbi] INFO: [85ed66e0-8efa-41f1-b216-813d40fa93c3] Subscription created until 2026-08-04T13:16:46.509238+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+08/03 13:50:46.995: [app] INFO: SIGTERM received (../src/main.c:53)
+08/03 13:50:46.995: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+08/03 13:50:46.995: [sbi] INFO: [85ed419c-8efa-41f1-b1d4-037fdba67ff1] NF de-registered (../lib/sbi/nf-sm.c:235)
+08/03 13:50:46.997: [app] INFO: NSSF terminate...done (../src/nssf/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:10.165: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/nssf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:10.165: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/nssf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:10.166: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+08/03 13:51:10.166: [sbi] INFO: NF Service [nnssf-nsselection] (../lib/sbi/context.c:1829)
+08/03 13:51:10.166: [sbi] INFO: nghttp2_server() [http://127.0.0.14]:7777 (../lib/sbi/nghttp2-server.c:424)
+08/03 13:51:10.166: [app] INFO: NSSF initialize...done (../src/nssf/app.c:31)
+08/03 13:51:10.166: [sbi] INFO: [53f67578-8eff-41f1-b597-0b3a40a34197] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+08/03 13:51:10.167: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+08/03 13:51:10.167: [sbi] INFO: [53f69a26-8eff-41f1-8a42-2be667faeb99] Subscription created until 2026-08-04T13:51:10.167107+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)

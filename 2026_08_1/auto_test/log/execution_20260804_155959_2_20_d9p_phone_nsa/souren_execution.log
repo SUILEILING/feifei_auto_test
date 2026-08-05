@@ -1,0 +1,100 @@
+2026-08-04 16:00:03,212 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:00:03,216 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:00:03,494 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:00:03,495 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-04 16:00:03,495 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-04 16:00:03,496 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 41, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:00:03,497 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:00:03,498 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:00:03,498 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:03:46,486 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:03:48,505 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:03:48,507 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:03:48,680 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:03:48,681 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-04 16:03:48,681 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-04 16:03:48,681 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 77, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:03:48,682 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:03:48,684 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:03:48,685 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:07:30,420 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:07:32,438 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:07:32,439 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:07:32,618 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:07:32,618 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-04 16:07:32,618 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-04 16:07:32,619 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 78, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:07:32,619 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:07:32,620 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:07:32,621 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:11:53,674 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:11:55,696 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:11:55,702 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:11:55,873 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:11:55,874 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-04 16:11:55,874 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-04 16:11:55,875 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 79, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:11:55,876 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:11:55,879 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:11:55,880 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:15:38,987 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:15:40,996 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:15:40,997 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:15:41,165 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:15:41,165 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-04 16:15:41,165 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-04 16:15:41,166 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 78, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'resource_allocation_type': 2, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:15:41,166 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:15:41,168 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:15:41,169 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:19:23,071 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:19:25,096 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:19:25,097 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:19:25,266 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:19:25,267 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-04 16:19:25,267 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-04 16:19:25,267 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 41, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:19:25,268 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:19:25,270 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:19:25,270 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:24:03,507 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:24:05,526 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:24:05,527 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:24:05,690 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:24:05,691 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-04 16:24:05,692 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-04 16:24:05,693 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 77, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:24:05,694 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:24:05,699 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:24:05,700 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:28:53,926 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:28:55,935 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:28:55,936 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:28:56,094 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:28:56,095 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-04 16:28:56,095 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-04 16:28:56,095 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 78, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:28:56,096 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:28:56,098 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:28:56,098 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:33:44,354 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:33:46,370 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:33:46,370 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:33:46,539 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:33:46,540 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-04 16:33:46,540 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-04 16:33:46,541 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 79, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:33:46,541 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:33:46,543 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:33:46,543 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:38:35,418 - SourenToolSet - INFO - 开始清理资源
+2026-08-04 16:38:37,470 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-04 16:38:37,471 - SourenToolSet - INFO - 开始初始化系统
+2026-08-04 16:38:37,642 - SourenToolSet - INFO - 系统初始化完成
+2026-08-04 16:38:37,642 - SourenToolSet - INFO - 加载Python文件: test_nsa_channel_switch.py
+2026-08-04 16:38:37,643 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_nsa_channel_switch.py
+2026-08-04 16:38:37,643 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'lte_band': 3, 'lte_bw': 20, 'nr_band_list': [78, 77, 79, 41], 'lte_band_list': [{78: 1, 20: [300]}, {77: 1, 20: [300]}], 'nr_range_list': ['Low', 'Mid', 'High', 'Low'], 'rb_mode': 'Outer_Full', 'case_dir': 'yc1100'}
+2026-08-04 16:38:37,643 - SourenToolSet - INFO - 获取仪器信息
+2026-08-04 16:38:37,645 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-04 16:38:37,645 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-04 16:48:24,682 - SourenToolSet - INFO - 开始清理资源

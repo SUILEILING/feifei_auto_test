@@ -1,0 +1,7 @@
+MT5GC daemon vR2.7.2-22-g93b68c3
+
+08/03 16:36:07.418: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/pcrf.yaml' (../lib/app/ogs-init.c:133)
+08/03 16:36:07.418: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/pcrf.log' (../lib/app/ogs-init.c:136)
+08/03 16:36:07.419: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+08/03 16:36:07.458: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+08/03 16:36:07.459: [diam] INFO: CONNECTED TO 'smf.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)

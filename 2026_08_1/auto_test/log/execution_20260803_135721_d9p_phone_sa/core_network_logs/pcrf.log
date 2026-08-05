@@ -1,0 +1,35 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:16:46.559: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/pcrf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:16:46.559: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/pcrf.log' (../lib/app/ogs-init.c:136)
+08/03 13:16:46.559: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+08/03 13:16:46.572: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+08/03 13:16:46.572: [diam] INFO: CONNECTED TO 'smf.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+08/03 13:50:46.995: [app] INFO: SIGTERM received (../src/main.c:53)
+08/03 13:50:46.995: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+08/03 13:50:47.105: [app] INFO: PCRF terminate...done (../src/pcrf/app-init.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:05.810: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/pcrf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:05.810: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/pcrf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:05.811: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+08/03 13:51:05.811: [app] WARNING: Failed to initialize PCRF (../src/pcrf/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:08.088: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/pcrf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:08.088: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/pcrf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:08.088: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+08/03 13:51:08.088: [app] WARNING: Failed to initialize PCRF (../src/pcrf/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:10.169: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/pcrf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:10.169: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/pcrf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:10.169: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+08/03 13:51:10.169: [app] WARNING: Failed to initialize PCRF (../src/pcrf/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:12.446: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/pcrf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:12.446: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/pcrf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:12.447: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+08/03 13:51:12.469: [app] INFO: PCRF initialize...done (../src/pcrf/app-init.c:31)
+08/03 13:51:12.470: [diam] INFO: CONNECTED TO 'smf.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)

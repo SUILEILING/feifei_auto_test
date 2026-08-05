@@ -1,0 +1,26 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:16:46.514: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/bsf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:16:46.514: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/bsf.log' (../lib/app/ogs-init.c:136)
+08/03 13:16:46.515: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+08/03 13:16:46.515: [sbi] INFO: NF Service [nbsf-management] (../lib/sbi/context.c:1829)
+08/03 13:16:46.515: [sbi] INFO: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:424)
+08/03 13:16:46.515: [app] INFO: BSF initialize...done (../src/bsf/app.c:31)
+08/03 13:16:46.515: [sbi] INFO: [85ee48e4-8efa-41f1-9c20-2f5ebd916536] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+08/03 13:16:46.515: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+08/03 13:16:46.515: [sbi] INFO: [85ee69d2-8efa-41f1-b216-813d40fa93c3] Subscription created until 2026-08-04T13:16:46.515870+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)
+08/03 13:50:46.995: [app] INFO: SIGTERM received (../src/main.c:53)
+08/03 13:50:46.995: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+08/03 13:50:46.995: [sbi] INFO: [85ee48e4-8efa-41f1-9c20-2f5ebd916536] NF de-registered (../lib/sbi/nf-sm.c:235)
+08/03 13:50:46.997: [app] INFO: BSF terminate...done (../src/bsf/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:05.803: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/bsf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:05.803: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/bsf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:05.805: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+08/03 13:51:05.805: [sbi] INFO: NF Service [nbsf-management] (../lib/sbi/context.c:1829)
+08/03 13:51:05.808: [sbi] INFO: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:424)
+08/03 13:51:05.808: [app] INFO: BSF initialize...done (../src/bsf/app.c:31)
+08/03 13:51:05.811: [sbi] INFO: [515cf314-8eff-41f1-af88-3b464b1030cd] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+08/03 13:51:05.811: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+08/03 13:51:05.811: [sbi] INFO: [515df660-8eff-41f1-8a42-2be667faeb99] Subscription created until 2026-08-04T13:51:05.811320+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)

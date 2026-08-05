@@ -1,0 +1,22 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:16:46.542: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/sgwu.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:16:46.542: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/sgwu.log' (../lib/app/ogs-init.c:136)
+08/03 13:16:46.555: [pfcp] INFO: pfcp_server() [127.0.0.6]:8805 (../lib/pfcp/path.c:30)
+08/03 13:16:46.555: [gtp] INFO: gtp_server() [127.0.0.6]:2152 (../lib/gtp/path.c:30)
+08/03 13:16:46.555: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+08/03 13:16:49.051: [pfcp] INFO: ogs_pfcp_connect() [127.0.0.3]:8805 (../lib/pfcp/path.c:61)
+08/03 13:16:49.051: [sgwu] INFO: PFCP associated [127.0.0.3]:8805 (../src/sgwu/pfcp-sm.c:179)
+08/03 13:50:46.996: [app] INFO: SIGTERM received (../src/main.c:53)
+08/03 13:50:46.996: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+08/03 13:50:46.997: [sgwu] INFO: PFCP de-associated [127.0.0.3]:8805 (../src/sgwu/pfcp-sm.c:194)
+08/03 13:50:46.999: [app] INFO: SGW-U terminate...done (../src/sgwu/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:10.167: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/sgwu.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:10.167: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/sgwu.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:10.183: [pfcp] INFO: pfcp_server() [127.0.0.6]:8805 (../lib/pfcp/path.c:30)
+08/03 13:51:10.183: [gtp] INFO: gtp_server() [127.0.0.6]:2152 (../lib/gtp/path.c:30)
+08/03 13:51:10.183: [app] INFO: SGW-U initialize...done (../src/sgwu/app.c:31)
+08/03 13:51:10.184: [pfcp] INFO: ogs_pfcp_connect() [127.0.0.3]:8805 (../lib/pfcp/path.c:61)
+08/03 13:51:10.184: [sgwu] INFO: PFCP associated [127.0.0.3]:8805 (../src/sgwu/pfcp-sm.c:179)

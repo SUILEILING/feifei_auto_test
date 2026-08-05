@@ -1,0 +1,24 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:16:46.478: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/upf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:16:46.478: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/upf.log' (../lib/app/ogs-init.c:136)
+08/03 13:16:46.491: [metrics] INFO: metrics_server() [http://127.0.0.7]:9090 (../lib/metrics/prometheus/context.c:299)
+08/03 13:16:46.491: [pfcp] INFO: pfcp_server() [127.0.0.7]:8805 (../lib/pfcp/path.c:30)
+08/03 13:16:46.491: [gtp] INFO: gtp_server() [127.0.0.7]:2152 (../lib/gtp/path.c:30)
+08/03 13:16:46.491: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+08/03 13:16:46.508: [pfcp] INFO: ogs_pfcp_connect() [127.0.0.4]:8805 (../lib/pfcp/path.c:61)
+08/03 13:16:46.508: [upf] INFO: PFCP associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:184)
+08/03 13:50:46.996: [app] INFO: SIGTERM received (../src/main.c:53)
+08/03 13:50:46.996: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+08/03 13:50:46.997: [upf] INFO: PFCP de-associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:199)
+08/03 13:50:47.093: [app] INFO: UPF terminate...done (../src/upf/app.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+08/03 13:51:10.172: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/upf.yaml' (../lib/app/ogs-init.c:133)
+08/03 13:51:10.172: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/upf.log' (../lib/app/ogs-init.c:136)
+08/03 13:51:10.189: [metrics] INFO: metrics_server() [http://127.0.0.7]:9090 (../lib/metrics/prometheus/context.c:299)
+08/03 13:51:10.189: [pfcp] INFO: pfcp_server() [127.0.0.7]:8805 (../lib/pfcp/path.c:30)
+08/03 13:51:10.189: [gtp] INFO: gtp_server() [127.0.0.7]:2152 (../lib/gtp/path.c:30)
+08/03 13:51:10.189: [app] INFO: UPF initialize...done (../src/upf/app.c:31)
+08/03 13:51:10.207: [pfcp] INFO: ogs_pfcp_connect() [127.0.0.4]:8805 (../lib/pfcp/path.c:61)
+08/03 13:51:10.208: [upf] INFO: PFCP associated [127.0.0.4]:8805 (../src/upf/pfcp-sm.c:184)

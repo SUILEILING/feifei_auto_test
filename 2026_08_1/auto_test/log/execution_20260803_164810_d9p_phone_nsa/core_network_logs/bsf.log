@@ -1,0 +1,11 @@
+MT5GC daemon vR2.7.2-22-g93b68c3
+
+08/03 16:36:07.402: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/bsf.yaml' (../lib/app/ogs-init.c:133)
+08/03 16:36:07.402: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/bsf.log' (../lib/app/ogs-init.c:136)
+08/03 16:36:07.402: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.200:7777] (../lib/sbi/context.c:474)
+08/03 16:36:07.402: [sbi] INFO: NF Service [nbsf-management] (../lib/sbi/context.c:1829)
+08/03 16:36:07.403: [sbi] INFO: nghttp2_server() [http://127.0.0.15]:7777 (../lib/sbi/nghttp2-server.c:424)
+08/03 16:36:07.403: [app] INFO: BSF initialize...done (../src/bsf/app.c:31)
+08/03 16:36:07.403: [sbi] INFO: [5f2cf090-8f16-41f1-b74b-cf3f09bd7765] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:208)
+08/03 16:36:07.403: [sbi] INFO: NF EndPoint(addr) setup [127.0.0.10:7777] (../lib/sbi/nnrf-handler.c:949)
+08/03 16:36:07.403: [sbi] INFO: [5f2d1020-8f16-41f1-9da3-a354410195e8] Subscription created until 2026-08-04T16:36:07.403743+08:00 [duration:86400000000,validity:86400.000000,patch:43200.000000] (../lib/sbi/nnrf-handler.c:868)

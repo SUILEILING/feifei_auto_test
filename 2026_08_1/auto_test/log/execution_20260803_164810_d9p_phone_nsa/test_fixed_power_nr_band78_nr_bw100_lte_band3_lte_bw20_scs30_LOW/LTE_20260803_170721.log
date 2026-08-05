@@ -1,0 +1,1107 @@
+son process create success, background process started.
+son process is running...
+Version: v1.00.00-41-gd4c040b+, BuildTime: 10:16:37-Jun  1 2026.
+ExecuteRfMsgQueuethread Start!
+[X2AP]   fdd_earfcn_DL 1575, fdd_earfcn_UL 19325, eutra_band 3, dl_freq 1842500000, ul_freq_offset -120000000, N_RB_DL 100
+[0m[X2AP]   X2ParamList.numelt 0
+[0m[X2AP]   x2ap_eNB_handle_register_eNB, Registered new eNB[0] and macro eNB id 0
+[0m[X2AP]   eNB[0] eNB id 0 acting as a listner (server)
+[0mCMDLINE: "./lte-softmodem" "-O" "./conf/mt-enb.band3.tm1.50PRB.usrpb210.conf" 
+[LIBCONFIG] Path for include directive set to: ./conf
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[CONFIG] debug flags: 0x00000000
+log init done
+Reading in command-line options
+Getting ENBSParams
+[CONFIG] parallel_conf is set to 0
+[CONFIG] worker_conf is set to 1
+Configuration: nb_rrc_inst 1, nb_L1_inst 1, nb_ru 1
+shlib_path libNB_IoT.so
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+configuring for RAU/RRU
+ITTI init, useMME: 1
+LTE Oai Version: Branch: master Abrev. Hash: 206e023df5 Date: Tue Jul 28 19:35:59 2026 +0800
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+No eMBMS configuration, skipping it
+No eMTC configuration, skipping it
+No SL configuration skipping it
+<BCCH-BCH-Message>
+    <message>
+        <dl-Bandwidth><n100/></dl-Bandwidth>
+        <phich-Config>
+            <phich-Duration><normal/></phich-Duration>
+            <phich-Resource><oneSixth/></phich-Resource>
+        </phich-Config>
+        <systemFrameNumber>
+            00000000
+        </systemFrameNumber>
+        <schedulingInfoSIB1-BR-r13>0</schedulingInfoSIB1-BR-r13>
+        <systemInfoUnchanged-BR-r15><false/></systemInfoUnchanged-BR-r15>
+        <spare>
+            00000
+        </spare>
+    </message>
+</BCCH-BCH-Message>
+<BCCH-DL-SCH-Message>
+    <message>
+        <c1>
+            <systemInformationBlockType1>
+                <cellAccessRelatedInfo>
+                    <plmn-IdentityList>
+                        <PLMN-IdentityInfo>
+                            <plmn-Identity>
+                                <mcc>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>1</MCC-MNC-Digit>
+                                </mcc>
+                                <mnc>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>1</MCC-MNC-Digit>
+                                </mnc>
+                            </plmn-Identity>
+                            <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+                        </PLMN-IdentityInfo>
+                    </plmn-IdentityList>
+                    <trackingAreaCode>
+                        0000000000000001
+                    </trackingAreaCode>
+                    <cellIdentity>
+                        0000000000000000000000000000
+                    </cellIdentity>
+                    <cellBarred><notBarred/></cellBarred>
+                    <intraFreqReselection><notAllowed/></intraFreqReselection>
+                    <csg-Indication><false/></csg-Indication>
+                </cellAccessRelatedInfo>
+                <cellSelectionInfo>
+                    <q-RxLevMin>-65</q-RxLevMin>
+                </cellSelectionInfo>
+                <p-Max>26</p-Max>
+                <freqBandIndicator>3</freqBandIndicator>
+                <schedulingInfoList>
+                    <SchedulingInfo>
+                        <si-Periodicity><rf8/></si-Periodicity>
+                        <sib-MappingInfo><sibType3/>
+                        </sib-MappingInfo>
+                    </SchedulingInfo>
+                </schedulingInfoList>
+                <si-WindowLength><ms20/></si-WindowLength>
+                <systemInfoValueTag>0</systemInfoValueTag>
+                <nonCriticalExtension>
+                    <nonCriticalExtension>
+                        <nonCriticalExtension>
+                            <nonCriticalExtension>
+                                <cellAccessRelatedInfo-v1250>
+                                </cellAccessRelatedInfo-v1250>
+                            </nonCriticalExtension>
+                        </nonCriticalExtension>
+                    </nonCriticalExtension>
+                </nonCriticalExtension>
+            </systemInformationBlockType1>
+        </c1>
+    </message>
+</BCCH-DL-SCH-Message>
+<BCCH-DL-SCH-Message>
+    <message>
+        <c1>
+            <systemInformation>
+                <criticalExtensions>
+                    <systemInformation-r8>
+                        <sib-TypeAndInfo>
+                                <sib2>
+                                    <radioResourceConfigCommon>
+                                        <rach-ConfigCommon>
+                                            <preambleInfo>
+                                                <numberOfRA-Preambles><n64/></numberOfRA-Preambles>
+                                            </preambleInfo>
+                                            <powerRampingParameters>
+                                                <powerRampingStep><dB4/></powerRampingStep>
+                                                <preambleInitialReceivedTargetPower><dBm-90/></preambleInitialReceivedTargetPower>
+                                            </powerRampingParameters>
+                                            <ra-SupervisionInfo>
+                                                <preambleTransMax><n10/></preambleTransMax>
+                                                <ra-ResponseWindowSize><sf10/></ra-ResponseWindowSize>
+                                                <mac-ContentionResolutionTimer><sf48/></mac-ContentionResolutionTimer>
+                                            </ra-SupervisionInfo>
+                                            <maxHARQ-Msg3Tx>4</maxHARQ-Msg3Tx>
+                                        </rach-ConfigCommon>
+                                        <bcch-Config>
+                                            <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
+                                        </bcch-Config>
+                                        <pcch-Config>
+                                            <defaultPagingCycle><rf128/></defaultPagingCycle>
+                                            <nB><oneT/></nB>
+                                        </pcch-Config>
+                                        <prach-Config>
+                                            <rootSequenceIndex>0</rootSequenceIndex>
+                                            <prach-ConfigInfo>
+                                                <prach-ConfigIndex>0</prach-ConfigIndex>
+                                                <highSpeedFlag><false/></highSpeedFlag>
+                                                <zeroCorrelationZoneConfig>1</zeroCorrelationZoneConfig>
+                                                <prach-FreqOffset>92</prach-FreqOffset>
+                                            </prach-ConfigInfo>
+                                        </prach-Config>
+                                        <pdsch-ConfigCommon>
+                                            <referenceSignalPower>50</referenceSignalPower>
+                                            <p-b>0</p-b>
+                                        </pdsch-ConfigCommon>
+                                        <pusch-ConfigCommon>
+                                            <pusch-ConfigBasic>
+                                                <n-SB>1</n-SB>
+                                                <hoppingMode><interSubFrame/></hoppingMode>
+                                                <pusch-HoppingOffset>0</pusch-HoppingOffset>
+                                                <enable64QAM><false/></enable64QAM>
+                                            </pusch-ConfigBasic>
+                                            <ul-ReferenceSignalsPUSCH>
+                                                <groupHoppingEnabled><true/></groupHoppingEnabled>
+                                                <groupAssignmentPUSCH>0</groupAssignmentPUSCH>
+                                                <sequenceHoppingEnabled><false/></sequenceHoppingEnabled>
+                                                <cyclicShift>1</cyclicShift>
+                                            </ul-ReferenceSignalsPUSCH>
+                                        </pusch-ConfigCommon>
+                                        <pucch-ConfigCommon>
+                                            <deltaPUCCH-Shift><ds1/></deltaPUCCH-Shift>
+                                            <nRB-CQI>0</nRB-CQI>
+                                            <nCS-AN>0</nCS-AN>
+                                            <n1PUCCH-AN>0</n1PUCCH-AN>
+                                        </pucch-ConfigCommon>
+                                        <soundingRS-UL-ConfigCommon>
+                                            <release></release>
+                                        </soundingRS-UL-ConfigCommon>
+                                        <uplinkPowerControlCommon>
+                                            <p0-NominalPUSCH>-30</p0-NominalPUSCH>
+                                            <alpha><al1/></alpha>
+                                            <p0-NominalPUCCH>-96</p0-NominalPUCCH>
+                                            <deltaFList-PUCCH>
+                                                <deltaF-PUCCH-Format1><deltaF2/></deltaF-PUCCH-Format1>
+                                                <deltaF-PUCCH-Format1b><deltaF3/></deltaF-PUCCH-Format1b>
+                                                <deltaF-PUCCH-Format2><deltaF0/></deltaF-PUCCH-Format2>
+                                                <deltaF-PUCCH-Format2a><deltaF0/></deltaF-PUCCH-Format2a>
+                                                <deltaF-PUCCH-Format2b><deltaF0/></deltaF-PUCCH-Format2b>
+                                            </deltaFList-PUCCH>
+                                            <deltaPreambleMsg3>6</deltaPreambleMsg3>
+                                        </uplinkPowerControlCommon>
+                                        <ul-CyclicPrefixLength><len1/></ul-CyclicPrefixLength>
+                                    </radioResourceConfigCommon>
+                                    <ue-TimersAndConstants>
+                                        <t300><ms1000/></t300>
+                                        <t301><ms1000/></t301>
+                                        <t310><ms1000/></t310>
+                                        <n310><n20/></n310>
+                                        <t311><ms10000/></t311>
+                                        <n311><n1/></n311>
+                                    </ue-TimersAndConstants>
+                                    <freqInfo>
+                                        <additionalSpectrumEmission>1</additionalSpectrumEmission>
+                                    </freqInfo>
+                                    <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+                                </sib2>
+                            
+                                <sib3>
+                                    <cellReselectionInfoCommon>
+                                        <q-Hyst><dB4/></q-Hyst>
+                                    </cellReselectionInfoCommon>
+                                    <cellReselectionServingFreqInfo>
+                                        <threshServingLow>31</threshServingLow>
+                                        <cellReselectionPriority>7</cellReselectionPriority>
+                                    </cellReselectionServingFreqInfo>
+                                    <intraFreqCellReselectionInfo>
+                                        <q-RxLevMin>-70</q-RxLevMin>
+                                        <s-IntraSearch>31</s-IntraSearch>
+                                        <allowedMeasBandwidth><mbw6/></allowedMeasBandwidth>
+                                        <presenceAntennaPort1><false/></presenceAntennaPort1>
+                                        <neighCellConfig>
+                                            01
+                                        </neighCellConfig>
+                                        <t-ReselectionEUTRA>1</t-ReselectionEUTRA>
+                                    </intraFreqCellReselectionInfo>
+                                    <ext1>
+                                        <s-IntraSearch-v920>
+                                            <s-IntraSearchP-r9>31</s-IntraSearchP-r9>
+                                            <s-IntraSearchQ-r9>4</s-IntraSearchQ-r9>
+                                        </s-IntraSearch-v920>
+                                    </ext1>
+                                    <ext4>
+                                        <cellSelectionInfoCE-r13>
+                                            <q-RxLevMinCE-r13>-70</q-RxLevMinCE-r13>
+                                        </cellSelectionInfoCE-r13>
+                                        <t-ReselectionEUTRA-CE-r13>2</t-ReselectionEUTRA-CE-r13>
+                                    </ext4>
+                                </sib3>
+                            
+                        </sib-TypeAndInfo>
+                    </systemInformation-r8>
+                </criticalExtensions>
+            </systemInformation>
+        </c1>
+    </message>
+</BCCH-DL-SCH-Message>
+[1;31m[PHY]   DJP - delete code above this /home/yc/Desktop/mx/OAI5G/executables/lte-ru.c:3095
+[0mshlib_path libcoding.so
+[LOADER] library libcoding.so successfully loaded
+RC.nb_L1_inst:1
+Initializing eNB threads wait_for_sync:0
+wait_eNBs()
+Waiting for eNB L1 instances to all get configured ... sleeping 50ms (nb_L1_inst 1)
+RC.nb_L1_CC[0]:1
+eNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Setting function for RU 0 to eNodeB_3GPP
+init lte ru thread
+init lte ru thread done
+wait RUs
+[ENB_APP]   Waiting for RUs to be configured ... RC.ru_mask:01
+[0m[ENB_APP]   ALL RUs ready - ALL eNBs ready
+[0mshlib_path libdfts.so
+[LOADER] library libdfts.so successfully loaded
+start rf thread
+waiting for sync (ru_thread,-1/0x578614dc41c8,0x578615291c20,0x578615291be0)
+RC.ru_mask:00
+ALL RUs ready - init eNBs
+pcfich_reg : 0,50,100,150
+NUMBER_OF_ULSCH_MAX 8
+waiting for sync (L1_stats_thread,-1/0x578614dc41c8,0x578615291c20,0x578615291be0)
+got sync (ru_thread)
+OAI set_RF_Enable flag: 0 
+RF_Set_rf_enable enable = 0 direction = 0 (0:rx 1:tx), delay = 0
+got sync (L1_stats_thread)
+RF_Set_rf_enable enable = 0 direction = 1 (0:rx 1:tx), delay = 0
+[ENB_APP]   TYPE <CTRL-C> TO TERMINATE
+[0m[X2AP]   update X2AP
+[0m[X2AP]   RCupdate_X2, eNB_ID: 0 
+[0m[X2AP]   RCupdate, eutra_band 3, dl_freq 1842500000, ul_freq_offset 95000000, N_RB_DL 100, tdd_cfg 3, tdd_cfg_s 0
+[0m[X2AP]   [ENDC_UPDATE] active_entries=0, current_tti=0
+[0m[X2AP]   X2AP local cell params updated (instance 0, num_cc 1) without re-registration
+[0mlte nahaiy
+pcfich_reg : 0,50,100,150
+<BCCH-BCH-Message>
+    <message>
+        <dl-Bandwidth><n100/></dl-Bandwidth>
+        <phich-Config>
+            <phich-Duration><normal/></phich-Duration>
+            <phich-Resource><oneSixth/></phich-Resource>
+        </phich-Config>
+        <systemFrameNumber>
+            00000000
+        </systemFrameNumber>
+        <schedulingInfoSIB1-BR-r13>0</schedulingInfoSIB1-BR-r13>
+        <systemInfoUnchanged-BR-r15><false/></systemInfoUnchanged-BR-r15>
+        <spare>
+            00000
+        </spare>
+    </message>
+</BCCH-BCH-Message>
+<BCCH-DL-SCH-Message>
+    <message>
+        <c1>
+            <systemInformationBlockType1>
+                <cellAccessRelatedInfo>
+                    <plmn-IdentityList>
+                        <PLMN-IdentityInfo>
+                            <plmn-Identity>
+                                <mcc>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>1</MCC-MNC-Digit>
+                                </mcc>
+                                <mnc>
+                                    <MCC-MNC-Digit>0</MCC-MNC-Digit>
+                                    <MCC-MNC-Digit>1</MCC-MNC-Digit>
+                                </mnc>
+                            </plmn-Identity>
+                            <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+                        </PLMN-IdentityInfo>
+                    </plmn-IdentityList>
+                    <trackingAreaCode>
+                        0000000000000001
+                    </trackingAreaCode>
+                    <cellIdentity>
+                        0000000000000000000000000000
+                    </cellIdentity>
+                    <cellBarred><notBarred/></cellBarred>
+                    <intraFreqReselection><notAllowed/></intraFreqReselection>
+                    <csg-Indication><false/></csg-Indication>
+                </cellAccessRelatedInfo>
+                <cellSelectionInfo>
+                    <q-RxLevMin>-65</q-RxLevMin>
+                </cellSelectionInfo>
+                <p-Max>26</p-Max>
+                <freqBandIndicator>3</freqBandIndicator>
+                <schedulingInfoList>
+                    <SchedulingInfo>
+                        <si-Periodicity><rf8/></si-Periodicity>
+                        <sib-MappingInfo><sibType3/>
+                        </sib-MappingInfo>
+                    </SchedulingInfo>
+                </schedulingInfoList>
+                <si-WindowLength><ms20/></si-WindowLength>
+                <systemInfoValueTag>0</systemInfoValueTag>
+                <nonCriticalExtension>
+                    <nonCriticalExtension>
+                        <nonCriticalExtension>
+                            <nonCriticalExtension>
+                                <cellAccessRelatedInfo-v1250>
+                                </cellAccessRelatedInfo-v1250>
+                            </nonCriticalExtension>
+                        </nonCriticalExtension>
+                    </nonCriticalExtension>
+                </nonCriticalExtension>
+            </systemInformationBlockType1>
+        </c1>
+    </message>
+</BCCH-DL-SCH-Message>
+<BCCH-DL-SCH-Message>
+    <message>
+        <c1>
+            <systemInformation>
+                <criticalExtensions>
+                    <systemInformation-r8>
+                        <sib-TypeAndInfo>
+                                <sib2>
+                                    <radioResourceConfigCommon>
+                                        <rach-ConfigCommon>
+                                            <preambleInfo>
+                                                <numberOfRA-Preambles><n64/></numberOfRA-Preambles>
+                                            </preambleInfo>
+                                            <powerRampingParameters>
+                                                <powerRampingStep><dB4/></powerRampingStep>
+                                                <preambleInitialReceivedTargetPower><dBm-90/></preambleInitialReceivedTargetPower>
+                                            </powerRampingParameters>
+                                            <ra-SupervisionInfo>
+                                                <preambleTransMax><n10/></preambleTransMax>
+                                                <ra-ResponseWindowSize><sf10/></ra-ResponseWindowSize>
+                                                <mac-ContentionResolutionTimer><sf48/></mac-ContentionResolutionTimer>
+                                            </ra-SupervisionInfo>
+                                            <maxHARQ-Msg3Tx>4</maxHARQ-Msg3Tx>
+                                        </rach-ConfigCommon>
+                                        <bcch-Config>
+                                            <modificationPeriodCoeff><n2/></modificationPeriodCoeff>
+                                        </bcch-Config>
+                                        <pcch-Config>
+                                            <defaultPagingCycle><rf128/></defaultPagingCycle>
+                                            <nB><oneT/></nB>
+                                        </pcch-Config>
+                                        <prach-Config>
+                                            <rootSequenceIndex>0</rootSequenceIndex>
+                                            <prach-ConfigInfo>
+                                                <prach-ConfigIndex>0</prach-ConfigIndex>
+                                                <highSpeedFlag><false/></highSpeedFlag>
+                                                <zeroCorrelationZoneConfig>1</zeroCorrelationZoneConfig>
+                                                <prach-FreqOffset>93</prach-FreqOffset>
+                                            </prach-ConfigInfo>
+                                        </prach-Config>
+                                        <pdsch-ConfigCommon>
+                                            <referenceSignalPower>50</referenceSignalPower>
+                                            <p-b>0</p-b>
+                                        </pdsch-ConfigCommon>
+                                        <pusch-ConfigCommon>
+                                            <pusch-ConfigBasic>
+                                                <n-SB>1</n-SB>
+                                                <hoppingMode><interSubFrame/></hoppingMode>
+                                                <pusch-HoppingOffset>0</pusch-HoppingOffset>
+                                                <enable64QAM><false/></enable64QAM>
+                                            </pusch-ConfigBasic>
+                                            <ul-ReferenceSignalsPUSCH>
+                                                <groupHoppingEnabled><true/></groupHoppingEnabled>
+                                                <groupAssignmentPUSCH>0</groupAssignmentPUSCH>
+                                                <sequenceHoppingEnabled><false/></sequenceHoppingEnabled>
+                                                <cyclicShift>1</cyclicShift>
+                                            </ul-ReferenceSignalsPUSCH>
+                                        </pusch-ConfigCommon>
+                                        <pucch-ConfigCommon>
+                                            <deltaPUCCH-Shift><ds1/></deltaPUCCH-Shift>
+                                            <nRB-CQI>0</nRB-CQI>
+                                            <nCS-AN>0</nCS-AN>
+                                            <n1PUCCH-AN>0</n1PUCCH-AN>
+                                        </pucch-ConfigCommon>
+                                        <soundingRS-UL-ConfigCommon>
+                                            <release></release>
+                                        </soundingRS-UL-ConfigCommon>
+                                        <uplinkPowerControlCommon>
+                                            <p0-NominalPUSCH>-30</p0-NominalPUSCH>
+                                            <alpha><al1/></alpha>
+                                            <p0-NominalPUCCH>-96</p0-NominalPUCCH>
+                                            <deltaFList-PUCCH>
+                                                <deltaF-PUCCH-Format1><deltaF2/></deltaF-PUCCH-Format1>
+                                                <deltaF-PUCCH-Format1b><deltaF3/></deltaF-PUCCH-Format1b>
+                                                <deltaF-PUCCH-Format2><deltaF0/></deltaF-PUCCH-Format2>
+                                                <deltaF-PUCCH-Format2a><deltaF0/></deltaF-PUCCH-Format2a>
+                                                <deltaF-PUCCH-Format2b><deltaF0/></deltaF-PUCCH-Format2b>
+                                            </deltaFList-PUCCH>
+                                            <deltaPreambleMsg3>6</deltaPreambleMsg3>
+                                        </uplinkPowerControlCommon>
+                                        <ul-CyclicPrefixLength><len1/></ul-CyclicPrefixLength>
+                                    </radioResourceConfigCommon>
+                                    <ue-TimersAndConstants>
+                                        <t300><ms1000/></t300>
+                                        <t301><ms1000/></t301>
+                                        <t310><ms1000/></t310>
+                                        <n310><n20/></n310>
+                                        <t311><ms10000/></t311>
+                                        <n311><n1/></n311>
+                                    </ue-TimersAndConstants>
+                                    <freqInfo>
+                                        <additionalSpectrumEmission>1</additionalSpectrumEmission>
+                                    </freqInfo>
+                                    <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+                                </sib2>
+                            
+                                <sib3>
+                                    <cellReselectionInfoCommon>
+                                        <q-Hyst><dB4/></q-Hyst>
+                                    </cellReselectionInfoCommon>
+                                    <cellReselectionServingFreqInfo>
+                                        <threshServingLow>31</threshServingLow>
+                                        <cellReselectionPriority>7</cellReselectionPriority>
+                                    </cellReselectionServingFreqInfo>
+                                    <intraFreqCellReselectionInfo>
+                                        <q-RxLevMin>-70</q-RxLevMin>
+                                        <s-IntraSearch>31</s-IntraSearch>
+                                        <allowedMeasBandwidth><mbw6/></allowedMeasBandwidth>
+                                        <presenceAntennaPort1><false/></presenceAntennaPort1>
+                                        <neighCellConfig>
+                                            01
+                                        </neighCellConfig>
+                                        <t-ReselectionEUTRA>1</t-ReselectionEUTRA>
+                                    </intraFreqCellReselectionInfo>
+                                    <ext1>
+                                        <s-IntraSearch-v920>
+                                            <s-IntraSearchP-r9>31</s-IntraSearchP-r9>
+                                            <s-IntraSearchQ-r9>4</s-IntraSearchQ-r9>
+                                        </s-IntraSearch-v920>
+                                    </ext1>
+                                    <ext4>
+                                        <cellSelectionInfoCE-r13>
+                                            <q-RxLevMinCE-r13>-70</q-RxLevMinCE-r13>
+                                        </cellSelectionInfoCE-r13>
+                                        <t-ReselectionEUTRA-CE-r13>2</t-ReselectionEUTRA-CE-r13>
+                                    </ext4>
+                                </sib3>
+                            
+                        </sib-TypeAndInfo>
+                    </systemInformation-r8>
+                </criticalExtensions>
+            </systemInformation>
+        </c1>
+    </message>
+</BCCH-DL-SCH-Message>
+[X2AP]   X2AP_ProcedureCode_id_endcX2Setup message!
+[0m[X2AP]   TAC: 000001
+[0m[X2AP]   PLMN: 00f110
+[0m[X2AP]   measurementTimingConfigurationc size is 7
+[0mshlib_path libcoding.so
+[LOADER] library libcoding.so has been loaded previously, reloading function pointers
+[LOADER] library libcoding.so successfully loaded
+here comes the tree (instance 0):
+---------------------------------------------
+---------------------------------------------
+
+x2ap_eNB_handle_sctp_association_ind at 2
+here comes the tree (instance 0):
+---------------------------------------------
+-----------------------
+eNB id 0 (null)
+state 2
+nextstream 0
+in_streams 0 out_streams 0
+cnx_id 1 assoc_id 0
+---------------------------------------------
+
+x2ap_eNB_handle_sctp_association_ind at 3
+here comes the tree (instance 0):
+---------------------------------------------
+-----------------------
+eNB id 0 (null)
+state 2
+nextstream 0
+in_streams 1 out_streams 1
+cnx_id 1 assoc_id 276
+---------------------------------------------
+
+<MeasurementTimingConfiguration>
+    <criticalExtensions>
+        <c1>
+            <measTimingConf>
+                <measTiming>
+                    <MeasTiming>
+                        <frequencyAndTiming>
+                            <carrierFreq>620352</carrierFreq>
+                            <ssbSubcarrierSpacing><kHz30/></ssbSubcarrierSpacing>
+                            <ssb-MeasurementTimingConfiguration>
+                                <periodicityAndOffset>
+                                    <sf20>0</sf20>
+                                </periodicityAndOffset>
+                                <duration><sf2/></duration>
+                            </ssb-MeasurementTimingConfiguration>
+                        </frequencyAndTiming>
+                    </MeasTiming>
+                </measTiming>
+            </measTimingConf>
+        </c1>
+    </criticalExtensions>
+</MeasurementTimingConfiguration>
+first read flag = 1OAI set_RF_Enable flag: 1 
+RF_Set_rf_enable enable = 1 direction = 0 (0:rx 1:tx), delay = 0
+mt to ps lte cellon
+too long to wait 5ms in too long to wait 5ms in YC_API_Set_tx_digital_compen comp_val = 12.000000 
+RF_Set_rf_enable enable = 1 direction = 1 (0:rx 1:tx), delay = 0
+[1;31m[MAC]   SCHED_MODE = 0
+[0m[X2AP]   [MeNB SgNB-Add] ue_id=0 cell_type=0 t_dc_prep=1000 tti=21131 start=21131 (t_dc_prep==0 会立即超时!)
+[0m[X2AP]   x2ap_eNB_decode_successfuloutcome_message!
+[0m[X2AP]   X2AP Association id: 276 
+[0m[0] ask slot subframe = 8, descandslotInfo[9].slotInfo[frame, slot, samples, desc] = [1421, 8, 887, 240]
+configured 1
+[1] descandslotInfo[k].frame = (0:1420, 1:1420, 2:1421, 3:1421, 7:1421,8:1421)
+firstread get F.SFN 794.8
+cell on get driver timer frame = 794,slot = 8, descandslotInfo.slotInfo[frame, slot, samples] =[794, 18, 1776]
+[RRC]   
+KeNB:c9 60 7e 30 e5 d9 ec 5a e7 01 cc 83 04 7a 37 cf 96 6c 92 e6 41 82 6e 61 c3 fe b0 f8 ba bd 7d da [0m
+[RRC]   
+KRRCenc:f1 5f 07 6e 2f f9 1f 74 1c e3 12 ca 37 c3 b0 3d 70 cf b4 9a 46 2f 7e eb d3 45 da b2 05 31 8d a4 [0m
+[RRC]   
+KRRCint:24 51 3e d7 55 14 9f 32 7b 22 4b f9 08 f2 fd f6 05 9d 83 29 ad b2 c0 b2 73 3c 26 0a 71 d5 1b cc [0m
+MeasReport Result,Rsrp:-76, Rsrq:-5
+MeasReport Result,Rsrp:-76, Rsrq:-4
+MeasReport Result,Rsrp:-76, Rsrq:-3
+306: 18040928440912e2058e03e34180a101f00811a0f020041c5d0b771800d25dd0009a4bb0d0000188302259bc4803e00000000004801b82010000040400d21a90c59a404d0000310fdc0896654ca00191cf561c9c0493bc4a9893712d234dc6a68f37226e4cda7ab8014387540421603b009374881626ca00191cf56000fc1ae80202004b2036a0105fe000000000480004371482000022165000040000011064e80020004cd54935060004103081431308122858c1a38680008020010200900808028030200b01008030050200d018080380800238024008e40a0023a02c008ec0c0023c034008f40e0023e494302621b891a2b3c0000014d080100013c0e9060a0c12c1c1821c0028ffd29498c637281c0000201ef401000100000f4001400060140180ca8280310040a04940bc7e0e6040
+0881225c40b1c07c683014203e0102341e0400838ba16ee3001a4bba001349761a00003106044b3789007c00000000009003704020000080801a435218b34809a0000621fb8112cca994003239eac3938092778953126e25a469b8d4d1e6e44dc99b4f57002870ea80842c0760126e9102c4d94003239eac001f835d004040096406d4020bfc0000000009000086e29040000442ca0000800000220c9d000400099aa926a0c00082061028626102450b183470d000100400204012010100500604016020100600a0401a030100701000470048011c81400474058011d81800478068011e81c0047c928604c437123456780000029a10020002781d20c141825838304380051ffa529318c6e50380000403de802000200001e80028000c0280301950500620
+140928178fc1cc08
+0881225c40b1c07c683014203e0102341e0400838ba16ee3001a4bba001349761a00003106044b3789007c00000000009003704020000080801a435218b34809a0000621fb8112cca994003239eac3938092778953126e25a469b8d4d1e6e44dc99b4f57002870ea80842c0760126e9102c4d94003239eac001f835d004040096406d4020bfc0000000009000086e29040000442ca0000800000220c9d000400099aa926a0c00082061028626102450b183470d000100400204012010100500604016020100600a0401a030100701000470048011c81400474058011d81800478068011e81c0047c928604c437123456780000029a10020002781d20c141825838304380051ffa529318c6e50380000403de802000200001e80028000c0280301950500620
+140928178fc1cc08
+len = 316
+ 20 02 8c 00 03 24 a0 82 1e 32 04 94 22 04 89 71 02 c7 01 f1 a0 c0 50 80 f8 04 08 d0 78 10 02 0e 2e 85 bb 8c 00 69 2e e8 00 4d 25 d8 68 00 00 c4 18 11 2c de 24 01 f0 00 00 00 00 02 40 0d c1 00 80 00 02 02 00 69 0d 48 62 cd 20 26 80 00 18 87 ee 04 4b 32 a6 50 00 c8 e7 ab 0e 4e 02 49 de 25 4c 49 b8 96 91 a6 e3 53 47 9b 91 37 26 6d 3d 5c 00 a1 c3 aa 02 10 b0 1d 80 49 ba 44 0b 13 65 00 0c 8e 7a b0 00 7e 0d 74 01 01 00 25 90 1b 50 08 2f f0 00 00 00 00 24 00 02 1b 8a 41 00 00 11 0b 28 00 02 00 00 00 88 32 74 00 10 00 26 6a a4 9a 83 00 02 08 18 40 a1 89 84 09 14 2c 60 d1 c3 40 00 40 10 00 81 00 48 04 04 01 40 18 10 05 80 80 40 18 02 81 00 68 0c 04 01 c0 40 01 1c 01 20 04 72 05 00 11 d0 16 00 47 60 60 01 1e 01 a0 04 7a 07 00 11 f2 4a 18 13 10 dc 48 d1 59 e0 00 00 0a 68 40 08 00 09 e0 74 83 05 06 09 60 e0 c1 0e 00 14 7f e9 4a 4c 63 1b 94 0e 00 00 10 0f 7a 00 80 00 80 00 07 a0 00 a0 00 30 0a 00 c0 65 41 40 18 80 00 00 20 50 24 a0 5e 3f 07 30 20
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-77, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-77, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-79, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-3
+NR Report
+lte nahaiy
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-4
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-4
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-4
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-4
+NR Report
+NR Report
+MeasReport Result,Rsrp:-76, Rsrq:-4
+NR Report
+NR Report
+NR Report
+NR Report
+lte nahaiy
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 178
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 194
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 192
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 194
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 181
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 192
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 182
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 192
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 184
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 184
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 187
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 185
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 185
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 185
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 178
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 183
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 183
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 187
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 177
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 188
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 182
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 180
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 184
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 188
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 177
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 183
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 188
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 188
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 184
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 178
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 181
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 187
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 183
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 185
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 187
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 184
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 180
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+NR Report
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+NR Report
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 191
+NR Report
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 195
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 187
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 193
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 187
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+NR Report
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 189
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+NR Report
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 181
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 179
+NR Report
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 185
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 190
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 181
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 180
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 188
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 178
+NR Report
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 192
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+NR Report
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+NR Report
+senddata success. times = 181
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 192
+lte nahaiy
+NR Report
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 183
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 180
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+NR Report
+lte nahaiy
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 184
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 186
+lte nahaiy
+NR Report
+LTE RF Measurement Received.
+Triggeroffset = 245760,t_MeasLength = 30720
+senddata success. times = 178
+lte nahaiy
+NR Report
+NR Report
+lte nahaiy
+lte nahaiy
+OAI set_RF_Enable flag: 0 
+RF_Set_rf_enable enable = 0 direction = 0 (0:rx 1:tx), delay = 0
+RF_Set_rf_enable enable = 0 direction = 1 (0:rx 1:tx), delay = 0

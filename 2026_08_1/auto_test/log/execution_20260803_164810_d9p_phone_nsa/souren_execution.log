@@ -1,0 +1,230 @@
+2026-08-03 16:48:12,292 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 16:48:12,294 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 16:48:12,570 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 16:48:12,571 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-03 16:48:12,571 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-03 16:48:12,572 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 41, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 16:48:12,573 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 16:48:12,575 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 16:48:12,576 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 16:48:24,259 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.34G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=20.30/20.86/20.95 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=7% cpu9=100% cpu10=0% cpu11=0% cpu12=6% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 16:48:24,260 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 16:48:24,261 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 16:48:44,298 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 16:52:03,320 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_164853_signal_message_log.txt
+2026-08-03 16:52:03,327 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_165211_scpi_message_log.txt
+2026-08-03 16:52:03,346 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 16:52:11] SYNC_DONE
+2026-08-03 16:52:13,375 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_164901.log, LTE_20260803_164854.log
+2026-08-03 16:52:13,419 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_165221_gnb_current_logs.tar
+2026-08-03 16:52:13,420 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 16:52:19,981 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.35G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=25.01/23.20/21.85 (32cores) percore[cpu0=0% cpu1=0% cpu2=6% cpu3=0% cpu4=0% cpu5=0% cpu6=93% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=53% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 16:52:19,982 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 16:52:19,984 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 16:52:47,329 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 16:52:49,341 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 16:52:49,342 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 16:52:49,506 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 16:52:49,507 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-03 16:52:49,507 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-03 16:52:49,508 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 77, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 16:52:49,510 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 16:52:49,515 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 16:52:49,516 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 16:53:01,174 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.53G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=22.20/22.73/21.75 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=93% cpu5=0% cpu6=0% cpu7=0% cpu8=50% cpu9=6% cpu10=0% cpu11=6% cpu12=0% cpu13=0% cpu14=7% cpu15=6% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 16:53:01,175 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 16:53:01,176 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 16:53:21,213 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 16:56:41,030 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_165330_signal_message_log.txt
+2026-08-03 16:56:41,032 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_165648_scpi_message_log.txt
+2026-08-03 16:56:41,072 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 16:56:48] SYNC_DONE
+2026-08-03 16:56:51,099 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_165337.log, LTE_20260803_165331.log
+2026-08-03 16:56:51,124 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_165658_gnb_current_logs.tar
+2026-08-03 16:56:51,124 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 16:56:57,482 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.29G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=26.07/24.21/22.51 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=53% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=93% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 16:56:57,484 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 16:56:57,485 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 16:57:24,334 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 16:57:26,355 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 16:57:26,356 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 16:57:26,531 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 16:57:26,532 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-03 16:57:26,532 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-03 16:57:26,532 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 78, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 16:57:26,534 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 16:57:26,535 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 16:57:26,535 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 16:57:38,221 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.19G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=23.91/23.88/22.47 (32cores) percore[cpu0=0% cpu1=6% cpu2=0% cpu3=0% cpu4=100% cpu5=0% cpu6=6% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=6% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 16:57:38,222 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 16:57:38,223 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 16:57:58,264 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:01:17,008 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_165807_signal_message_log.txt
+2026-08-03 17:01:17,015 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_170124_scpi_message_log.txt
+2026-08-03 17:01:17,051 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:01:24] SYNC_DONE
+2026-08-03 17:01:27,072 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_165814.log, LTE_20260803_165808.log
+2026-08-03 17:01:27,096 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_170134_gnb_current_logs.tar
+2026-08-03 17:01:27,098 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:01:33,758 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.11G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=26.70/25.09/23.25 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=6% cpu4=0% cpu5=0% cpu6=6% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=100% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:01:33,760 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:01:33,760 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:02:00,742 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:02:02,767 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:02:02,767 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:02:02,932 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:02:02,933 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-03 17:02:02,933 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-03 17:02:02,933 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 79, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:02:02,934 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:02:02,935 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:02:02,935 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:02:14,842 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.15G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=23.05/24.34/23.07 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=100% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:02:14,843 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:02:14,844 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:02:34,876 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:05:53,253 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_170244_signal_message_log.txt
+2026-08-03 17:05:53,260 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_170601_scpi_message_log.txt
+2026-08-03 17:05:53,299 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:06:01] SYNC_DONE
+2026-08-03 17:06:03,326 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_170251.log, LTE_20260803_170245.log
+2026-08-03 17:06:03,352 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_170611_gnb_current_logs.tar
+2026-08-03 17:06:03,354 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:06:09,998 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.08G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=24.68/24.42/23.35 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=87% cpu5=0% cpu6=0% cpu7=0% cpu8=13% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:06:09,999 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:06:09,999 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:06:36,868 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:06:38,880 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:06:38,881 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:06:39,058 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:06:39,059 - SourenToolSet - INFO - 加载Python文件: test_fixed_power.py
+2026-08-03 17:06:39,060 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_fixed_power.py
+2026-08-03 17:06:39,060 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 78, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'TD': 60, 'resource_allocation_type': 2, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:06:39,062 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:06:39,063 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:06:39,063 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:06:50,884 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.11G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=22.37/23.86/23.20 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=100% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:06:50,884 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:06:50,884 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:07:10,919 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:10:28,866 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_170720_signal_message_log.txt
+2026-08-03 17:10:28,870 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_171036_scpi_message_log.txt
+2026-08-03 17:10:28,896 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:10:36] SYNC_DONE
+2026-08-03 17:10:38,923 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_170727.log, LTE_20260803_170721.log
+2026-08-03 17:10:38,945 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_171046_gnb_current_logs.tar
+2026-08-03 17:10:38,946 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:10:45,278 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.21G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=24.62/24.05/23.39 (32cores) percore[cpu0=53% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=6% cpu11=93% cpu12=0% cpu13=6% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:10:45,279 - SourenToolSet - WARNING - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:10:45,280 - SourenToolSet - INFO - [远程][test_fixed_power_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:11:12,476 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:11:14,487 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:11:14,487 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:11:14,649 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:11:14,649 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-03 17:11:14,650 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-03 17:11:14,650 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 41, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:11:14,651 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:11:14,652 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:11:14,652 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:11:26,478 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.38G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=21.92/23.44/23.21 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=86% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=67% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:11:26,479 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:11:26,479 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:11:46,518 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:15:57,902 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_171156_signal_message_log.txt
+2026-08-03 17:15:57,909 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_171605_scpi_message_log.txt
+2026-08-03 17:15:57,931 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:16:05] SYNC_DONE
+2026-08-03 17:16:07,950 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_171203.log, LTE_20260803_171157.log
+2026-08-03 17:16:08,000 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_171615_gnb_current_logs.tar
+2026-08-03 17:16:08,001 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:16:14,441 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=55.97G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=25.78/24.91/23.87 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=0% cpu15=100% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:16:14,442 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:16:14,443 - SourenToolSet - INFO - [远程][power_test_ot_nr_band41_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:16:50,807 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:16:52,830 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:16:52,833 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:16:53,002 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:16:53,003 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-03 17:16:53,003 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-03 17:16:53,004 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 77, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:16:53,006 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:16:53,011 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:16:53,012 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:17:04,716 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=55.97G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=21.94/24.04/23.62 (32cores) percore[cpu0=100% cpu1=0% cpu2=0% cpu3=7% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=7% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:17:04,716 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:17:04,717 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:17:24,757 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:22:24,337 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_171734_signal_message_log.txt
+2026-08-03 17:22:24,340 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_172232_scpi_message_log.txt
+2026-08-03 17:22:24,369 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:22:32] SYNC_DONE
+2026-08-03 17:22:34,393 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_171741.log, LTE_20260803_171735.log
+2026-08-03 17:22:34,441 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_172242_gnb_current_logs.tar
+2026-08-03 17:22:34,442 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:22:41,128 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=55.95G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=24.05/24.40/23.88 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=100% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:22:41,129 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:22:41,130 - SourenToolSet - INFO - [远程][power_test_ot_nr_band77_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:23:20,366 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:23:22,393 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:23:22,393 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:23:22,566 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:23:22,567 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-03 17:23:22,567 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-03 17:23:22,568 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 78, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:23:22,570 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:23:22,574 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:23:22,574 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:23:34,267 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.32G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=21.52/23.63/23.64 (32cores) percore[cpu0=80% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=7% cpu9=0% cpu10=0% cpu11=0% cpu12=0% cpu13=0% cpu14=60% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:23:34,268 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:23:34,269 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:23:54,311 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:28:34,187 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_172403_signal_message_log.txt
+2026-08-03 17:28:34,195 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_172842_scpi_message_log.txt
+2026-08-03 17:28:34,217 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:28:42] SYNC_DONE
+2026-08-03 17:28:44,245 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_172411.log, LTE_20260803_172405.log
+2026-08-03 17:28:44,280 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_172852_gnb_current_logs.tar
+2026-08-03 17:28:44,280 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:28:50,654 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.12G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=24.98/25.15/24.30 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=53% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=93% cpu11=0% cpu12=0% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:28:50,655 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:28:50,656 - SourenToolSet - INFO - [远程][power_test_ot_nr_band78_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:29:28,205 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:29:30,215 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:29:30,215 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:29:30,378 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:29:30,378 - SourenToolSet - INFO - 加载Python文件: power_test_ot.py
+2026-08-03 17:29:30,378 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\power_test_ot.py
+2026-08-03 17:29:30,379 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'nr_band': 79, 'lte_band': 3, 'nr_bw': 100, 'lte_bw': 20, 'scs': 30, 'range': 'LOW', 'nr_start_power': -50, 'nsa_start_power': -54, 'end_power': -150, 'step': -1, 'fallback_delta': 10, 'rb_mode': 'Inner_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:29:30,379 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:29:30,380 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:29:30,381 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:29:42,073 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.08G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=3% load=22.38/24.42/24.09 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=100% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:29:42,073 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:29:42,074 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:30:02,117 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:34:08,859 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_173011_signal_message_log.txt
+2026-08-03 17:34:08,866 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_173416_scpi_message_log.txt
+2026-08-03 17:34:08,903 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [2026-08-03 17:34:16] SYNC_DONE
+2026-08-03 17:34:18,937 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_173018.log, LTE_20260803_173012.log
+2026-08-03 17:34:18,977 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW\20260803_173426_gnb_current_logs.tar
+2026-08-03 17:34:18,978 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:34:25,477 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.02G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=24.84/25.04/24.40 (32cores) percore[cpu0=6% cpu1=0% cpu2=0% cpu3=43% cpu4=0% cpu5=0% cpu6=0% cpu7=0% cpu8=0% cpu9=6% cpu10=0% cpu11=0% cpu12=0% cpu13=100% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:34:25,478 - SourenToolSet - WARNING - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:34:25,478 - SourenToolSet - INFO - [远程][power_test_ot_nr_band79_nr_bw100_lte_band3_lte_bw20_scs30_LOW] [OK] 重启完成
+2026-08-03 17:35:01,188 - SourenToolSet - INFO - 开始清理资源
+2026-08-03 17:35:03,208 - SourenToolSet - INFO - 开始完整工作流程执行
+2026-08-03 17:35:03,210 - SourenToolSet - INFO - 开始初始化系统
+2026-08-03 17:35:03,385 - SourenToolSet - INFO - 系统初始化完成
+2026-08-03 17:35:03,386 - SourenToolSet - INFO - 加载Python文件: test_nsa_channel_switch.py
+2026-08-03 17:35:03,387 - SourenToolSet - INFO - 文件完整路径: c:\feifei\2026_08_1\auto_test\yc1100\test_nsa_channel_switch.py
+2026-08-03 17:35:03,388 - SourenToolSet - INFO - 使用参数配置: {'lineLoss1': 25.0, 'lineLoss3': 25.0, 'lte_band': 3, 'lte_bw': 20, 'nr_band_list': [78, 77, 79, 41], 'lte_band_list': [{78: 1, 20: [300]}, {77: 1, 20: [300]}], 'nr_range_list': ['Low', 'Mid', 'High', 'Low'], 'rb_mode': 'Outer_Full', 'case_dir': 'yc1100'}
+2026-08-03 17:35:03,389 - SourenToolSet - INFO - 获取仪器信息
+2026-08-03 17:35:03,394 - SourenToolSet - INFO - 开始执行测试 - 模式: loop_info, 循环次数: 1
+2026-08-03 17:35:03,395 - SourenToolSet - INFO - 开始运行测试 - 模式: loop_info, 循环: 1/1
+2026-08-03 17:35:15,161 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=56.05G MemUsed=7% Swap=0.00/2.00G(0%) | CPU: util=5% load=22.94/24.44/24.23 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=6% cpu5=0% cpu6=40% cpu7=0% cpu8=0% cpu9=0% cpu10=0% cpu11=0% cpu12=100% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:35:15,161 - SourenToolSet - WARNING - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:35:15,162 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [OK] 重启完成
+2026-08-03 17:35:35,193 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [OK] 已启动持续抓取 Signal+SCPI 日志
+2026-08-03 17:47:09,200 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_nsa_channel_switch_78_77_79_41_lte78_77\20260803_173544_signal_message_log.txt
+2026-08-03 17:47:09,204 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_nsa_channel_switch_78_77_79_41_lte78_77\20260803_174716_scpi_message_log.txt
+2026-08-03 17:47:09,238 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [2026-08-03 17:47:17] SYNC_DONE
+2026-08-03 17:47:19,267 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [INFO] 选中 3 个文件: mainctrl.log, NR_20260803_173551.log, LTE_20260803_173545.log
+2026-08-03 17:47:19,303 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [FILE] 已接收并保存: c:\feifei\2026_08_1\auto_test\log\execution_20260803_164810\test_nsa_channel_switch_78_77_79_41_lte78_77\20260803_174727_gnb_current_logs.tar
+2026-08-03 17:47:19,303 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [INFO] [OK] 基站 current 日志发送完成
+2026-08-03 17:47:25,755 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [RES][*RST/重启后] Mem: MemTotal=60.48G MemAvailable=55.88G MemUsed=8% Swap=0.00/2.00G(0%) | CPU: util=5% load=24.82/25.06/24.58 (32cores) percore[cpu0=0% cpu1=0% cpu2=0% cpu3=0% cpu4=0% cpu5=0% cpu6=100% cpu7=0% cpu8=0% cpu9=0% cpu10=47% cpu11=0% cpu12=6% cpu13=0% cpu14=0% cpu15=0% cpu16=0% cpu17=0% cpu18=0% cpu19=0% cpu20=0% cpu21=0% cpu22=0% cpu23=0% cpu24=0% cpu25=0% cpu26=0% cpu27=0% cpu28=0% cpu29=0% cpu30=0% cpu31=0%]
+2026-08-03 17:47:25,756 - SourenToolSet - WARNING - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [OOM][*RST/重启后] 未检测到 OOM
+2026-08-03 17:47:25,757 - SourenToolSet - INFO - [远程][test_nsa_channel_switch_78_77_79_41_lte78_77] [OK] 重启完成
+2026-08-03 17:47:53,468 - SourenToolSet - INFO - 开始清理资源

@@ -1,0 +1,135 @@
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:21:46.745: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:21:46.745: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:21:46.746: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:21:46.767: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+07/29 15:21:46.768: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+07/29 15:24:27.582: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:24:27.582: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:24:27.698: [app] INFO: HSS terminate...done (../src/hss/app-init.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:25:04.957: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:25:04.957: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:25:04.960: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:25:04.960: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:25:07.233: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:25:07.233: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:25:07.233: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:25:07.233: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:25:09.507: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:25:09.507: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:25:09.508: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:25:09.546: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+07/29 15:25:09.547: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+07/29 15:27:40.732: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:27:40.732: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:27:40.844: [app] INFO: HSS terminate...done (../src/hss/app-init.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:04.834: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:04.834: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:04.835: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:28:04.835: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:07.112: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:07.112: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:07.113: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:28:07.113: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:09.121: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:09.121: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:09.121: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:28:09.121: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:28:11.397: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:28:11.397: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:28:11.400: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:28:11.422: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+07/29 15:28:11.423: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+07/29 15:29:03.617: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:29:03.617: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:29:03.729: [app] INFO: HSS terminate...done (../src/hss/app-init.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:29:25.892: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:29:25.892: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:29:25.893: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:29:25.893: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:29:27.953: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:29:27.953: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:29:27.954: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:29:27.954: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:29:30.207: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:29:30.207: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:29:30.208: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:29:30.222: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+07/29 15:29:30.224: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+07/29 15:30:18.157: [app] INFO: SIGTERM received (../src/main.c:53)
+07/29 15:30:18.157: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/29 15:30:18.262: [app] INFO: HSS terminate...done (../src/hss/app-init.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:10.899: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:10.899: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:10.900: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:31:10.900: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:13.177: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:13.177: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:13.178: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:31:13.178: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:15.449: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:15.449: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:15.450: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/29 15:31:15.450: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/29 15:31:17.725: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/29 15:31:17.725: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/29 15:31:17.729: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/29 15:31:17.815: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+07/29 15:31:17.817: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
+07/30 09:26:02.885: [app] INFO: SIGTERM received (../src/main.c:53)
+07/30 09:26:02.885: [app] INFO: MT5GC daemon terminating... (../src/main.c:226)
+07/30 09:26:03.112: [app] INFO: HSS terminate...done (../src/hss/app-init.c:39)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:12.884: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:12.884: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:12.886: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/30 09:31:12.886: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:15.157: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:15.157: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:15.158: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/30 09:31:15.158: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:17.299: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:17.299: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:17.299: [dbi] WARNING: Failed to connect to server [mongodb://localhost/mt5gc] (../lib/dbi/ogs-mongoc.c:122)
+07/30 09:31:17.299: [app] WARNING: Failed to initialize HSS (../src/hss/app-init.c:28)
+MT5GC daemon vR2.7.2-20-g2508f63
+
+07/30 09:31:19.574: [app] INFO: Configuration: '/opt/mt5gc/etc/mt5gc/hss.yaml' (../lib/app/ogs-init.c:133)
+07/30 09:31:19.574: [app] INFO: File Logging: '/opt/mt5gc/var/log/mt5gc/hss.log' (../lib/app/ogs-init.c:136)
+07/30 09:31:19.575: [dbi] INFO: MongoDB URI: 'mongodb://localhost/mt5gc' (../lib/dbi/ogs-mongoc.c:130)
+07/30 09:31:19.591: [app] INFO: HSS initialize...done (../src/hss/app-init.c:31)
+07/30 09:31:19.592: [diam] INFO: CONNECTED TO 'mme.localdomain' (SCTP,soc#15): (../lib/diameter/common/logger.c:108)
