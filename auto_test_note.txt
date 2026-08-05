@@ -1,0 +1,23 @@
+python库安装：
+pip install -r requirements.txt
+
+vscode配置：
+vscode里setting替换下
+
+adb配置环境变量：
+将adb文件放于对于C盘或者D盘根目录下
+环境变量 -->选择系统变量-->选择Path -->C:\adb\platform-tools 把adb路径放进去
+
+ubuntu抓log(只支持3.9后的版本 ): 
+1.把selenium_pkgs文件放到yc账户下 ubuntu桌面上  
+在桌面terminal中执行：python3 -m pip install --no-index --find-links=/home/yc/Desktop/selenium_pkgs selenium
+
+2.把control_ubuntu文件夹里的ubuntu_server.py 放到ubuntu桌面上  
+并打开ubuntu_server.py 注意这几个参数变量 要和souren_config里对齐
+PORT = 9999
+VERSION = "YC1100.1.00.03.10"
+INSTRUMENT_IP = "192.168.30.122"
+
+3.在桌面terminal中执行 python3 ubuntu_server.py 
+
+
