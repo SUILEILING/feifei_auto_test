@@ -1,0 +1,21 @@
+[
+  "配置名称",
+  "循环",
+  "本循环通过率(%)",
+  "NR Cell Power(dBm)",
+  "MeasuredValue",
+  "LowLimit",
+  "UpLimit",
+  "Modulation",
+  "DL NR_BLER",
+  "UL NR_BLER",
+  "NR TXP AVG",
+  "线损1(dBm)",
+  "nr_band",
+  "nr_bw(MHz)",
+  "scs(kHz)",
+  "range",
+  "TD(s)",
+  "rb_mode",
+  "waveform"
+]

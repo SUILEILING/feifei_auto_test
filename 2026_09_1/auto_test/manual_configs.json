@@ -1,0 +1,144 @@
+[
+  {
+    "name": "tdd_inner_full",
+    "commands": [
+      "CONFigure:CELL1:NR:Sign:SLOT:Clear",
+      "CONFigure:CELL1:NR:SIGN:SLOT3:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT4:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT5:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT6:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT3:DL:TIND 5",
+      "CONFigure:CELL1:NR:SIGN:SLOT4:DL:TIND 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT5:DL:TIND 3",
+      "CONFigure:CELL1:NR:SIGN:SLOT6:DL:TIND 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT3:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT4:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT5:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT6:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT8:CTYPe PUSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT9:CTYPe PUSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT8:UL:MCS1 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT9:UL:MCS1 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT8:UL:RB 67,135",
+      "CONFigure:CELL1:NR:SIGN:SLOT9:UL:RB 67,135",
+      "CONFigure:CELL1:NR:SIGN:SLOT10:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT11:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT12:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT13:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT14:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT15:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT16:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT10:DL:TIND 8",
+      "CONFigure:CELL1:NR:SIGN:SLOT11:DL:TIND 7",
+      "CONFigure:CELL1:NR:SIGN:SLOT12:DL:TIND 6",
+      "CONFigure:CELL1:NR:SIGN:SLOT13:DL:TIND 5",
+      "CONFigure:CELL1:NR:SIGN:SLOT14:DL:TIND 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT15:DL:TIND 3",
+      "CONFigure:CELL1:NR:SIGN:SLOT16:DL:TIND 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT10:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT11:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT12:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT13:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT14:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT15:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT16:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT18:CTYPe PUSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT19:CTYPe PUSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT18:UL:MCS1 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT19:UL:MCS1 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT18:UL:RB 67,135",
+      "CONFigure:CELL1:NR:SIGN:SLOT19:UL:RB 67,135",
+      "CONFigure:CELL1:NR:SIGN:SLOT:APPLy"
+    ]
+  },
+  {
+    "name": "lte_rmc_conifg",
+    "commands": [
+      "CONFigure:CELL1:LTE:SIGN:SUBFrame3:CTYPe PDSCh",
+      "CONFigure:CELL1:LTE:SIGN:SUBFrame4:CTYPe PDSCh",
+      "CONFigure:CELL1:LTE:SIGN:SUBFrame8:CTYPe PUSCh",
+      "CONFigure:CELL1:LTE:SIGN:SUBFrame9:CTYPe PUSCh",
+      "CONFigure:CELL1:LTE:SIGN:SUBFrame:APPLy"
+    ]
+  },
+  {
+    "name": "fdd_inner_rmc_full",
+    "commands": [
+      "CONFigure:CELL1:NR:SIGN:SLOT:CLEar",
+      "CONFigure:CELL1:NR:SIGN:SLOT3:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT3:DL:TIND 5",
+      "CONFigure:CELL1:NR:SIGN:SLOT3:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT4:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT4:DL:TIND 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT4:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT5:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT5:DL:TIND 3",
+      "CONFigure:CELL1:NR:SIGN:SLOT5:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT6:CTYPe PDSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT6:DL:TIND 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT6:DL:MCS1 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT8:CTYPe PUSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT8:UL:MCS1 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT9:CTYPe PUSCh",
+      "CONFigure:CELL1:NR:SIGN:SLOT9:UL:MCS1 2",
+      "CONFigure:CELL1:NR:SIGN:SLOT8:UL:RB 25,50",
+      "CONFigure:CELL1:NR:SIGN:SLOT9:UL:RB 25,50",
+      "CONFigure:CELL1:NR:SIGN:SLOT:APPLy"
+    ]
+  },
+  {
+    "name": "default_outer_full",
+    "commands": [
+      "CONFigure:CELL1:NR:SIGN:SLOT:UPDate",
+      "CONFigure:CELL1:NR:SIGN:SLOT:DL:FULL:RB 0,273",
+      "CONFigure:CELL1:NR:SIGN:SLOT:DL:FULL:MCS 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT:UL:FULL:MCS 0",
+      "CONFigure:CELL1:NR:SIGN:SLOT:UL:FULL:RB 0,270",
+      "CONFigure:CELL1:NR:SIGN:SLOT:APPLy"
+    ]
+  },
+  {
+    "name": "default_inner_full",
+    "commands": [
+      "CONFigure:CELL1:NR:SIGN:SLOT:UPDate",
+      "CONFigure:CELL1:NR:SIGN:SLOT:DL:FULL:RB 0,273",
+      "CONFigure:CELL1:NR:SIGN:SLOT:DL:FULL:MCS 4",
+      "CONFigure:CELL1:NR:SIGN:SLOT:UL:FULL:MCS 0",
+      "CONFigure:CELL1:NR:SIGN:SLOT:UL:FULL:RB 67,135",
+      "CONFigure:CELL1:NR:SIGN:SLOT:APPLy"
+    ]
+  },
+  {
+    "name": "config_sa",
+    "commands": [
+      "CONFigure:NSASa:SWITch SA",
+      "CONFigure:BASE:FDCorrection:CTABle:CREate LineLossTable_1,100000000,3.0,6000000000,3.0",
+      "CONFigure:BASE:FDCorrection:SAVE",
+      "CONFigure:FDCorrection:ACTivate LineLossTable_1,1,IO,RXTX",
+      "CONFigure:FDCorrection:ACTivate LineLossTable_1,1,OUT,TX",
+      "CONFigure:RFINdex:CLear:ALL",
+      "CONFigure:RFINdex:DL NR,1",
+      "CONFigure:RFINdex:UL NR,1",
+      "CONFigure:RFINdex1:CONNector IO",
+      "CONFigure:RFINdex3:CONNector IO",
+      "CONFigure:RFINdex:apply"
+    ]
+  },
+  {
+    "name": "fei",
+    "commands": [
+      "CONFigure:CELL1:NR:SIGN:UE:STATe?",
+      "CONFigure:NR:MEValuation:RESult ON,OFF,OFF,OFF,OFF,OFF",
+      "CONFigure:NR:MEValuation:REPetition SINGLESHOT",
+      "CONFigure:NR:BLER:REPetition SINGLESHOT",
+      "INITiate:NR:BLER",
+      "INITiate:NR:MEValuation",
+      "SLEEP 500",
+      "FETCh:NR:BLER:STATe?",
+      "FETCh:NR:BLER:DL:RESult?",
+      "FETCh:NR:BLER:UL:RESult?",
+      "CONFigure:CELL1:NR:SIGN:POWer?",
+      "FETCh:NR:MEValuation:TXP:AVG?"
+    ]
+  }
+]

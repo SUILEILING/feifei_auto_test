@@ -1,0 +1,888 @@
+{
+  "n78_redcap_bw_10_15_20_scs_30": [
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_Full",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_1RB_Left",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    },
+    {
+      "script": "yc_6.2.1_UE_maximum_output_power",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "Inner_1RB_Right",
+      "waveform": "DFTS",
+      "case_dir": "yc1100",
+      "power_class": null
+    }
+  ],
+  "默认": [
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 5,
+      "scs": 15,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 5,
+      "scs": 15,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 5,
+      "scs": 15,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 10,
+      "scs": 15,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 10,
+      "scs": 15,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 10,
+      "scs": 15,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 15,
+      "scs": 15,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 15,
+      "scs": 15,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 15,
+      "scs": 15,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 20,
+      "scs": 15,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 20,
+      "scs": 15,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 1,
+      "nr_bw": 20,
+      "scs": 15,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 10,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 15,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 20,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 40,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 40,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 40,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 50,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 50,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 50,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 60,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 60,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 60,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 80,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 80,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 80,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 90,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 90,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 90,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 100,
+      "scs": 30,
+      "range": "LOW",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 100,
+      "scs": 30,
+      "range": "MID",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    },
+    {
+      "script": "yc_tis_test_ota",
+      "nr_band": 78,
+      "nr_bw": 100,
+      "scs": 30,
+      "range": "HIGH",
+      "rb_mode": "无",
+      "waveform": "DFTS",
+      "mcs": 4,
+      "case_dir": "yc1100",
+      "nr_slots": {
+        "DL": {}
+      },
+      "lineLoss1": 25.0
+    }
+  ]
+}

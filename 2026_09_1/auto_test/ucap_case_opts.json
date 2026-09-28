@@ -1,0 +1,30 @@
+{
+  "yc_6.2.1_UE_maximum_output_power": {
+    "rb": [
+      "Outer_Full"
+    ],
+    "range": [
+      "LOW",
+      "MID",
+      "HIGH"
+    ],
+    "waveform": "DFTS",
+    "rmc": "仅UL配置",
+    "mcs": 4,
+    "power_class": "None"
+  },
+  "__lineLoss1__": 25.0,
+  "yc_tis_test_ota": {
+    "rb": [
+      "无"
+    ],
+    "range": [
+      "LOW",
+      "MID",
+      "HIGH"
+    ],
+    "waveform": "DFTS",
+    "rmc": "仅DL配置",
+    "mcs": 4
+  }
+}
